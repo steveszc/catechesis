@@ -57,7 +57,7 @@
     // Support generation of source maps. Note: you must *also* enable source
     // maps in your `ember-cli-babel` config and/or `babel.config.js`.
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "inlineSourceMap": true,
     "inlineSources": true,
 
@@ -66,20 +66,13 @@
     // work with TypeScript.
     "baseUrl": ".",
     "paths": {
-      "catechism/tests/*": [
-        "tests/*"
-      ],
-      "catechism/*": [
-        "app/*"
-      ],
-      "*": [
-        "types/*"
-      ]
+      "catechism/tests/*": ["tests/*"],
+      "catechism/*": ["app/*"],
+      "*": ["types/*"]
     }
   },
-  "include": [
-    "app/**/*",
-    "tests/**/*",
-    "types/**/*"
-  ]
+  "include": ["app/**/*", "tests/**/*", "types/**/*"],
+  "glint": {
+    "environment": "ember-loose"
+  }
 }
