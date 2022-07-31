@@ -1,11 +1,12 @@
 <ol>
   {{#each @data as |item|}}
-    <li>
+    <li class="border p-6 group">
       <LinkTo
         @route='catechism.question'
         @model={{item.number}}
+        class="pb-1 group-hover:border-b-2 border-cyan-600"
       >
-        {{item.question}}
+        {{item.number}}. {{item.question}}
       </LinkTo>
     </li>
   {{/each}}

@@ -1,15 +1,24 @@
-<article>
-  Question {{@data.number}}
+<div class="h-full flex grow">
+<article class="w-1/2 h-full border-r border-black flex flex-col justify-between">
+  <div class="p-16">
+    <h1 class="text-lg font-bold">Question {{@data.number}}</h1>
 
-  <p>{{@data.question}}</p>
+    <p class="py-2 mb-6 text-2xl font-bold border-b border-black">{{@data.question}}</p>
 
-  {{#if @isAnswerShown}}
-    <p>{{@data.answer}}</p>
-  {{else}}
-    <button type="button" {{on "click" @showAnswer}}>Show answer</button>
-  {{/if}}
+    {{#if @isAnswerShown}}
+      <p class="py-4">{{@data.answer}}</p>
+    {{else}}
+      <button type="button" class="py-2 px-6 m-2 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold" {{on "click" @showAnswer}}>Show answer</button>
+    {{/if}}
+  </div>
 
-  <div>
+  <div class="p-16">
     {{this.spotifyEmbed}}
   </div>
 </article>
+
+<article class="w-1/2 h-full overflow-y-scroll p-16">
+  {{yield}}
+</article>
+
+</div>
