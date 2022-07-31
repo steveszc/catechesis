@@ -1,0 +1,15 @@
+<article>
+  Question {{@data.number}}
+
+  <p>{{@data.question}}</p>
+
+  {{#if @isAnswerShown}}
+    <p>{{@data.answer}}</p>
+  {{else}}
+    <button type="button" {{on "click" @showAnswer}}>Show answer</button>
+  {{/if}}
+
+  <div>
+    {{this.spotifyEmbed}}
+  </div>
+</article>

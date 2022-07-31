@@ -1,4 +1,4 @@
-import type { CatechismData } from './index';
+import type { CatechismData } from '../types';
 
 export const WestminsterShorter: CatechismData = {
   metadata: {
@@ -38,53 +38,179 @@ export const WestminsterShorter: CatechismData = {
         'What rule hath God given to direct us how we may glorify and enjoy him?',
       answer:
         'The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6qTFiITy7R6FTpjhfm1sMj?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/6qTFiITy7R6FTpjhfm1sMj?si=f32cd51fd6b44e28',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 3,
       question: 'What do the Scriptures principally teach?',
       answer:
         'The Scriptures principally teach what man is to believe concerning God, and what duty God requires of man.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/621M3ajsJ9qOPqhnEjS9BX?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/621M3ajsJ9qOPqhnEjS9BX?si=75d8a39ec6e34f38',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 4,
       question: 'What is God?',
       answer:
         'God is a spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, holiness, justice, goodness and truth.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/66q9Tpp2jDCNAtNysmWQAM?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/66q9Tpp2jDCNAtNysmWQAM?si=e885ffc76a304dd9',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 5,
       question: 'Are there more Gods than one?',
       answer: 'There is but one only, the living and true God.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5myddnBtLDug1nYK6NaTqC?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/5myddnBtLDug1nYK6NaTqC?si=11a32129153941d3',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 6,
       question: 'How many persons are there in the godhead?',
       answer:
         'There are three persons in the Godhead; the Father, the Son, and the Holy Ghost; and these three are one God, the same in substance, equal in power and glory.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7yEaprV4HkFHL9bqO7Jpue?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/7yEaprV4HkFHL9bqO7Jpue?si=7690868a5c4447b1',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 7,
       question: 'What are the decrees of God?',
       answer:
         'The decrees of God are his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath foreordained whatsoever comes to pass.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/79Yyn1ME7Vbt1hEBofmBYY?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/79Yyn1ME7Vbt1hEBofmBYY?si=fc3c2eee27544b66',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 8,
       question: 'How doth God execute his decrees?',
       answer:
         'God executeth his decrees in the works of creation and providence.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yaNR06erLOtl1ncG8lj8t?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/0yaNR06erLOtl1ncG8lj8t?si=5e80c755c4b7456f',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 9,
       question: 'What is the work of creation?',
       answer:
         "The work of creation is God's making all things of nothing, by the word of his power, in the space of six days, and all very good.",
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/71bBFmtebm0pbsh4PnE6Oy?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/71bBFmtebm0pbsh4PnE6Oy?si=439c1c6316754230',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 10,
       question: 'How did God create man?',
       answer:
         'God created man male and female, after his own image, in knowledge, righteousness and holiness, with dominion over the creatures.',
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 1-10',
+          links: [
+            {
+              platform: 'spotify',
+              embed:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/48dNyViNsOD6k3Rzr9T46y?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
+              link: 'https://open.spotify.com/track/48dNyViNsOD6k3Rzr9T46y?si=90028792689d40c8',
+            },
+          ],
+        },
+      ],
     },
     {
       number: 11,
