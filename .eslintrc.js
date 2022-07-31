@@ -2,15 +2,8 @@
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    ecmaFeatures: {
-      legacyDecorators: true,
-    },
-  },
-  plugins: ['ember'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['ember', '@typescript-eslint'],
   extends: [
     'eslint:recommended',
     'plugin:ember/recommended',
@@ -19,7 +12,17 @@ module.exports = {
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/prefer-optional-chain': 'error',
+  },
   overrides: [
     // node files
     {
