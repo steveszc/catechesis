@@ -35,7 +35,9 @@ module.exports = {
         './blueprints/*/index.js',
         './config/**/*.js',
         './lib/*/index.js',
+        './postcss/config.js',
         './server/**/*.js',
+        './tailwind/config.js',
       ],
       parserOptions: {
         sourceType: 'script',

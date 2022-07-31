@@ -3,6 +3,10 @@
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const { Webpack } = require('@embroider/webpack');
 
+function isProduction() {
+  return EmberApp.env() === 'production';
+}
+
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
@@ -27,5 +31,40 @@ module.exports = function (defaults) {
     staticHelpers: true,
     staticModifiers: true,
     staticComponents: true,
+    packagerOptions: {
+      publicAssetURL: '/', // publicAssetURL is similar to Ember CLI's asset fingerprint prepend option.
+      cssLoaderOptions: {
+        sourceMap: isProduction() === false,
+        modules: {
+          mode: 'global', // we set to global mode to avoid hashing tailwind classes
+          localIdentName: isProduction()
+            ? '[sha512:hash:base64:5]'
+            : '[path][name]__[local]',
+        },
+      },
+      webpackConfig: {
+        module: {
+          rules: [
+            {
+              // When webpack sees an import for a CSS files
+              test: /\.css$/i,
+              exclude: /node_modules/,
+              use: [
+                {
+                  loader: 'postcss-loader',
+                  options: {
+                    sourceMap: isProduction() === false,
+                    postcssOptions: {
+                      config: './postcss.config.js',
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      },
+    },
+    extraPublicTrees: [],
   });
 };
