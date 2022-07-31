@@ -1,0 +1,32 @@
+{{#if @model.current}}
+  <Question
+    @data={{@model.current}}
+    @isAnswerShown={{this.isAnswerShown}}
+    @showAnswer={{this.showAnswer}}
+  />
+{{/if}}
+
+{{#if @model.previous}}
+  <LinkTo
+    @route='catechism.question'
+    @model={{@model.previous.number}}
+  >
+    Question {{@model.previous.number}}
+  </LinkTo>
+  {{if @model.next " | "}}
+{{/if}}
+
+{{#if @model.next}}
+  <LinkTo
+    @route='catechism.question'
+    @model={{@model.next.number}}
+  >
+    Question {{@model.next.number}}
+  </LinkTo>
+{{/if}}
+
+<div>
+  <LinkTo @route='catechism.index'>
+    See all Questions
+  </LinkTo>
+</div>

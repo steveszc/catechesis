@@ -1,0 +1,12 @@
+<ol>
+  {{#each @data as |item|}}
+    <li>
+      <LinkTo
+        @route='catechism.question'
+        @model={{item.number}}
+      >
+        {{item.question}}
+      </LinkTo>
+    </li>
+  {{/each}}
+</ol>
