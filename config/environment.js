@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'catechism',
     environment,
-    rootURL: '/',
+    rootURL: '/catechism/',
     locationType: 'history',
     EmberENV: {
       FEATURES: {
