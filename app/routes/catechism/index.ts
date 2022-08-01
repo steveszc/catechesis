@@ -11,6 +11,6 @@ export default class CatechismIndexRoute extends Route {
   async model() {
     const catechism = this.modelFor('catechism') as CatechismRouteModel;
 
-    return catechism.data;
+    return catechism;
   }
 }

@@ -27,10 +27,10 @@
         </LinkTo>
       {{/if}}
     </div>
-    <div class="p-6 w-1/2 flex justify-around text-2xl">
-      <LinkTo @route="catechism.question.index" class="border-b-2 border-cyan-800 hover:border-white">📜</LinkTo>
-      <LinkTo @route="catechism.question.commentary" class="border-b-2 border-cyan-800 hover:border-white">💬</LinkTo>
-      <LinkTo @route="catechism.question.prayer" class="border-b-2 border-cyan-800 hover:border-white">🙏</LinkTo>
+    <div class="p-6 w-1/2 flex justify-around text-md font-bold">
+      <LinkTo @route="catechism.question.index" class="border-b-2 border-cyan-800 hover:border-white" @activeClass="border-white">Scripture</LinkTo>
+      <LinkTo @route="catechism.question.commentary" class="border-b-2 border-cyan-800 hover:border-white" @activeClass="border-white">Commentary</LinkTo>
+      <LinkTo @route="catechism.question.prayer" class="border-b-2 border-cyan-800 hover:border-white" @activeClass="border-white">Prayer</LinkTo>
     </div>
   </nav>
 

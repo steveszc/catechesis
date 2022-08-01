@@ -20,17 +20,35 @@ export interface CatechismItem {
   number: number;
   question: string;
   answer: string;
-  audio?: CatechismAudio[];
+  scripture?: Scripture[];
+  commentary?: Commentary[];
+  prayer?: string[];
+  audio?: Audio[];
 }
 
-interface CatechismAudio {
+export interface Scripture {
+  footnote?: string;
+  verse: string;
+  text: string;
+}
+
+export interface Commentary {
+  author: string;
+  body: string;
+  source?: string;
+  date?: string;
+  link?: string;
+}
+
+export interface Audio {
   artist?: string;
   album?: string;
   year?: string;
   links: {
     platform: AudioPlatform;
-    embed: string;
-    link: string;
+    embed?: string;
+    link?: string;
+    id?: string;
   }[];
 }
 
