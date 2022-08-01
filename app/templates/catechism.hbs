@@ -1,5 +1,5 @@
 {{page-title @model.metadata.title}}
 
-<CatechismInfo @metadata={{@model.metadata}} />
-
-{{outlet}}
+<Layout @name={{@model.metadata.title}}>
+  {{outlet}}
+</Layout>

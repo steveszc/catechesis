@@ -11,6 +11,9 @@ interface QuestionComponentSignature {
     isAnswerShown: boolean;
     showAnswer: () => void;
   };
+  Blocks: {
+    default: [];
+  };
 }
 
 export default class QuestionComponent extends Component<QuestionComponentSignature> {
