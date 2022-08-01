@@ -1,5 +1,15 @@
 <h2 class='text-lg font-bold mb-4'>Scripture</h2>
 
-<div class='space-y-4 text-xl max-w-prose'>
-  <p>Supporting scripture verses will go here.</p>
-</div>
+<ol class="space-y-6">
+  {{#each @model as |scripture|}}
+    <li>
+      <strong class="text-md">{{scripture.verse}}</strong>
+      {{#if scripture.footnote}}
+        <span class="font-mono text-xs align-text-top">[{{scripture.footnote}}]</span>
+      {{/if}}
+      <p class="max-w-prose text-xl mt-2">{{scripture.text}}</p>
+    </li>
+  {{else}}
+    No verses added yet.
+  {{/each}}
+</ol>

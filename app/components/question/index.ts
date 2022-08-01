@@ -1,4 +1,4 @@
-import { tracked } from '@glimmer/tracking';
+import { tracked, cached } from '@glimmer/tracking';
 import Component from '@glimmer/component';
 
 import type { CatechismItem } from 'catechism/data';
@@ -18,6 +18,8 @@ interface QuestionComponentSignature {
 
 export default class QuestionComponent extends Component<QuestionComponentSignature> {
   @tracked audioEmbedIndex = 0;
+
+  @cached
   get spotifyEmbed() {
     let embedCode = this.args.data.audio?.[this.audioEmbedIndex]?.links?.find(
       ({ platform }) => platform === 'spotify'
@@ -28,6 +30,15 @@ export default class QuestionComponent extends Component<QuestionComponentSignat
     } else {
       return undefined;
     }
+  }
+
+  @cached
+  get spotifyId() {
+    let id = this.args.data.audio?.[this.audioEmbedIndex]?.links?.find(
+      ({ platform }) => platform === 'spotify'
+    )?.id;
+
+    return id;
   }
 }
 

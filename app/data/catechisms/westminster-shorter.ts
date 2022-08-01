@@ -17,18 +17,31 @@ export const WestminsterShorter: CatechismData = {
       number: 1,
       question: 'What is the chief end of man?',
       answer: "Man's chief end is to glorify God, and to enjoy him forever.",
+      scripture: [
+        {
+          verse: '1 Corinthians 10:31',
+          text: 'Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.',
+        },
+        {
+          verse: 'Romans 11:36',
+          text: 'For of him, and through him, and to him, are all things: to whom be glory for ever. Amen.',
+        },
+        {
+          verse: 'Psalm 73:24-26',
+          text: 'Thou shalt guide me with thy counsel, and afterward receive me to glory. Whom have I in heaven but thee? and there is none upon earth that I desire beside thee. My flesh and my heart faileth: but God isthe strength of my heart, and my portion for ever.',
+        },
+        {
+          verse: 'John 17:22, 24',
+          text: 'And the glory which thou gavest me I have given them; that they may be one, even as we are one... Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.',
+        },
+      ],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7ptG89ybd2jgqTAfv3rSdT?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/7ptG89ybd2jgqTAfv3rSdT?si=5f79dc9e15f9492c',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '7ptG89ybd2jgqTAfv3rSdT' }],
         },
       ],
     },
@@ -38,18 +51,31 @@ export const WestminsterShorter: CatechismData = {
         'What rule hath God given to direct us how we may glorify and enjoy him?',
       answer:
         'The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.',
+      scripture: [
+        {
+          verse: 'Galatians 1:8-9',
+          text: 'But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed. As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.',
+        },
+        {
+          verse: 'Isaiah 8:20',
+          text: 'To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.',
+        },
+        {
+          verse: 'Luke 16:29, 31',
+          text: 'Abraham saith unto him, They have Moses and the prophets; let them hear them... And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.',
+        },
+        {
+          verse: '2 Timothy 3:15-17',
+          text: 'And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: that the man of God may be perfect, throughly furnished unto all good works.',
+        },
+      ],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6qTFiITy7R6FTpjhfm1sMj?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/6qTFiITy7R6FTpjhfm1sMj?si=f32cd51fd6b44e28',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '6qTFiITy7R6FTpjhfm1sMj' }],
         },
       ],
     },
@@ -58,18 +84,27 @@ export const WestminsterShorter: CatechismData = {
       question: 'What do the Scriptures principally teach?',
       answer:
         'The Scriptures principally teach what man is to believe concerning God, and what duty God requires of man.',
+      scripture: [
+        {
+          verse: 'Micah 6:8',
+          text: 'He hath shewed thee, O man, what is good; and what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?',
+        },
+        {
+          verse: 'John 20:31',
+          text: 'But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.',
+        },
+        {
+          verse: 'John 3:16',
+          text: 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.',
+        },
+      ],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/621M3ajsJ9qOPqhnEjS9BX?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/621M3ajsJ9qOPqhnEjS9BX?si=75d8a39ec6e34f38',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '621M3ajsJ9qOPqhnEjS9BX' }],
         },
       ],
     },
@@ -78,18 +113,91 @@ export const WestminsterShorter: CatechismData = {
       question: 'What is God?',
       answer:
         'God is a spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, holiness, justice, goodness and truth.',
+      scripture: [
+        {
+          verse: 'John 4:24',
+          text: 'God is a Spirit: and they that worship him must worship him in spirit and in truth.',
+        },
+        {
+          verse: 'Psalm 90:2',
+          text: 'From everlasting to everlasting, thou art God.',
+        },
+        {
+          verse: 'Malachi 3:6',
+          text: 'For I am the Lord, I change not; therefore are ye sons of Jacob not consumed.',
+        },
+        {
+          verse: 'James 1:17',
+          text: 'The Father of lights, with whom is no variableness, neither shadow of turning.',
+        },
+        {
+          verse: '1 Kings 8:27',
+          text: 'But will God indeed dwell on the earth? Behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?',
+        },
+        {
+          verse: 'Jeremiah 23:24',
+          text: 'Can any hide himself in secret places that I shall not see him? Saith the Lord. Do not I fill heaven and earth? Saith the Lord.',
+        },
+        {
+          verse: 'Isaiah 40:22',
+          text: 'It is he that sitteth upon the circle of the earth, and the inhabitants thereof are as grasshoppers; that stretcheth out the heavens as a curtain, and spreadeth them out as a tent to dwell in.',
+        },
+        {
+          verse: 'Psalm 147:5',
+          text: 'Great is our Lord, and of great power: his understanding is infinite.',
+        },
+        {
+          verse: 'Romans 16:27',
+          text: 'To God only wise, be glory through Jesus Christ for ever. Amen.',
+        },
+        {
+          verse: 'Genesis 17:1',
+          text: 'And when Abram was ninety years old and nine, the Lord appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.',
+        },
+        {
+          verse: 'Revelation 19:6',
+          text: 'And I heard as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth.',
+        },
+        {
+          verse: 'Isaiah 57:15',
+          text: 'For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy; I dwell in the high and holy place, with him also that is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite ones.',
+        },
+        {
+          verse: 'John 17:11',
+          text: 'And now I am no more in the world, but these are in the world, and I come to thee. Holy Father, keep through thine own name those whom thou hast given me, that they may be one, as we are.',
+        },
+        {
+          verse: 'Revelation 4:8',
+          text: 'And the four beasts had each of them six wings about him; and they werefull of eyes within: and they rest not day and night, saying, Holy, holy, holy, Lord God Almighty, which was, and is, and is to come.',
+        },
+        {
+          verse: 'Deuteronomy 32:4',
+          text: 'He is the Rock, his work is perfect: for all his ways are judgment: a God of truth and without iniquity, just and right is he.',
+        },
+        {
+          verse: 'Psalm 100:5',
+          text: 'For the Lord is good; his mercy is everlasting; and his truth endureth to all generations.',
+        },
+        {
+          verse: 'Romans 2:4',
+          text: 'Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance?',
+        },
+        {
+          verse: 'Exodus 34:6',
+          text: 'And the Lord passed by before him, and proclaimed, The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth.',
+        },
+        {
+          verse: 'Psalm 117:2',
+          text: 'For his merciful kindness is great toward us: and the truth of the Lord endureth for ever. Praise ye the Lord.',
+        },
+      ],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/66q9Tpp2jDCNAtNysmWQAM?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/66q9Tpp2jDCNAtNysmWQAM?si=e885ffc76a304dd9',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '66q9Tpp2jDCNAtNysmWQAM' }],
         },
       ],
     },
@@ -97,18 +205,14 @@ export const WestminsterShorter: CatechismData = {
       number: 5,
       question: 'Are there more Gods than one?',
       answer: 'There is but one only, the living and true God.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5myddnBtLDug1nYK6NaTqC?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/5myddnBtLDug1nYK6NaTqC?si=11a32129153941d3',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '5myddnBtLDug1nYK6NaTqC' }],
         },
       ],
     },
@@ -117,18 +221,14 @@ export const WestminsterShorter: CatechismData = {
       question: 'How many persons are there in the godhead?',
       answer:
         'There are three persons in the Godhead; the Father, the Son, and the Holy Ghost; and these three are one God, the same in substance, equal in power and glory.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7yEaprV4HkFHL9bqO7Jpue?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/7yEaprV4HkFHL9bqO7Jpue?si=7690868a5c4447b1',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '7yEaprV4HkFHL9bqO7Jpue' }],
         },
       ],
     },
@@ -137,18 +237,14 @@ export const WestminsterShorter: CatechismData = {
       question: 'What are the decrees of God?',
       answer:
         'The decrees of God are his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath foreordained whatsoever comes to pass.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/79Yyn1ME7Vbt1hEBofmBYY?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/79Yyn1ME7Vbt1hEBofmBYY?si=fc3c2eee27544b66',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '79Yyn1ME7Vbt1hEBofmBYY' }],
         },
       ],
     },
@@ -157,18 +253,14 @@ export const WestminsterShorter: CatechismData = {
       question: 'How doth God execute his decrees?',
       answer:
         'God executeth his decrees in the works of creation and providence.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yaNR06erLOtl1ncG8lj8t?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/0yaNR06erLOtl1ncG8lj8t?si=5e80c755c4b7456f',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '0yaNR06erLOtl1ncG8lj8t' }],
         },
       ],
     },
@@ -177,18 +269,14 @@ export const WestminsterShorter: CatechismData = {
       question: 'What is the work of creation?',
       answer:
         "The work of creation is God's making all things of nothing, by the word of his power, in the space of six days, and all very good.",
+      scripture: [],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/71bBFmtebm0pbsh4PnE6Oy?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/71bBFmtebm0pbsh4PnE6Oy?si=439c1c6316754230',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '71bBFmtebm0pbsh4PnE6Oy' }],
         },
       ],
     },
@@ -197,18 +285,14 @@ export const WestminsterShorter: CatechismData = {
       question: 'How did God create man?',
       answer:
         'God created man male and female, after his own image, in knowledge, righteousness and holiness, with dominion over the creatures.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
           album: 'Questions 1-10',
-          links: [
-            {
-              platform: 'spotify',
-              embed:
-                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/48dNyViNsOD6k3Rzr9T46y?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>',
-              link: 'https://open.spotify.com/track/48dNyViNsOD6k3Rzr9T46y?si=90028792689d40c8',
-            },
-          ],
+          links: [{ platform: 'spotify', id: '48dNyViNsOD6k3Rzr9T46y' }],
         },
       ],
     },
@@ -217,6 +301,16 @@ export const WestminsterShorter: CatechismData = {
       question: "What are God's works of providence?",
       answer:
         "God's works of providence are his most holy, wise and powerful preserving and governing all his creatures, and all their actions.",
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '2WJmvj35u20enKHlqmTGXN' }],
+        },
+      ],
     },
     {
       number: 12,
@@ -224,6 +318,16 @@ export const WestminsterShorter: CatechismData = {
         'What special act of providence did God exercise toward man in the estate wherein he was caeated?',
       answer:
         'When God had created man, he entered into a covenant of life with him, upon condition of perfect obedience; forbidding him to eat of the tree of the knowledge of good and evil, upon the pain of death.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '3HZJOGTZqFL0l6XJg7Mt1D' }],
+        },
+      ],
     },
     {
       number: 13,
@@ -231,12 +335,32 @@ export const WestminsterShorter: CatechismData = {
         'Did our first parents continue in the estate wherein they were created?',
       answer:
         'Our first parents, being left to the freedom of their own will, fell from the estate wherein they were created, by sinning against God.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '4NUId1NcPM488x6zn7fiVM' }],
+        },
+      ],
     },
     {
       number: 14,
       question: 'What is sin?',
       answer:
         'Sin is any want of conformity unto, or transgression of, the law of God.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '4WYqhiH0ryIxxaI7IYzAOU' }],
+        },
+      ],
     },
     {
       number: 15,
@@ -244,17 +368,47 @@ export const WestminsterShorter: CatechismData = {
         'What was the sin whereby our first parents fell from the estate wherein they were created?',
       answer:
         'The sin whereby our first parents fell from the estate wherein they were created was their eating the forbidden fruit.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '2itwIiEPSp5Rrp8dvwpFzB' }],
+        },
+      ],
     },
     {
       number: 16,
       question: "Did all mankind fall in Adam's first transgression?",
       answer:
         'The covenant being made with Adam, not only for himself, but for his posterity; all mankind, descending from him by ordinary generation, sinned in him, and fell with him, in his first transgression.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '0yjRbHL0cURLeSGIgHCuPh' }],
+        },
+      ],
     },
     {
       number: 17,
       question: 'Into what estate did the fall bring mankind?',
       answer: 'The fall brought mankind into an estate of sin and misery.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '6PCWlRAq8WIrEQOAbn6Jhu' }],
+        },
+      ],
     },
     {
       number: 18,
@@ -262,12 +416,32 @@ export const WestminsterShorter: CatechismData = {
         'Wherein consists the sinfulness of that estate whereinto man fell?',
       answer:
         "The sinfulness of that estate whereinto man fell consists in the guilt of Adam's first sin, the want of original righteousness, and the corruption of his whole nature, which is commonly called original sin; together with all actual transgressions which proceed from it.",
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '3gG1z1DNyMqzLA1IVr374B' }],
+        },
+      ],
     },
     {
       number: 19,
       question: 'What is the misery of that estate whereinto man fell?',
       answer:
         'All mankind by their fall lost communion with God, are under his wrath and curse, and so made liable to all miseries in this life, to death itself, and to the pains of hell forever.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '3rCQklHAKkKBXxpl8TYQ7j' }],
+        },
+      ],
     },
     {
       number: 20,
@@ -275,12 +449,32 @@ export const WestminsterShorter: CatechismData = {
         'Did God leave all mankind to perish in the estate of sin and misery?',
       answer:
         'God having, out of his mere good pleasure, from all eternity, elected some to everlasting life, did enter into a covenant of grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation by a redeemer.',
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '20eT7L2Oa3rdvwfVxKOLf9' }],
+        },
+      ],
     },
     {
       number: 21,
       question: "Who is the redeemer of God's elect?",
       answer:
         "The only redeemer of God's elect is the Lord Jesus Christ, who, being the eternal Son of God, became man, and so was, and continueth to be, God and man in two distinct natures, and one person, forever.",
+      scripture: [],
+      commentary: [],
+      prayer: [],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 11-21',
+          links: [{ platform: 'spotify', id: '4t6nKwZ82bqeGEZ8IQ9HDl' }],
+        },
+      ],
     },
     {
       number: 22,
