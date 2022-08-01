@@ -32,9 +32,7 @@ module.exports = function (defaults) {
     staticModifiers: true,
     staticComponents: true,
     packagerOptions: {
-      publicAssetURL: isProduction()
-        ? 'https://steveszc.github.io/catechism/'
-        : '/', // publicAssetURL is similar to Ember CLI's asset fingerprint prepend option.
+      publicAssetURL: '/', // publicAssetURL is similar to Ember CLI's asset fingerprint prepend option.
       cssLoaderOptions: {
         sourceMap: isProduction() === false,
         modules: {
