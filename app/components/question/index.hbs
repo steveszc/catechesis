@@ -1,30 +1,21 @@
-<div class="min-h-0 flex grow">
-  <article class="w-1/2 h-full border-r border-black flex flex-col justify-between p-16">
-    <div class="grow flex flex-col justify-center items-start">
-      <h1 class="text-lg font-bold">Question {{@data.number}}</h1>
+<article class="flex flex-col justify-between" ...attributes>
+  <div class="grow flex flex-col justify-center items-start">
+    <h1 class="text-lg font-bold">Question {{@data.number}}</h1>
 
-      <p class="py-2 mb-6 text-2xl font-bold border-b border-black">{{@data.question}}</p>
+    <p class="py-2 mb-6 text-2xl font-bold border-b border-black">{{@data.question}}</p>
 
-      <div class="h-40">
-        {{#if @isAnswerShown}}
-          <p class="py-4 text-lg">{{@data.answer}}</p>
-        {{else}}
-          <button type="button" class="py-2 px-6 my-2 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold" {{on "click" @showAnswer}}>Show answer</button>
-        {{/if}}
-      </div>
-    </div>
-
-    <div>
-      {{#if this.spotifyId}}
-        <iframe title="Spotify" class="rounded-xl" src="https://open.spotify.com/embed/track/{{this.spotifyId}}?theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <div class="h-40">
+      {{#if @isAnswerShown}}
+        <p class="py-4 text-lg">{{@data.answer}}</p>
+      {{else}}
+        <button type="button" class="py-2 px-6 my-2 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold" {{on "click" @showAnswer}}>Show answer</button>
       {{/if}}
     </div>
-  </article>
+  </div>
 
-  <article class="w-1/2 h-full overflow-y-scroll p-16">
-    <div>
-      {{yield}}
-    </div>
-  </article>
-
-</div>
+  <div>
+    {{#if this.spotifyId}}
+      <iframe title="Spotify" class="rounded-xl" src="https://open.spotify.com/embed/track/{{this.spotifyId}}?theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    {{/if}}
+  </div>
+</article>

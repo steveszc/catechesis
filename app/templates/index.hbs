@@ -1,38 +1,9 @@
 <Layout>
-  <div class="flex h-full">
-    <section class="bg-cyan-800 text-white p-16 w-1/2 overflow-y-scroll">
-      <h2 class="font-bold text-xl mb-6">What is <em>Catechesis</em>?</h2>
-      <blockquote class="space-y-4">
-        <p class="text-lg max-w-prose">This is an open-source app designed to help you catechize yourself, your children, your spouse, and your church. Through this app you can engage with catechisms that have stood the test of time throughout the church age.</p>
-        <p><em>May God be glorifed as you enjoy him through catechesis.</em></p>
-      </blockquote>
+  <:half1>
+    <Intro class="h-full p-16 overflow-y-scroll"/>
+  </:half1>
 
-      <h2 class="font-bold text-xl my-6">What is Catechism?</h2>
-      <blockquote class="space-y-4">
-        <p class="text-md max-w-prose">At present, the practice of catechesis, particularly among adults, has been almost completely lost. Modern discipleship programs concentrate on practices such as Bible study, prayer, fellowship, and evangelism and can at times be superficial when it comes to doctrine. In contrast, the classic catechisms take students through the Apostles’ Creed, the Ten Commandments, and the Lord’s Prayer—a perfect balance of biblical theology, practical ethics, and spiritual experience. Also, the catechetical discipline of memorization drives concepts deeper into the heart and naturally holds students more accountable to master the material than do typical discipleship courses. Finally, the practice of question-answer recitation brings instructors and students into a naturally interactive, dialogical process of learning.</p>
-
-        <p class="text-md max-w-prose">In short, catechetical instruction is less individualistic and more communal. Parents can catechize their children. Church leaders can catechize new members with shorter catechisms and new leaders with more extensive ones. Because of the richness of the material, catechetical questions and answers may be integrated into corporate worship itself, where the church as a body can confess their faith and respond to God with praise.</p>
-
-        <p class="text-md max-w-prose">Because we have lost the practice of catechesis today, “superficial smatterings of truth, blurry notions about God and godliness, and thoughtlessness about the issues of living—career-wise, community-wise, family-wise, and church-wise—are all too often the marks of evangelical congregations today.</p>
-
-        <cite class="block">Timothy Keller</cite>
-      </blockquote>
-
-    </section>
-
-    <section class="h-full bg-white text-cyan-800 p-16 space-y-4 w-1/2 flex flex-col justify-center">
-      <h1 class="font-bold text-xl pb-4 border-b-2 border-cyan-800 mb-8">Available catechisms</h1>
-      <ul class="flex flex-col justify-around items-center">
-        <li>
-          <LinkTo
-            @route="catechism"
-            @model="westminster-shorter"
-            class="py-2 px-6 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold"
-          >
-            Westminster Shorter
-          </LinkTo>
-        </li>
-      </ul>
-    </section>
-  </div>
+  <:half2>
+    <CatechismList class="h-full p-16" />
+  </:half2>
 </Layout>

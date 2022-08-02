@@ -7,6 +7,13 @@ interface LayoutSignature {
   };
   Blocks: {
     default: [];
+    error: [];
+    half1: [];
+    half2: [];
+    third1: [];
+    third2: [];
+    third3: [];
+    third23: [];
   };
 }
 
