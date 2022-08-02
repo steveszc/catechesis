@@ -7,6 +7,8 @@ interface LayoutSignature {
   };
   Blocks: {
     default: [];
+    splitA: [];
+    splitB: [];
   };
 }
 
