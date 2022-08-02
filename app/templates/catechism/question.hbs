@@ -1,46 +1,63 @@
-<div class="h-full max-h-full flex flex-col">
-  <nav class="bg-cyan-800 text-white font-bold flex">
-    <div class="p-6 w-1/2 flex justify-between border-r border-black">
-      {{#if @model.previous}}
-        <LinkTo
-          @route='catechism.question'
-          @model={{@model.previous.number}}
-          class="grow text-left"
-        >
-          ‹ Q.{{@model.previous.number}}
+{{page-title (if @model.current (concat "Q" @model.current.number ". " @model.current.question) @model.catechism.metadata.title)}}
+
+<Layout @name={{@model.catechism.metadata.title}}>
+  <div class='h-full max-h-full flex flex-col'>
+    <nav class='bg-cyan-800 text-white font-bold flex'>
+      <div class='p-6 w-1/2 flex justify-between border-r border-black'>
+        {{#if @model.previous}}
+          <LinkTo
+            @route='catechism.question'
+            @model={{@model.previous.number}}
+            class='grow text-left'
+          >
+            ‹ Q.{{@model.previous.number}}
+          </LinkTo>
+        {{else}}
+          <div class='grow text-left'></div>
+        {{/if}}
+
+        <LinkTo @route='catechism.index' class='grow text-center'>
+          See all Questions
         </LinkTo>
-      {{else}}
-        <div class="grow text-left"></div>
-      {{/if}}
 
-      <LinkTo @route='catechism.index' class="grow text-center">
-        See all Questions
-      </LinkTo>
-
-      {{#if @model.next}}
+        {{#if @model.next}}
+          <LinkTo
+            @route='catechism.question'
+            @model={{@model.next.number}}
+            class='grow text-right'
+          >
+            Q.{{@model.next.number}}
+            ›
+          </LinkTo>
+        {{/if}}
+      </div>
+      <div class='p-6 w-1/2 flex justify-around text-md font-bold'>
         <LinkTo
-          @route='catechism.question'
-          @model={{@model.next.number}}
-          class="grow text-right"
-        >
-          Q.{{@model.next.number}} ›
-        </LinkTo>
-      {{/if}}
-    </div>
-    <div class="p-6 w-1/2 flex justify-around text-md font-bold">
-      <LinkTo @route="catechism.question.index" class="border-b-2 border-cyan-800 hover:border-white" @activeClass="border-white">Scripture</LinkTo>
-      <LinkTo @route="catechism.question.commentary" class="border-b-2 border-cyan-800 hover:border-white" @activeClass="border-white">Commentary</LinkTo>
-      <LinkTo @route="catechism.question.prayer" class="border-b-2 border-cyan-800 hover:border-white" @activeClass="border-white">Prayer</LinkTo>
-    </div>
-  </nav>
+          @route='catechism.question.index'
+          class='border-b-2 border-cyan-800 hover:border-white'
+          @activeClass='border-white'
+        >Scripture</LinkTo>
+        <LinkTo
+          @route='catechism.question.commentary'
+          class='border-b-2 border-cyan-800 hover:border-white'
+          @activeClass='border-white'
+        >Commentary</LinkTo>
+        <LinkTo
+          @route='catechism.question.prayer'
+          class='border-b-2 border-cyan-800 hover:border-white'
+          @activeClass='border-white'
+        >Prayer</LinkTo>
+      </div>
+    </nav>
 
-  {{#if @model.current}}
-    <Question
-      @data={{@model.current}}
-      @isAnswerShown={{this.isAnswerShown}}
-      @showAnswer={{this.showAnswer}}
-    >
-      {{outlet}}
-    </Question>
-  {{/if}}
-</div>
+    {{#if @model.current}}
+      <Question
+        @data={{@model.current}}
+        @isAnswerShown={{this.isAnswerShown}}
+        @showAnswer={{this.showAnswer}}
+      >
+        {{outlet}}
+      </Question>
+    {{/if}}
+  </div>
+</Layout>

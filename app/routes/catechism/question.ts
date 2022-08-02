@@ -26,7 +26,7 @@ export default class QuestionRoute extends Route {
       result.status === 'fulfilled' ? result.value : undefined
     );
 
-    return { data: catechism.data, previous, current, next };
+    return { catechism, previous, current, next };
   }
 
   resetController(controller: QuestionController) {

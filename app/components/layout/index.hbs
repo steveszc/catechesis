@@ -2,14 +2,38 @@
   <TopBar @name={{@name}} />
 
   <main class='grow md:overflow-y-scroll'>
-    {{#if (has-block "splitA")}}
-      <div class="md:flex md:h-full">
-        <section class="md:w-1/2 md:h-full">
-          {{yield to="splitA"}}
-        </section>
-        <section class="md:w-1/2 md:h-full">
-          {{yield to="splitB"}}
-        </section>
+    {{#if (has-block "half1")}}
+      <div class='h-full flex flex-col'>
+        <div class="md:flex md:h-full min-h-0">
+          <section class="md:w-1/2 md:h-full border-r border-black">
+            {{yield to="half1"}}
+          </section>
+          {{#if (has-block "half2")}}
+            <section class="md:w-1/2 md:h-full">
+              {{yield to="half2"}}
+            </section>
+          {{/if}}
+        </div>
+      </div>
+    {{else if (has-block "third1")}}
+      <div class='h-full flex flex-col'>
+        <div class="md:flex md:h-full min-h-0">
+          <section class="md:w-1/3 md:h-full border-r border-black">
+            {{yield to="third1"}}
+          </section>
+          {{#if (has-block "third3")}}
+            <section class="md:w-1/3 md:h-full border-r border-black">
+              {{yield to="third2"}}
+            </section>
+            <section class="md:w-1/3 md:h-full">
+              {{yield to="third3"}}
+            </section>
+          {{else if (has-block "third23")}}
+            <section class="md:w-2/3 md:h-full border-r border-black">
+              {{yield to="third23"}}
+            </section>
+          {{/if}}
+        </div>
       </div>
     {{else if (has-block)}}
       {{yield}}
