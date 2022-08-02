@@ -35,6 +35,12 @@
           {{/if}}
         </div>
       </div>
+    {{else if (has-block 'error')}}
+      <div class="h-full w-full flex justify-center items-center">
+        <div class="rounded border-4 border-red-200 bg-red-100 text-red-800 px-8 py-2">
+          {{yield to="error"}}
+        </div>
+      </div>
     {{else if (has-block)}}
       {{yield}}
     {{/if}}
