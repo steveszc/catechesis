@@ -1,16 +1,18 @@
-<div class='space-y-4 flex flex-col justify-center bg-white text-cyan-800' ...attributes>
+<div class='h-full space-y-4 flex flex-col justify-center bg-white text-cyan-800' ...attributes>
   <h1 class='font-bold text-xl pb-4 border-b-2 border-cyan-800 mb-8'>
     Available catechisms
   </h1>
-  <ul class='flex flex-col justify-around items-center'>
-    <li>
-      <LinkTo
-        @route='catechism'
-        @model='westminster-shorter'
-        class='py-2 px-6 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold'
-      >
-        Westminster Shorter
-      </LinkTo>
-    </li>
+  <ul class='flex-col space-y-8'>
+    {{#each-in this.catechisms as |id catechism|}}
+      <li class="block my-2">
+        <LinkTo
+          @route='catechism'
+          @model={{id}}
+          class='py-2 px-6 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold'
+        >
+          {{catechism.metadata.title}}
+        </LinkTo>
+      </li>
+    {{/each-in}}
   </ul>
 </div>

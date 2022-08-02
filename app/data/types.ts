@@ -5,6 +5,7 @@ export type Catechism = keyof typeof catechisms;
 export interface CatechismData {
   metadata: {
     title: string;
+    alternativeTitles?: string[];
     year?: string;
     authors: string[];
     location?: string;
@@ -12,6 +13,7 @@ export interface CatechismData {
     originStory?: string;
     sourceUrl?: string;
     sourceAttribution?: string;
+    creedFormat: string;
   };
   data: CatechismItem[];
 }
@@ -19,7 +21,10 @@ export interface CatechismData {
 export interface CatechismItem {
   number: number;
   question: string;
+  questionWithProofs?: string;
   answer: string;
+  answerWithProofs?: string;
+  proofs?: { id: number; references: string }[];
   scripture?: Scripture[];
   commentary?: Commentary[];
   prayer?: string[];

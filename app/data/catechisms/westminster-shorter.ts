@@ -11,6 +11,7 @@ export const WestminsterShorter: CatechismData = {
     sourceUrl:
       'https://www.apuritansmind.com/westminster-standards/shorter-catechism/',
     sourceAttribution: 'Public Domain',
+    creedFormat: 'Catechism',
   },
   data: [
     {

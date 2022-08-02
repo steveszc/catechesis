@@ -1,5 +1,10 @@
 <div class="w-full h-full p-16 flex flex-col justify-center space-y-2 bg-cyan-800 text-white">
-  <h2 class="font-bold text-lg border-b border-white pb-2 mb-2">{{@metadata.title}}</h2>
+  <h2 class="font-bold text-lg border-b border-white pb-2 mb-2">
+    {{@metadata.title}}
+    {{#each @metadata.alternativeTitles as |alternateTitle|}}
+      <em class="block text-sm font-normal">{{alternateTitle}}</em>
+    {{/each}}
+  </h2>
   <p>{{#each @metadata.authors as |author|}}{{author}} {{/each}}</p>
   <p>published {{@metadata.year}} - {{@metadata.location}}</p>
   <a href={{@metadata.sourceUrl}} target="_blank" rel="noopener noreferrer" class="underline">Public Domain</a>
