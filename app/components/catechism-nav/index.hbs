@@ -3,15 +3,15 @@
     <LinkTo
       @route='catechism.question'
       @model={{@previous.number}}
-      class='grow text-left'
+      class='text-left border-b-2 border-cyan-800 hover:border-white'
     >
       ‹ Q.{{@previous.number}}
     </LinkTo>
   {{else}}
-    <div class='grow text-left'></div>
+    <div class='text-left'></div>
   {{/if}}
 
-  <LinkTo @route='catechism.index' class='grow text-center'>
+  <LinkTo @route='catechism.index' class='text-center border-b-2 border-cyan-800 hover:border-white'>
     See all Questions
   </LinkTo>
 
@@ -19,7 +19,7 @@
     <LinkTo
       @route='catechism.question'
       @model={{@next.number}}
-      class='grow text-right'
+      class='text-right border-b-2 border-cyan-800 hover:border-white'
     >
       Q.{{@next.number}}
       ›

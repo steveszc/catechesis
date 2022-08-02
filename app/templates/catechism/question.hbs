@@ -1,20 +1,23 @@
 {{page-title this.title}}
 
 <Layout @name={{@model.catechism.metadata.title}}>
-  <div class='h-full max-h-full flex flex-col'>
-    <div class='flex'>
-      <CatechismNav class="w-1/2 border-r border-black" @previous={{@model.previous}} @next={{@model.next}} />
-      <QuestionNav class="w-1/2" />
-    </div>
-
-    {{#if @model.current}}
+  <:half1>
+    <div class="h-full flex flex-col">
+      <CatechismNav @previous={{@model.previous}} @next={{@model.next}} class="sticky md:static top-0" />
       <Question
+        class="p-16 grow"
         @data={{@model.current}}
         @isAnswerShown={{this.isAnswerShown}}
         @showAnswer={{this.showAnswer}}
-      >
+      />
+    </div>
+  </:half1>
+  <:half2>
+    <div class="h-full flex flex-col">
+      <QuestionNav class="sticky md:static top-0" />
+      <article class="overflow-y-scroll p-16">
         {{outlet}}
-      </Question>
-    {{/if}}
-  </div>
+      </article>
+    </div>
+  </:half2>
 </Layout>

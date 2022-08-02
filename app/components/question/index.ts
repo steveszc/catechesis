@@ -5,7 +5,7 @@ import type { CatechismItem } from 'catechism/data';
 import { htmlSafe } from '@ember/template';
 
 interface QuestionComponentSignature {
-  Element: HTMLInputElement;
+  Element: HTMLElement;
   Args: {
     data: CatechismItem;
     isAnswerShown: boolean;
