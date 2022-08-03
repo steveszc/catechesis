@@ -7,7 +7,7 @@ export const WestminsterShorter: CatechismData = {
     authors: ['Westminster Assembly'],
     location: 'London, England',
     originalLanguage: 'English',
-    originStory: undefined,
+    originStory: '',
     sourceUrl:
       'https://www.apuritansmind.com/westminster-standards/shorter-catechism/',
     sourceAttribution: 'Public Domain',
