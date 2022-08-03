@@ -1,6 +1,7 @@
 import { ForYoungChildren } from './for-young-children';
 import { Heidelberg } from './heidelberg';
 import { Keachs } from './keachs';
+import { NewCity } from './new-city';
 import { Puritan } from './puritan';
 import { WestminsterLonger } from './westminster-longer';
 import { WestminsterShorter } from './westminster-shorter';
@@ -9,6 +10,7 @@ export const catechisms = {
   'for-young-children': ForYoungChildren,
   heidelberg: Heidelberg,
   keachs: Keachs,
+  'new-city': NewCity,
   puritan: Puritan,
   'westminster-longer': WestminsterLonger,
   'westminster-shorter': WestminsterShorter,

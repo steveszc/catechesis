@@ -36,8 +36,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'And the glory which thou gavest me I have given them; that they may be one, even as we are one... Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -70,8 +68,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: that the man of God may be perfect, throughly furnished unto all good works.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -99,8 +95,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -192,8 +186,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For his merciful kindness is great toward us: and the truth of the Lord endureth for ever. Praise ye the Lord.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -216,8 +208,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'But the Lord is the true God, he is the living God, and an everlasting king: at his wrath the earth shall tremble, and the nations shall not be able to abide his indignation.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -245,8 +235,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him: and lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -286,8 +274,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out!',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -311,8 +297,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -340,8 +324,6 @@ export const WestminsterShorter: CatechismData = {
           text: '',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -377,8 +359,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -418,8 +398,6 @@ export const WestminsterShorter: CatechismData = {
           text: '',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -456,8 +434,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -482,8 +458,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -511,8 +485,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For all have sinned, and come short of the glory of God.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -537,8 +509,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -566,8 +536,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For since by man came death, by man came also the resurrection of the dead. For as in Adam all die, even so in Christ shall all be made alive.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -590,8 +558,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -652,8 +618,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For out of the heart proceed evil thoughts, murders, adulteries, fornications, thefts, false witness, blasphemies.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -685,8 +649,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -723,8 +685,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'Therefore by the deeds of the law there shall no flesh be justified in his sight: for by the law is the knowledge of sin. But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
@@ -764,8 +724,6 @@ export const WestminsterShorter: CatechismData = {
           text: 'Let this mind be in you, which was also in Christ Jesus: who, being in the form of God, thought it not robbery to be equal with God: but made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: and being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross. Wherefore God also hath highly exalted him, and given him a name which is above every name: that at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.',
         },
       ],
-      commentary: [],
-      prayer: [],
       audio: [
         {
           artist: 'Westmister Shorter Catechism Songs with Brian Sauve',

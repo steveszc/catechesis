@@ -5,7 +5,9 @@
       <em class="block text-sm font-normal">{{alternateTitle}}</em>
     {{/each}}
   </h2>
-  <p>{{#each @metadata.authors as |author|}}{{author}} {{/each}}</p>
+  <p>{{#each @metadata.authors as |author index|}}{{if index ', '}}{{author}}{{/each}}</p>
   <p>published {{@metadata.year}} - {{@metadata.location}}</p>
-  <a href={{@metadata.sourceUrl}} target="_blank" rel="noopener noreferrer" class="underline">Public Domain</a>
+  <a href={{@metadata.sourceUrl}} target="_blank" rel="noopener noreferrer" class="italic">
+    {{@metadata.sourceAttribution}}
+  </a>
 </div>

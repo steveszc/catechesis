@@ -1,5 +1,9 @@
-<h2 class='text-lg font-bold mb-4'>Prayer</h2>
+<h2 class='sr-only'>Prayer</h2>
 
-<div class='space-y-4 text-xl max-w-prose'>
-  <p>{{if @model @model "No prayer added yet."}}</p>
+<div class='space-y-4 text-xl max-w-prose md:px-12'>
+  {{#if @model}}
+    {{this.htmlSafe @model}}
+  {{else}}
+    No prayer added yet.
+  {{/if}}
 </div>

@@ -1,23 +1,23 @@
-<nav class='p-6 flex justify-around bg-cyan-800 text-white font-bold ' ...attributes>
+<nav class='flex bg-cyan-800 text-white font-bold ' ...attributes>
   <LinkTo
-    @route='catechism.question.index'
-    class='border-b-2 border-cyan-800 hover:border-white'
-    @activeClass='border-white'
+    @route='catechism.question.scripture'
+    class='p-6 w-1/3 text-center group'
+    @activeClass='bg-cyan-700'
   >
-    Scripture
+    <span class="pb-1 border-b-2 border-transparent group-hover:border-white">Scripture</span>
   </LinkTo>
   <LinkTo
     @route='catechism.question.commentary'
-    class='border-b-2 border-cyan-800 hover:border-white'
-    @activeClass='border-white'
+    class='p-6 w-1/3 text-center group'
+    @activeClass='bg-cyan-700'
   >
-    Commentary
+    <span class="pb-1 border-b-2 border-transparent group-hover:border-white">Commentary</span>
   </LinkTo>
   <LinkTo
     @route='catechism.question.prayer'
-    class='border-b-2 border-cyan-800 hover:border-white'
-    @activeClass='border-white'
+    class='p-6 w-1/3 text-center group'
+    @activeClass='bg-cyan-700'
   >
-    Prayer
+    <span class="pb-1 border-b-2 border-transparent group-hover:border-white">Prayer</span>
   </LinkTo>
 </nav>

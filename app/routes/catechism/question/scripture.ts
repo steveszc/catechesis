@@ -4,7 +4,7 @@ import type { CatechismItem } from 'catechism/data';
 import type { QuestionRouteModel } from 'catechism/routes/catechism/question';
 
 type Resolved<P> = P extends Promise<infer T> ? T : P;
-export type ScriptureModel = Resolved<ReturnType<ScriptureRoute['model']>>;
+export type ScriptureRouteModel = Resolved<ReturnType<ScriptureRoute['model']>>;
 
 const proofsToScriptures = (
   proofs?: CatechismItem['proofs']

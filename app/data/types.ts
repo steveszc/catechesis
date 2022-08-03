@@ -19,16 +19,18 @@ export interface CatechismData {
 }
 
 export interface CatechismItem {
+  part?: number;
   number: number;
   question: string;
   questionWithProofs?: string;
-  answer: string;
+  answer: string | { adult: string; children: string };
   answerWithProofs?: string;
   proofs?: { id: number; references: string }[];
   scripture?: Scripture[];
   commentary?: Commentary[];
-  prayer?: string[];
+  prayer?: string;
   audio?: Audio[];
+  song?: string;
 }
 
 export interface Scripture {
