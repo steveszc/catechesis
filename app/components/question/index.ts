@@ -1,7 +1,7 @@
 import { tracked, cached } from '@glimmer/tracking';
 import Component from '@glimmer/component';
 
-import type { CatechismItem } from 'catechism/data';
+import type { CatechismItem } from 'catechesis/data';
 import { htmlSafe } from '@ember/template';
 
 interface QuestionComponentSignature {

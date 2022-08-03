@@ -1,11 +1,11 @@
 {
-  "name": "catechism",
+  "name": "catechesis",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for catechism goes here",
-  "repository": "",
+  "description": "Catechesis is an open source catechism viewer.",
+  "repository": "https://github.com/steveszc/catechesis.git",
   "license": "MIT",
-  "author": "",
+  "author": "steveszc@gmail.com",
   "directories": {
     "doc": "doc",
     "test": "tests"

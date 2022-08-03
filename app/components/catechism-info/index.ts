@@ -1,6 +1,6 @@
 import templateOnlyComponent from '@ember/component/template-only';
 
-import type { CatechismData } from 'catechism/data';
+import type { CatechismData } from 'catechesis/data';
 
 interface CatechismInfoSignature {
   Element: HTMLInputElement;

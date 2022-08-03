@@ -1,5 +1,5 @@
 import Component from '@glimmer/component';
-import { catechisms } from 'catechism/data';
+import { catechisms } from 'catechesis/data';
 
 interface CatechismListSignature {
   Element: HTMLElement;
