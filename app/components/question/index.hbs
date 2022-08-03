@@ -2,11 +2,22 @@
   <div class="grow flex flex-col justify-center items-start">
     <h1 class="text-lg font-bold">Question {{@data.number}}</h1>
 
-    <p class="py-2 mb-6 text-2xl font-bold border-b border-black">{{@data.question}}</p>
+    <p class="py-2 mb-6 text-2xl font-bold border-b border-black">
+      {{if @data.questionWithProofs @data.questionWithProofs @data.question}}
+    </p>
 
     <div class="h-40">
       {{#if @isAnswerShown}}
-        <p class="py-4 text-lg">{{@data.answer}}</p>
+        {{#if @data.answerWithProofs}}
+          <p class="py-4 text-lg">{{@data.answerWithProofs}}</p>
+        {{else}}
+          {{#if (this.isStringAnswer @data.answer)}}
+            <p class="py-4 text-lg">{{@data.answer}}</p>
+          {{else}}
+            <p class="py-4 text-lg"><strong>Children:</strong> {{@data.answer.children}}</p>
+            <p class="py-4 text-lg"><strong>Adult:</strong> {{@data.answer.adult}}</p>
+          {{/if}}
+        {{/if}}
       {{else}}
         <button type="button" class="py-2 px-6 my-2 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold" {{on "click" @showAnswer}}>Show answer</button>
       {{/if}}

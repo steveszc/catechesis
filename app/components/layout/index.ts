@@ -1,9 +1,10 @@
 import templateOnlyComponent from '@ember/component/template-only';
+import type { CatechismData } from 'catechism/data';
 
 interface LayoutSignature {
   Element: HTMLElement;
   Args: {
-    name?: string;
+    metadata?: CatechismData['metadata'];
   };
   Blocks: {
     default: [];

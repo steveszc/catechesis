@@ -19,6 +19,10 @@ interface QuestionComponentSignature {
 export default class QuestionComponent extends Component<QuestionComponentSignature> {
   @tracked audioEmbedIndex = 0;
 
+  isStringAnswer(answer: CatechismItem['answer']): answer is string {
+    return typeof answer === 'string';
+  }
+
   @cached
   get spotifyEmbed() {
     let embedCode = this.args.data.audio?.[this.audioEmbedIndex]?.links?.find(

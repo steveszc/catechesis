@@ -1,13 +1,13 @@
-<h2 class='text-lg font-bold mb-4'>Scripture</h2>
+<h2 class='sr-only'>Scripture</h2>
 
-<ol class="space-y-6">
+<ol class="space-y-6 md:px-12">
   {{#each @model as |scripture|}}
-    <li>
-      <strong class="text-md">{{scripture.verse}}</strong>
+    <li class="max-w-prose text-xl space-y-2">
+      <strong class="block mb-4">{{scripture.verse}}</strong>
       {{#if scripture.footnote}}
         <span class="font-mono text-xs align-text-top">[{{scripture.footnote}}]</span>
       {{/if}}
-      <p class="max-w-prose text-xl mt-2">{{scripture.text}}</p>
+      {{(this.htmlSafe scripture.text)}}
     </li>
   {{else}}
     No verses added yet.

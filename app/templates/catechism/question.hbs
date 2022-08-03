@@ -1,6 +1,6 @@
 {{page-title this.title}}
 
-<Layout @name={{@model.catechism.metadata.title}}>
+<Layout @metadata={{@model.catechism.metadata}}>
   <:half1>
     <div class="h-full flex flex-col">
       <CatechismNav @previous={{@model.previous}} @next={{@model.next}} class="sticky md:static top-0" />

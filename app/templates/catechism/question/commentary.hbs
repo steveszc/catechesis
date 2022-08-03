@@ -1,10 +1,10 @@
-<h2 class='text-lg font-bold mb-4'>Commentary</h2>
+<h2 class='sr-only'>Commentary</h2>
 
 <ol class='space-y-6'>
   {{#each @model as |commentary|}}
-    <li>
-      <strong class='text-md'>{{commentary.author}}</strong>
-      <p class='max-w-prose text-xl mt-2'>{{commentary.body}}</p>
+    <li class='max-w-prose text-xl space-y-4 md:px-12'>
+      <strong>{{commentary.author}}</strong>
+      {{(this.htmlSafe commentary.body)}}
     </li>
   {{else}}
     No commentaries added yet.
