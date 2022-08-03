@@ -1,5 +1,5 @@
-import Application from 'catechism/app';
-import config from 'catechism/config/environment';
+import Application from 'catechesis/app';
+import config from 'catechesis/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

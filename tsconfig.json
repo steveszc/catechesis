@@ -66,8 +66,8 @@
     // work with TypeScript.
     "baseUrl": ".",
     "paths": {
-      "catechism/tests/*": ["tests/*"],
-      "catechism/*": ["app/*"],
+      "catechesis/tests/*": ["tests/*"],
+      "catechesis/*": ["app/*"],
       "*": ["types/*"]
     }
   },

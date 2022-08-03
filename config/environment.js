@@ -2,9 +2,9 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'catechism',
+    modulePrefix: 'catechesis',
     environment,
-    rootURL: '/catechism/',
+    rootURL: '/',
     locationType: 'history',
     EmberENV: {
       FEATURES: {
@@ -41,7 +41,6 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
-    ENV.rootURL = '/catechism/';
   }
 
   return ENV;

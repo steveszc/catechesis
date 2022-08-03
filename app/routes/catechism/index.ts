@@ -1,6 +1,6 @@
 import Route from '@ember/routing/route';
 
-import type { CatechismRouteModel } from 'catechism/routes/catechism';
+import type { CatechismRouteModel } from 'catechesis/routes/catechism';
 
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type CatechismIndexModel = Resolved<

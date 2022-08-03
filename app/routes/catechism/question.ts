@@ -1,8 +1,8 @@
 import Route from '@ember/routing/route';
-import { getQuestion } from 'catechism/data';
+import { getQuestion } from 'catechesis/data';
 
-import type { CatechismRouteModel } from 'catechism/routes/catechism';
-import type QuestionController from 'catechism/controllers/catechism/question';
+import type { CatechismRouteModel } from 'catechesis/routes/catechism';
+import type QuestionController from 'catechesis/controllers/catechism/question';
 
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type QuestionRouteModel = Resolved<ReturnType<QuestionRoute['model']>>;

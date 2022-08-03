@@ -1,7 +1,8 @@
-# catechism
+# Catechesis
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+Catechesis is an open source catechism viewer application.
 
 ## Prerequisites
 
@@ -14,13 +15,14 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd catechism`
+* `git clone https://github.com/steveszc/catechesis.git` this repository
+* `cd catechesis`
 * `npm install`
 
 ## Running / Development
 
-* `ember serve`
+* `npm start`
+* `npm run glint` to run typechecking
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
@@ -45,7 +47,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Currently deployed to Github pages via GH Actions. See `gh-pages` branch.
 
 ## Further Reading / Useful Links
 
