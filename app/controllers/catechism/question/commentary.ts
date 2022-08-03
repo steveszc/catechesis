@@ -5,6 +5,7 @@ import type { CommentaryRouteModel } from 'catechesis/routes/catechism/question/
 
 export default class CommentaryController extends Controller {
   declare model: CommentaryRouteModel;
+  queryParams = ['preserveScrollPosition'];
 
   htmlSafe = htmlSafe;
 }

@@ -5,6 +5,7 @@ import type { ScriptureRouteModel } from 'catechesis/routes/catechism/question/s
 
 export default class ScriptureController extends Controller {
   declare model: ScriptureRouteModel;
+  queryParams = ['preserveScrollPosition'];
 
   htmlSafe = htmlSafe;
 }
