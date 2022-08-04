@@ -2,6 +2,7 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const { Webpack } = require('@embroider/webpack');
+// eslint-disable-next-line node/no-extraneous-require
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
