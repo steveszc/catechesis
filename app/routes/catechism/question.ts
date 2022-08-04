@@ -1,6 +1,8 @@
 import Route from '@ember/routing/route';
+import { inject as service } from '@ember/service';
 import { getQuestion } from 'catechesis/data';
 
+import type HeadDataService from 'catechesis/services/head-data';
 import type { CatechismRouteModel } from 'catechesis/routes/catechism';
 import type QuestionController from 'catechesis/controllers/catechism/question';
 
@@ -12,6 +14,8 @@ interface Params {
 }
 
 export default class QuestionRoute extends Route {
+  @service declare headData: HeadDataService;
+
   async model({ question }: Params) {
     const catechism = this.modelFor('catechism') as CatechismRouteModel;
     const questionNumber = parseInt(question, 10);
@@ -29,6 +33,13 @@ export default class QuestionRoute extends Route {
     if (!current) throw new Error('404');
 
     return { catechism, previous, current, next };
+  }
+
+  afterModel(model: QuestionRouteModel) {
+    this.headData.description = `
+Q.${model.current.number} ${model.current.question}
+${model.catechism.metadata.title}
+}`;
   }
 
   resetController(controller: QuestionController) {

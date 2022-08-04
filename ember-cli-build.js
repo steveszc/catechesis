@@ -2,14 +2,53 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const { Webpack } = require('@embroider/webpack');
+// eslint-disable-next-line node/no-extraneous-require
+const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
 
 function isProduction() {
   return EmberApp.env() === 'production';
 }
 
+async function urls({ visit }) {
+  const urls = [];
+
+  let page = await visit('/');
+  if (page.statusCode === 200) {
+    let html = await page.html();
+    let dom = new JSDOM(html);
+
+    // crawl the catechism list
+    for (let aTag of [
+      ...dom.window.document.querySelectorAll('[data-catechism-link]'),
+    ]) {
+      if (aTag.href) {
+        urls.push(aTag.href);
+      }
+      // visit each catechism
+      let page = await visit(aTag.href);
+      if (page.statusCode === 200) {
+        let html = await page.html();
+        let dom = new JSDOM(html);
+
+        // crawl the catechism's question list
+        for (let aTag of [
+          ...dom.window.document.querySelectorAll('[data-question-link]'),
+        ]) {
+          if (aTag.href) {
+            urls.push(aTag.href);
+          }
+        }
+      }
+    }
+  }
+
+  return urls;
+}
+
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    prember: { urls },
   });
 
   // Use `app.import` to add additional libraries to the generated
@@ -25,7 +64,7 @@ module.exports = function (defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-  return require('@embroider/compat').compatBuild(app, Webpack, {
+  const compiledApp = require('@embroider/compat').compatBuild(app, Webpack, {
     staticAddonTestSupportTrees: true,
     staticAddonTrees: true,
     staticHelpers: true,
@@ -67,4 +106,6 @@ module.exports = function (defaults) {
     },
     extraPublicTrees: [],
   });
+
+  return require('prember').prerender(app, compiledApp);
 };
