@@ -6,3 +6,9 @@
 {{! template-lint-disable no-forbidden-elements }}
 {{! @glint-expect-error }}
 <meta name="description" content={{this.model.description}}>
+{{! @glint-expect-error }}
+<meta name="og:site" content={{this.model.ogSite}}>
+{{! @glint-expect-error }}
+<meta name="og:title" content={{this.model.ogTitle}}>
+{{! @glint-expect-error }}
+<meta name="og:description" content={{this.model.ogDescription}}>
