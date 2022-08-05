@@ -16,7 +16,7 @@
           Show answer
         </button>
       {{/unless}}
-      <div class={{unless @isAnswerShown 'invisible'}}>
+      <div class="pb-16 {{unless @isAnswerShown 'invisible'}}">
         {{#if @data.answerWithProofs}}
           <p class="py-4 text-lg">{{@data.answerWithProofs}}</p>
         {{else}}
