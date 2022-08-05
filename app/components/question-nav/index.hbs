@@ -3,6 +3,7 @@
     @route='catechism.question.scripture'
     class='p-6 w-1/3 text-center group'
     @activeClass='bg-cyan-700'
+    @current-when="catechism.question.scripture"
     @query={{hash preserveScrollPosition=true}}
   >
     <span class="pb-1 border-b-2 border-transparent group-hover:border-white">Scripture</span>
@@ -11,6 +12,7 @@
     @route='catechism.question.commentary'
     class='p-6 w-1/3 text-center group'
     @activeClass='bg-cyan-700'
+    @current-when="catechism.question.commentary"
     @query={{hash preserveScrollPosition=true}}
   >
     <span class="pb-1 border-b-2 border-transparent group-hover:border-white">Commentary</span>
@@ -19,6 +21,7 @@
     @route='catechism.question.prayer'
     class='p-6 w-1/3 text-center group'
     @activeClass='bg-cyan-700'
+    @current-when='catechism.question.prayer'
     @query={{hash preserveScrollPosition=true}}
   >
     <span class="pb-1 border-b-2 border-transparent group-hover:border-white">Prayer</span>

@@ -36,10 +36,9 @@ export default class QuestionRoute extends Route {
   }
 
   afterModel(model: QuestionRouteModel) {
-    this.headData.description = `
-Q.${model.current.number} ${model.current.question}
-${model.catechism.metadata.title}
-}`;
+    this.headData.description = `Q${model.current.number} ${model.current.question}`;
+    this.headData.ogTitle = model.current.question;
+    this.headData.ogDescription = `Question ${model.current.number} of ${model.catechism.metadata.title}`;
   }
 
   resetController(controller: QuestionController) {
