@@ -1,0 +1,28 @@
+<button type='button' {{on 'click' this.toggleSettings}} ...attributes>
+  {{#if (has-block)}}
+    {{yield}}
+  {{else}}
+    Settings
+  {{/if}}
+</button>
+
+{{#if this.isShowingSettings}}
+  <ModalForm @onSubmit={{this.saveSettings}} @onDismiss={{this.hideSettings}}>
+    <:title>Settings</:title>
+    <:body>
+      <div class='space-y-4 my-8'>
+        <Toggle
+          @isChecked={{this.settings.alwaysShowAnswers}}
+          @name='alwaysShowAnswers'
+          @label='Always show answers'
+        />
+        <Toggle
+          @isChecked={{this.settings.pickUpWhereYouLeftOff}}
+          @name='pickUpWhereYouLeftOff'
+          @label='Pick up where I left off'
+        />
+      </div>
+    </:body>
+    <:submit>Save</:submit>
+  </ModalForm>
+{{/if}}

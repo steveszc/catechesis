@@ -6,9 +6,7 @@ interface TopBarSignature {
     name?: string;
   };
 }
-
 const TopBarComponent = templateOnlyComponent<TopBarSignature>();
-
 export default TopBarComponent;
 
 declare module '@glint/environment-ember-loose/registry' {

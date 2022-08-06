@@ -5,6 +5,7 @@ import { getQuestion } from 'catechesis/data';
 import type HeadDataService from 'catechesis/services/head-data';
 import type { CatechismRouteModel } from 'catechesis/routes/catechism';
 import type QuestionController from 'catechesis/controllers/catechism/question';
+import type SettingsService from 'catechesis/services/settings';
 
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type QuestionRouteModel = Resolved<ReturnType<QuestionRoute['model']>>;
@@ -15,6 +16,7 @@ interface Params {
 
 export default class QuestionRoute extends Route {
   @service declare headData: HeadDataService;
+  @service declare settings: SettingsService;
 
   async model({ question }: Params) {
     const catechism = this.modelFor('catechism') as CatechismRouteModel;
@@ -43,6 +45,6 @@ ${model.catechism.metadata.title}
   }
 
   resetController(controller: QuestionController) {
-    controller.isAnswerShown = false;
+    controller.isAnswerShown = this.settings.alwaysShowAnswers;
   }
 }

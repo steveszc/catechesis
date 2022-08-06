@@ -8,11 +8,17 @@ interface PageTitleHelperSignature {
   Return: void;
 }
 
+interface UniqueIdHelperSignature {
+  Args: { Positional: unknown[] };
+  Return: unknown;
+}
+
 // eslint-disable-next-line ember/no-empty-glimmer-component-classes
 declare class HeadTemplate extends Component<{
   model: Record<string, string>;
 }> {}
 declare class PageTitleHelper extends Helper<PageTitleHelperSignature> {}
+declare class UniqueIdHelper extends Helper<UniqueIdHelperSignature> {}
 declare class HeadLayoutComponent extends Component {} // eslint-disable-line ember/no-empty-glimmer-component-classes
 
 declare module '@glint/environment-ember-loose/registry' {
@@ -20,5 +26,6 @@ declare module '@glint/environment-ember-loose/registry' {
     HeadLayout: typeof HeadLayoutComponent;
     'page-title': typeof PageTitleHelper;
     head: typeof HeadTemplate;
+    'unique-id': UniqueIdHelper;
   }
 }
