@@ -1,7 +1,7 @@
 import Service from '@ember/service';
-import { tracked } from '@glimmer/tracking';
+import stored from 'catechesis/decorators/stored';
 
 export default class SettingsService extends Service {
-  @tracked alwaysShowAnswers = false;
-  @tracked pickUpWhereYouLeftOff = false;
+  @stored({ defaultValue: false }) alwaysShowAnswers = false;
+  @stored({ defaultValue: false }) pickUpWhereYouLeftOff = false;
 }
