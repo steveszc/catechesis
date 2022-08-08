@@ -1,31 +1,28 @@
 import { cached, tracked } from '@glimmer/tracking';
 
+type DecoratorPropertyDescriptor =
+  | (PropertyDescriptor & { initializer?: any })
+  | undefined;
 type StorageName = 'localStorage' | 'sessionStorage';
-interface Options {
-  defaultValue?: unknown;
-  namespace?: string;
-  storage?: StorageName;
-}
 
-export default function stored({
-  defaultValue,
-  namespace,
-  storage,
-}: Options): PropertyDecorator {
-  return (target: Object, propertyKey: string | symbol) => {
-    namespace = namespace || target.constructor.name;
-    const key = namespace + '_' + String(propertyKey);
-    const store = new Storage(key, storage);
+export default function stored(
+  target: object,
+  propertyName: string,
+  desc?: DecoratorPropertyDescriptor
+) {
+  const defaultValue = desc?.initializer?.();
+  const namespace = target.constructor.name;
+  const key = namespace + '_' + String(propertyName);
+  const store = new Storage(key);
 
-    return {
-      get() {
-        return store.read() ?? defaultValue;
-      },
+  return <any>{
+    get() {
+      return store.read() ?? defaultValue;
+    },
 
-      set(value: unknown) {
-        return store.write(value);
-      },
-    };
+    set(value: unknown) {
+      return store.write(value);
+    },
   };
 }
 
@@ -95,6 +92,7 @@ class Storage {
       return true;
     } catch (e) {
       return (
+        typeof DOMException !== 'undefined' &&
         e instanceof DOMException &&
         // everything except Firefox
         (e.code === 22 ||
