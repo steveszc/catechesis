@@ -7,7 +7,7 @@
       <Question
         class="p-8 md:p-16 grow"
         @data={{@model.current}}
-        @isAnswerShown={{this.isAnswerShown}}
+        @isAnswerShown={{if this.settings.alwaysShowAnswers this.settings.alwaysShowAnswers this.isAnswerShown}}
         @showAnswer={{this.showAnswer}}
       />
     </div>
