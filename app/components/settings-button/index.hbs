@@ -10,16 +10,19 @@
   <ModalForm @onSubmit={{this.saveSettings}} @onDismiss={{this.hideSettings}}>
     <:title>Settings</:title>
     <:body>
+      <p class="text-black text-sm font-light italic">These settings are saved locally in this browser.</p>
       <div class='space-y-4 my-8'>
         <Toggle
           @isChecked={{this.settings.alwaysShowAnswers}}
           @name='alwaysShowAnswers'
           @label='Always show answers'
+          @helpText="You won't see the &quot;Show Answer&quot; button."
         />
         <Toggle
           @isChecked={{this.settings.pickUpWhereYouLeftOff}}
           @name='pickUpWhereYouLeftOff'
           @label='Pick up where I left off'
+          @helpText="Each time you open the app you'll visit the last question you viewed"
         />
       </div>
     </:body>

@@ -3,7 +3,10 @@ import { inject as service } from '@ember/service';
 import { getQuestion } from 'catechesis/data';
 
 import type HeadDataService from 'catechesis/services/head-data';
-import type { CatechismRouteModel } from 'catechesis/routes/catechism';
+import type {
+  CatechismRouteModel,
+  CatechismRouteParams,
+} from 'catechesis/routes/catechism';
 import type QuestionController from 'catechesis/controllers/catechism/question';
 import type SettingsService from 'catechesis/services/settings';
 
@@ -19,6 +22,8 @@ export default class QuestionRoute extends Route {
   @service declare settings: SettingsService;
 
   async model({ question }: Params) {
+    const catechismId = (this.paramsFor('catechism') as CatechismRouteParams)
+      .catechism;
     const catechism = this.modelFor('catechism') as CatechismRouteModel;
     const questionNumber = parseInt(question, 10);
 
@@ -33,6 +38,8 @@ export default class QuestionRoute extends Route {
     );
 
     if (!current) throw new Error('404');
+
+    this.settings.lastQuestion = { catechism: catechismId, question };
 
     return { catechism, previous, current, next };
   }

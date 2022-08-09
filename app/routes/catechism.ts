@@ -2,17 +2,18 @@ import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 import { getCatechism } from 'catechesis/data';
 
+import type { Catechism } from 'catechesis/data/types';
 import type HeadDataService from 'catechesis/services/head-data';
 
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type CatechismRouteModel = Resolved<ReturnType<CatechismRoute['model']>>;
-interface Params {
-  catechism: string;
+export interface CatechismRouteParams {
+  catechism: Catechism;
 }
 export default class CatechismRoute extends Route {
   @service declare headData: HeadDataService;
 
-  model({ catechism }: Params) {
+  model({ catechism }: CatechismRouteParams) {
     return getCatechism(catechism);
   }
 
