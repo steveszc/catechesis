@@ -5,6 +5,7 @@ interface ToggleSignature {
   Element: HTMLElement;
   Args: {
     label: string;
+    helpText?: string;
     isChecked: boolean;
     name?: string;
     onChange?: (event: Event) => void;

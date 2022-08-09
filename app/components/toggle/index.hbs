@@ -4,8 +4,12 @@
     class='w-full flex items-center justify-between cursor-pointer'
     ...attributes
   >
-    <span class='ml-3 text-sm font-medium text-black'>
+    <span class='ml-3 text-sm font-medium text-black pr-6'>
       {{@label}}
+      {{#if @helpText}}
+        <br>
+        <span class="font-light text-xs">{{@helpText}}</span>
+      {{/if}}
     </span>
     <div class="relative">
       <input type='checkbox' checked={{@isChecked}} name={{@name}} id={{id}} class='sr-only peer' {{on "change" this.onChange}} />
