@@ -3,8 +3,12 @@ import { inject as service } from '@ember/service';
 import { getQuestion } from 'catechesis/data';
 
 import type HeadDataService from 'catechesis/services/head-data';
-import type { CatechismRouteModel } from 'catechesis/routes/catechism';
+import type {
+  CatechismRouteModel,
+  CatechismRouteParams,
+} from 'catechesis/routes/catechism';
 import type QuestionController from 'catechesis/controllers/catechism/question';
+import type SettingsService from 'catechesis/services/settings';
 
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type QuestionRouteModel = Resolved<ReturnType<QuestionRoute['model']>>;
@@ -15,8 +19,11 @@ interface Params {
 
 export default class QuestionRoute extends Route {
   @service declare headData: HeadDataService;
+  @service declare settings: SettingsService;
 
   async model({ question }: Params) {
+    const catechismId = (this.paramsFor('catechism') as CatechismRouteParams)
+      .catechism;
     const catechism = this.modelFor('catechism') as CatechismRouteModel;
     const questionNumber = parseInt(question, 10);
 
@@ -32,6 +39,8 @@ export default class QuestionRoute extends Route {
 
     if (!current) throw new Error('404');
 
+    this.settings.lastQuestion = { catechism: catechismId, question };
+
     return { catechism, previous, current, next };
   }
 
@@ -42,6 +51,6 @@ export default class QuestionRoute extends Route {
   }
 
   resetController(controller: QuestionController) {
-    controller.isAnswerShown = false;
+    controller.isAnswerShown = this.settings.alwaysShowAnswers;
   }
 }
