@@ -1,0 +1,12 @@
+ <div ...attributes>
+  <div class='mb-4'>
+    <strong>{{@scripture.verse}}</strong>
+    {{#if @scripture.footnote}}
+      <span
+        class='font-mono text-xs align-text-top'
+      >[{{@scripture.footnote}}]</span>
+    {{/if}}
+  </div>
+
+  {{(this.htmlSafe this.text)}}
+</div>
