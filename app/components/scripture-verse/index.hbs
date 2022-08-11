@@ -8,5 +8,15 @@
     {{/if}}
   </div>
 
-  {{(this.htmlSafe this.text)}}
+  {{#if this.fastboot.isFastBoot}}
+    <div role="status" class="max-w-sm animate-pulse">
+      <div class="h-4 bg-gray-300 rounded-full max-w-[360px] mb-2.5"></div>
+      <div class="h-4 bg-gray-300 rounded-full mb-2.5"></div>
+      <div class="h-4 bg-gray-300 rounded-full max-w-[330px] mb-2.5"></div>
+      <div class="h-4 bg-gray-300 rounded-full max-w-[300px] mb-2.5"></div>
+      <span class="sr-only">Loading...</span>
+    </div>
+  {{else}}
+    {{(this.htmlSafe (if this.text this.text ""))}}
+  {{/if}}
 </div>

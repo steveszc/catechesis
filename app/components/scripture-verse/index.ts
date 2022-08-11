@@ -1,5 +1,6 @@
 import Component from '@glimmer/component';
 import { htmlSafe } from '@ember/template';
+import { inject as service } from '@ember/service';
 
 import type { Scripture } from 'catechesis/data/types';
 
@@ -11,6 +12,8 @@ interface ScriptureVerseSignature {
 }
 
 export default class ScriptureVerseComponent extends Component<ScriptureVerseSignature> {
+  @service declare fastboot: { isFastBoot: boolean };
+
   htmlSafe = htmlSafe;
 
   get text() {

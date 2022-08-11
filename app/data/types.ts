@@ -36,7 +36,7 @@ export interface CatechismItem {
 export interface Scripture {
   footnote?: string;
   verse: string;
-  text: string;
+  text?: string;
 }
 
 export interface Commentary {

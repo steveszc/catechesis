@@ -68,6 +68,7 @@
     "paths": {
       "catechesis/tests/*": ["tests/*"],
       "catechesis/*": ["app/*"],
+      "fetch": ["node_modules/ember-fetch"],
       "*": ["types/*"]
     }
   },
