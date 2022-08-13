@@ -50,7 +50,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Rom. 1:18-20; Psalm 19:1,2; 2 Tim. 3:15; 1 Cor.  1:21-24; 1 Cor. 2:9,10',
+            'Rom. 1:18-20; Psalm 19:1,2; 2 Tim. 3:15; 1 Cor. 1:21-24; 1 Cor. 2:9,10',
         },
       ],
     },

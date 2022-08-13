@@ -19,22 +19,10 @@ export const WestminsterShorter: CatechismData = {
       question: 'What is the chief end of man?',
       answer: "Man's chief end is to glorify God, and to enjoy him forever.",
       scripture: [
-        {
-          verse: '1 Corinthians 10:31',
-          text: 'Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.',
-        },
-        {
-          verse: 'Romans 11:36',
-          text: 'For of him, and through him, and to him, are all things: to whom be glory for ever. Amen.',
-        },
-        {
-          verse: 'Psalm 73:24-26',
-          text: 'Thou shalt guide me with thy counsel, and afterward receive me to glory. Whom have I in heaven but thee? and there is none upon earth that I desire beside thee. My flesh and my heart faileth: but God isthe strength of my heart, and my portion for ever.',
-        },
-        {
-          verse: 'John 17:22, 24',
-          text: 'And the glory which thou gavest me I have given them; that they may be one, even as we are one... Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.',
-        },
+        { verse: '1 Corinthians 10:31' },
+        { verse: 'Romans 11:36' },
+        { verse: 'Psalm 73:24-26' },
+        { verse: 'John 17:22, 24' },
       ],
       audio: [
         {
@@ -51,22 +39,10 @@ export const WestminsterShorter: CatechismData = {
       answer:
         'The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.',
       scripture: [
-        {
-          verse: 'Galatians 1:8-9',
-          text: 'But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed. As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.',
-        },
-        {
-          verse: 'Isaiah 8:20',
-          text: 'To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.',
-        },
-        {
-          verse: 'Luke 16:29, 31',
-          text: 'Abraham saith unto him, They have Moses and the prophets; let them hear them... And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.',
-        },
-        {
-          verse: '2 Timothy 3:15-17',
-          text: 'And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: that the man of God may be perfect, throughly furnished unto all good works.',
-        },
+        { verse: 'Galatians 1:8-9' },
+        { verse: 'Isaiah 8:20' },
+        { verse: 'Luke 16:29, 31' },
+        { verse: '2 Timothy 3:15-17' },
       ],
       audio: [
         {
@@ -82,18 +58,9 @@ export const WestminsterShorter: CatechismData = {
       answer:
         'The Scriptures principally teach what man is to believe concerning God, and what duty God requires of man.',
       scripture: [
-        {
-          verse: 'Micah 6:8',
-          text: 'He hath shewed thee, O man, what is good; and what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?',
-        },
-        {
-          verse: 'John 20:31',
-          text: 'But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.',
-        },
-        {
-          verse: 'John 3:16',
-          text: 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.',
-        },
+        { verse: 'Micah 6:8' },
+        { verse: 'John 20:31' },
+        { verse: 'John 3:16' },
       ],
       audio: [
         {
@@ -109,82 +76,25 @@ export const WestminsterShorter: CatechismData = {
       answer:
         'God is a spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, holiness, justice, goodness and truth.',
       scripture: [
-        {
-          verse: 'John 4:24',
-          text: 'God is a Spirit: and they that worship him must worship him in spirit and in truth.',
-        },
-        {
-          verse: 'Psalm 90:2',
-          text: 'From everlasting to everlasting, thou art God.',
-        },
-        {
-          verse: 'Malachi 3:6',
-          text: 'For I am the Lord, I change not; therefore are ye sons of Jacob not consumed.',
-        },
-        {
-          verse: 'James 1:17',
-          text: 'The Father of lights, with whom is no variableness, neither shadow of turning.',
-        },
-        {
-          verse: '1 Kings 8:27',
-          text: 'But will God indeed dwell on the earth? Behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?',
-        },
-        {
-          verse: 'Jeremiah 23:24',
-          text: 'Can any hide himself in secret places that I shall not see him? Saith the Lord. Do not I fill heaven and earth? Saith the Lord.',
-        },
-        {
-          verse: 'Isaiah 40:22',
-          text: 'It is he that sitteth upon the circle of the earth, and the inhabitants thereof are as grasshoppers; that stretcheth out the heavens as a curtain, and spreadeth them out as a tent to dwell in.',
-        },
-        {
-          verse: 'Psalm 147:5',
-          text: 'Great is our Lord, and of great power: his understanding is infinite.',
-        },
-        {
-          verse: 'Romans 16:27',
-          text: 'To God only wise, be glory through Jesus Christ for ever. Amen.',
-        },
-        {
-          verse: 'Genesis 17:1',
-          text: 'And when Abram was ninety years old and nine, the Lord appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.',
-        },
-        {
-          verse: 'Revelation 19:6',
-          text: 'And I heard as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth.',
-        },
-        {
-          verse: 'Isaiah 57:15',
-          text: 'For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy; I dwell in the high and holy place, with him also that is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite ones.',
-        },
-        {
-          verse: 'John 17:11',
-          text: 'And now I am no more in the world, but these are in the world, and I come to thee. Holy Father, keep through thine own name those whom thou hast given me, that they may be one, as we are.',
-        },
-        {
-          verse: 'Revelation 4:8',
-          text: 'And the four beasts had each of them six wings about him; and they werefull of eyes within: and they rest not day and night, saying, Holy, holy, holy, Lord God Almighty, which was, and is, and is to come.',
-        },
-        {
-          verse: 'Deuteronomy 32:4',
-          text: 'He is the Rock, his work is perfect: for all his ways are judgment: a God of truth and without iniquity, just and right is he.',
-        },
-        {
-          verse: 'Psalm 100:5',
-          text: 'For the Lord is good; his mercy is everlasting; and his truth endureth to all generations.',
-        },
-        {
-          verse: 'Romans 2:4',
-          text: 'Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance?',
-        },
-        {
-          verse: 'Exodus 34:6',
-          text: 'And the Lord passed by before him, and proclaimed, The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth.',
-        },
-        {
-          verse: 'Psalm 117:2',
-          text: 'For his merciful kindness is great toward us: and the truth of the Lord endureth for ever. Praise ye the Lord.',
-        },
+        { verse: 'John 4:24' },
+        { verse: 'Psalm 90:2' },
+        { verse: 'Malachi 3:6' },
+        { verse: 'James 1:17' },
+        { verse: '1 Kings 8:27' },
+        { verse: 'Jeremiah 23:24' },
+        { verse: 'Isaiah 40:22' },
+        { verse: 'Psalm 147:5' },
+        { verse: 'Romans 16:27' },
+        { verse: 'Genesis 17:1' },
+        { verse: 'Revelation 19:6' },
+        { verse: 'Isaiah 57:15' },
+        { verse: 'John 17:11' },
+        { verse: 'Revelation 4:8' },
+        { verse: 'Deuteronomy 32:4' },
+        { verse: 'Psalm 100:5' },
+        { verse: 'Romans 2:4' },
+        { verse: 'Exodus 34:6' },
+        { verse: 'Psalm 117:2' },
       ],
       audio: [
         {
@@ -201,11 +111,9 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Deuteronomy 6:4',
-          text: 'Hear, O Israel: The Lord our God is one Lord.',
         },
         {
           verse: 'Jeremiah 10:10',
-          text: 'But the Lord is the true God, he is the living God, and an everlasting king: at his wrath the earth shall tremble, and the nations shall not be able to abide his indignation.',
         },
       ],
       audio: [
@@ -224,15 +132,12 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: '2 Corinthians 13:14',
-          text: 'The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all. Amen.',
         },
         {
           verse: 'Matthew 28:19',
-          text: 'Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.',
         },
         {
           verse: 'Matthew 3:16-17',
-          text: 'And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him: and lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.',
         },
       ],
       audio: [
@@ -251,27 +156,21 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Ephesians 1:11',
-          text: 'In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will.',
         },
         {
           verse: 'Acts 4:27-28',
-          text: 'For of a truth against thy holy child Jesus, whom thou hast anointed, both Herod, and Pontius Pilate, with the Gentiles, and the people of Israel, were gathered together, for to do whatsoever thy hand and thy counsel determined before to be done.',
         },
         {
           verse: 'Psalm 33:11',
-          text: 'The counsel of the LORD standeth for ever, the thoughts of his heart to all generations.',
         },
         {
           verse: 'Ephesians 2:10',
-          text: 'For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.',
         },
         {
           verse: 'Romans 9:22-23',
-          text: 'What if God, willing to shew his wrath, and to make his power known, endured with much longsuffering the vessels of wrath fitted to destruction: and that he might make known the riches of his glory on the vessels of mercy, which he had afore prepared unto glory.',
         },
         {
           verse: 'Romans 11:33',
-          text: 'O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out!',
         },
       ],
       audio: [
@@ -290,11 +189,9 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Revelation 4:11',
-          text: 'Thou hast created all things, and for thy pleasure they are and were created.',
         },
         {
           verse: 'Ephesians 1:11',
-          text: 'In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will.',
         },
       ],
       audio: [
@@ -313,15 +210,12 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Hebrews 11:3',
-          text: 'Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.',
         },
         {
           verse: 'Revelation 4:11',
-          text: 'Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.',
         },
         {
           verse: 'Genesis 1:1-31',
-          text: '',
         },
       ],
       audio: [
@@ -340,23 +234,18 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Genesis 1:27',
-          text: 'So God created man in his own image, in the image of God created he him; male and female created he them.',
         },
         {
           verse: 'Revelation 4:11',
-          text: 'Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.',
         },
         {
           verse: 'Colossians 3:10',
-          text: 'And have put on the new man, which is renewed in knowledge after the image of him that created him.',
         },
         {
           verse: 'Ephesians 4:24',
-          text: 'And that ye put on the new man, which after God is created in righteousness and true holiness.',
         },
         {
           verse: 'Genesis 1:28',
-          text: 'And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.',
         },
       ],
       audio: [
@@ -375,27 +264,21 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Psalm 145:17',
-          text: 'The Lord is righteous in all his ways, and holy in all his works.',
         },
         {
           verse: 'Psalm 104:24',
-          text: 'O Lord, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches.',
         },
         {
           verse: 'Hebrews 1:3',
-          text: 'Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high.',
         },
         {
           verse: 'Psalm 103:19',
-          text: 'The Lord hath prepared his throne in the heavens; and his kingdom ruleth over all.',
         },
         {
           verse: 'Matthew 10:29-30',
-          text: 'Are not two sparrows sold for a farthing? and one of them shall not fall on the ground without your Father. But the very hairs of your head are all numbered.',
         },
         {
           verse: 'Job 38-41',
-          text: '',
         },
       ],
       audio: [
@@ -415,23 +298,18 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Genesis 2:17',
-          text: 'And the Lord God commanded the man, saying, Of every tree of the garden thou mayest freely eat: But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.',
         },
         {
           verse: 'Romans 5:12-14',
-          text: "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned: (for until the law sin was in the world: but sin is not imputed when there is no law. Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam's transgression, who is the figure of him that was to come.",
         },
         {
           verse: 'Romans 10:5',
-          text: 'For Moses describeth the righteousness which is of the law, That the man which doeth those things shall live by them.',
         },
         {
           verse: 'Luke 10:25-28',
-          text: 'And, behold, a certain lawyer stood up, and tempted him, saying, Master, what shall I do to inherit eternal life? He said unto him, What is written in the law? how readest thou? And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself. And he said unto him, Thou hast answered right: this do, and thou shalt live. And with the covenants made with Noah and Abraham.',
         },
         {
           verse: 'Genesis 2:17',
-          text: 'But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.',
         },
       ],
       audio: [
@@ -451,11 +329,9 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Genesis 3:6-8, 13',
-          text: 'And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat. And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons. And they heard the voice of the Lord God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the Lord God amongst the trees of the garden... And the Lord God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.',
         },
         {
           verse: '2 Corinthians 11:3',
-          text: 'But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ.',
         },
       ],
       audio: [
@@ -474,15 +350,12 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: '1 John 3:4',
-          text: 'Whosoever committeth sin transgresseth also the law: for sin is the transgression of the law.',
         },
         {
           verse: 'James 4:17',
-          text: 'Therefore to him that knoweth to do good, and doeth it not, to him it is sin.',
         },
         {
           verse: 'Romans 3:23',
-          text: 'For all have sinned, and come short of the glory of God.',
         },
       ],
       audio: [
@@ -502,11 +375,9 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Genesis 3:6-8, 13',
-          text: 'And when the woman saw that the tree was good for food, and that it waspleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat. And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons. And they heard the voice of the Lord God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the Lord God amongst the trees of the garden... And the Lord God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.',
         },
         {
           verse: '2 Corinthians 11:3',
-          text: 'But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ.',
         },
       ],
       audio: [
@@ -525,15 +396,12 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Acts 17:26',
-          text: 'And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation.',
         },
         {
           verse: 'Genesis 2:17',
-          text: 'But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.',
         },
         {
           verse: '1 Corinthians 15:21-22',
-          text: 'For since by man came death, by man came also the resurrection of the dead. For as in Adam all die, even so in Christ shall all be made alive.',
         },
       ],
       audio: [
@@ -551,11 +419,9 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Romans 5:12',
-          text: 'Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned.',
         },
         {
           verse: 'Galatians 3:10',
-          text: 'For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them.',
         },
       ],
       audio: [
@@ -575,47 +441,36 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Romans 5:12, 19',
-          text: "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned... For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous.",
         },
         {
           verse: '1 Corinthians 15:22',
-          text: 'For as in Adam all die, even so in Christ shall all be made alive.',
         },
         {
           verse: 'Romans 5:6',
-          text: 'For when we were yet without strength, in due time Christ died for the ungodly.',
         },
         {
           verse: 'Ephesians 2:1-3',
-          text: 'And you hath he quickened, who were dead in trespasses and sins; wherein in time past ye walked according to the course of this world, according to the prince of the power of the air, the spirit that now worketh in the children of disobedience: among whom also we all had our conversation in times past in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others.',
         },
         {
           verse: 'Romans 8:7-8',
-          text: 'Because the carnal mind is enmity against God: for it is not subject to the law of God, neither indeed can be. So then they that are in the flesh cannot please God.',
         },
         {
           verse: 'Genesis 6:5',
-          text: 'And God saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually.',
         },
         {
           verse: 'Romans 3:10-20',
-          text: 'As it is written, There is none righteous, no, not one: There is none that understandeth, there is none that seeketh after God. They are all gone out of the way, they are together become unprofitable; there is none that doeth good, no, not one. Their throat is an open sepulchre; with their tongues they have used deceit; the poison of asps is under their lips: Whose mouth is full of cursing and bitterness:Their feet are swift to shed blood: Destruction and misery are in their ways: And the way of peace have they not known: There is no fear of God before their eyes. Now we know that what things soever the law saith, it saith to them who are under the law: that every mouth may be stopped, and all the world may become guilty before God. Therefore by the deeds of the law there shall no flesh be justified in his sight: for by the law is the knowledge of sin.',
         },
         {
           verse: 'Psalm 51:5',
-          text: 'Behold, I was shapen in iniquity; and in sin did my mother conceive me.',
         },
         {
           verse: 'Psalm 58:3',
-          text: 'The wicked are estranged from the womb: they go astray as soon as they be born, speaking lies.',
         },
         {
           verse: 'James 1:14-15',
-          text: 'But every man is tempted, when he is drawn away of his own lust, and enticed. Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death.',
         },
         {
           verse: 'Matthew 15:19',
-          text: 'For out of the heart proceed evil thoughts, murders, adulteries, fornications, thefts, false witness, blasphemies.',
         },
       ],
       audio: [
@@ -634,19 +489,15 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Genesis 3:8, 24',
-          text: 'And they heard the voice of the Lord God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the Lord God amongst the trees of the garden... So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.',
         },
         {
           verse: 'Ephesians 2:3',
-          text: 'Among whom also we all had our conversation in times past in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others.',
         },
         {
           verse: 'Romans 5:14',
-          text: "Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam's transgression, who is the figure of him that was to come.",
         },
         {
           verse: 'Romans 6:23',
-          text: 'For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.',
         },
       ],
       audio: [
@@ -666,23 +517,18 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: 'Ephesians 1:4-7',
-          text: 'According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will, to the praise of the glory of his grace, wherein he hath made us accepted in the beloved. In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace.',
         },
         {
           verse: 'Titus 3:4-7',
-          text: 'But after that the kindness and love of God our Saviour toward man appeared, not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost; which he shed on us abundantly through Jesus Christ our Saviour; that being justified by his grace, we should be made heirs according to the hope of eternal life.',
         },
         {
           verse: 'Titus 1:2',
-          text: 'In hope of eternal life, which God, that cannot lie, promised before the world began.',
         },
         {
           verse: 'Galatians 3:21',
-          text: 'Is the law then against the promises of God? God forbid: for if there had been a law given which could have given life, verily righteousness should have been by the law.',
         },
         {
           verse: 'Romans 3:20-22',
-          text: 'Therefore by the deeds of the law there shall no flesh be justified in his sight: for by the law is the knowledge of sin. But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference.',
         },
       ],
       audio: [
@@ -701,27 +547,21 @@ export const WestminsterShorter: CatechismData = {
       scripture: [
         {
           verse: '1 Timothy 2:5',
-          text: 'For there is one God, and one mediator between God and men, the man Christ Jesus.',
         },
         {
           verse: 'John 1:1, 14',
-          text: 'In the beginning was the Word, and the Word was with God, and the Word was God . . . And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.',
         },
         {
           verse: 'John 10:30',
-          text: 'I and my Father are one.',
         },
         {
           verse: 'Philippians 2:6',
-          text: 'Who, being in the form of God, thought it not robbery to be equal with God.',
         },
         {
           verse: 'Galatians 4:4',
-          text: 'But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law.',
         },
         {
           verse: 'Philippians 2:5-11',
-          text: 'Let this mind be in you, which was also in Christ Jesus: who, being in the form of God, thought it not robbery to be equal with God: but made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: and being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross. Wherefore God also hath highly exalted him, and given him a name which is above every name: that at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.',
         },
       ],
       audio: [

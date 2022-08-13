@@ -39,7 +39,7 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 4,
-          references: 'I Pet. 1:18, 19; I John 1:7; 2:2',
+          references: 'I Pet. 1:18, 19; I John 1:7; I John 2:2',
         },
         {
           id: 5,
@@ -47,7 +47,7 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 6,
-          references: 'John 6:39, 40; 10:27-30; II Thess. 3:3; I Pet. 1:5',
+          references: 'John 6:39, 40; John 10:27-30; II Thess. 3:3; I Pet. 1:5',
         },
         {
           id: 7,
@@ -59,7 +59,8 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 9,
-          references: 'Rom. 8:15, 16; II Cor. 1:21, 22; 5:5; Eph. 1:13, 14',
+          references:
+            'Rom. 8:15, 16; II Cor. 1:21, 22; II Cor. 5:5; Eph. 1:13, 14',
         },
         {
           id: 10,
