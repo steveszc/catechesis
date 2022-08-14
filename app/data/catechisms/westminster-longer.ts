@@ -2269,7 +2269,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 2,
-          references: 'Isaiah 50:10; Psalm ch. 88',
+          references: 'Isaiah 50:10; Psalm 88',
         },
         {
           id: 3,
@@ -3094,7 +3094,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 27,
-          references: 'ZEphesians 1:12',
+          references: 'Ephesians 1:12',
         },
         {
           id: 28,
@@ -3537,7 +3537,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 4,
-          references: 'Malachi 1:6-7, 12; 3:14',
+          references: 'Malachi 1:6-7, 12; Malachi 3:14',
         },
         {
           id: 5,
@@ -3566,7 +3566,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 11,
-          references: 'Zechariah 5:4; 8:17',
+          references: 'Zechariah 5:4; Zechariah 8:17',
         },
         {
           id: 12,
@@ -3574,7 +3574,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 13,
-          references: 'Jeremiah 5:7; 23:10',
+          references: 'Jeremiah 5:7; Jeremiah 23:10',
         },
         {
           id: 14,
@@ -3582,7 +3582,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 15,
-          references: 'Esth. 3:7; 9:24; Psalm 22:18',
+          references: 'Esther 3:7; Esther 9:24; Psalm 22:18',
         },
         {
           id: 16,
@@ -3606,7 +3606,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 21,
-          references: 'Ecclesiastes 8:11; 9:3; Psalm ch. 39',
+          references: 'Ecclesiastes 8:11; Ecclesiastes 9:3; Psalm 39',
         },
         {
           id: 22,
@@ -3614,7 +3614,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 23,
-          references: 'Ezek 13:22',
+          references: 'Ezekiel 13:22',
         },
         {
           id: 24,
@@ -3627,7 +3627,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 26,
           references:
-            '1 Timothy 1:4, 6-7; 6:4-5, 20; 2 Timothy 2:14; Titus. 3:9',
+            '1 Timothy 1:4, 6-7; 1 Timothy 6:4-5, 20; 2 Timothy 2:14; Titus. 3:9',
         },
         {
           id: 27,
@@ -3653,11 +3653,11 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 32,
           references:
-            'Acts 4:18; 13:45-46, 50; 19:9; I Thess 2:16; Hebrews 10:29',
+            'Acts 4:18; Acts 13:45-46, 50; Acts 19:9; 1 Thessalonians 2:16; Hebrews 10:29',
         },
         {
           id: 33,
-          references: '2 Timothy 3:5; Matthew 6:1-2, 5, 16; 23:14',
+          references: '2 Timothy 3:5; Matthew 6:1-2, 5, 16; Matthew 23:14',
         },
         {
           id: 34,
@@ -3707,7 +3707,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 4,
-          references: '1 Samuel 2:12, 17, 22, 24; 3:18',
+          references: '1 Samuel 2:12, 17, 22, 24; 1 Samuel 3:18',
         },
       ],
     },
@@ -3758,7 +3758,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 2,
-          references: 'Exodus 16:25-28; Neh. 13:15-22; Jeremiah 17:21-22',
+          references: 'Exodus 16:25-28; Nehemiah 13:15-22; Jeremiah 17:21-22',
         },
         {
           id: 3,
@@ -3767,12 +3767,12 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 4,
           references:
-            'Isaiah 58:13-14; 66:23; Luke 4:16; Acts 20:7; 1 Corinthians 16:1-2; Psalm ch. 92; Leviticus 23:3',
+            'Isaiah 58:13-14; Isaiah 66:23; Luke 4:16; Acts 20:7; 1 Corinthians 16:1-2; Psalm 92; Leviticus 23:3',
         },
         {
           id: 5,
           references:
-            'Exodus 16:22, 25-26, 29; 20:8; Luke 23:54, 56; Neh. 13:19',
+            'Exodus 16:22, 25-26, 29; Exodus 20:8; Luke 23:54, 56; Nehemiah 13:19',
         },
       ],
     },
@@ -3788,7 +3788,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 1,
           references:
-            'Exodus 20:10; 23:12; Joshua 24:15; Neh. 13:15, 17; Jeremiah 17:20-22',
+            'Exodus 20:10; Exodus 23:12; Joshua 24:15; Nehemiah 13:15, 17; Jeremiah 17:20-22',
         },
       ],
     },
@@ -3856,7 +3856,8 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 2,
-          references: 'Exodus 16:23; Luke 23:54, 56; Mark 15:42; Neh. 13:19',
+          references:
+            'Exodus 16:23; Luke 23:54, 56; Mark 15:42; Nehemiah 13:19',
         },
         {
           id: 3,
@@ -3865,7 +3866,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 4,
           references:
-            'Genesis 2:2-3; Psalm 118:22, 24; Acts 4:10, 11; Revelation 1:10',
+            'Genesis 2:2-3; Psalm 118:22, 24; Acts 4:10-11; Revelation 1:10',
         },
         {
           id: 5,
@@ -3873,7 +3874,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 6,
-          references: 'Neh. 9:14',
+          references: 'Nehemiah 9:14',
         },
         {
           id: 7,
@@ -3885,7 +3886,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 9,
-          references: 'Lamentations 1:7; Jeremiah 17:21-23; Neh. 13:15-23',
+          references: 'Lamentations 1:7; Jeremiah 17:21-23; Nehemiah 13:15-23',
         },
       ],
     },
@@ -3940,7 +3941,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'Genesis 4:20-22; 45:8',
+          references: 'Genesis 4:20-22; Genesis 45:8',
         },
         {
           id: 4,
@@ -3948,7 +3949,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 5,
-          references: '2 Kings 2:12; 13:14; Galatians 4:19',
+          references: '2 Kings 2:12; 2 Kings 13:14; Galatians 4:19',
         },
         {
           id: 6,
@@ -4032,12 +4033,12 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 9,
-          references: '1 Samuel 26:15-16; 2 Samuel 18:3; Est.. 6:2',
+          references: '1 Samuel 26:15-16; 2 Samuel 18:3; Esther 6:2',
         },
         {
           id: 10,
           references:
-            'Matthew 22:21; Romans 13:6-7; 1 Timothy 5:17-18; Galatians 6:6; Genesis 45:11; 47:12',
+            'Matthew 22:21; Romans 13:6-7; 1 Timothy 5:17-18; Galatians 6:6; Genesis 45:11; Genesis 47:12',
         },
         {
           id: 11,
@@ -4133,7 +4134,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 8,
-          references: 'Esth. 6:3',
+          references: 'Esther 6:3',
         },
         {
           id: 9,
@@ -4187,7 +4188,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'John 5:44; 7:18',
+          references: 'John 5:44; John 7:18',
         },
         {
           id: 4,
@@ -4231,7 +4232,8 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 14,
-          references: 'Genesis 9:21; 1 Kings 1:6; 12:13-16; 1 Samuel 2:29-31',
+          references:
+            'Genesis 9:21; 1 Kings 1:6; 1 Kings 12:13-16; 1 Samuel 2:29-31',
         },
       ],
     },
@@ -4279,7 +4281,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 4,
-          references: 'Numbers 12:2; Est. 6:12-13',
+          references: 'Numbers 12:2; Esther 6:12-13',
         },
         {
           id: 5,
@@ -4352,7 +4354,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 7,
-          references: '1 Samuel 24:2; 26:9-11; Genesis 37:21-22',
+          references: '1 Samuel 24:2; 1 Samuel 26:9-11; Genesis 37:21-22',
         },
         {
           id: 8,
@@ -4397,7 +4399,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 18,
-          references: '1 Samuel 19:4-5; 22:13-14',
+          references: '1 Samuel 19:4-5; 1 Samuel 22:13-14',
         },
         {
           id: 19,
@@ -4417,7 +4419,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 23,
-          references: '1 Peter 3:8-11; Proverbs 15:1; Judg. 8:1-3',
+          references: '1 Peter 3:8-11; Proverbs 15:1; Judges 8:1-3',
         },
         {
           id: 24,
@@ -4452,7 +4454,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 4,
-          references: 'Jeremiah 48:10; Deuteronomy ch. 20',
+          references: 'Jeremiah 48:10; Deuteronomy 20',
         },
         {
           id: 5,
@@ -4492,7 +4494,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 14,
-          references: 'Ecclesiastes 2:22-23; 12:12',
+          references: 'Ecclesiastes 2:22-23; Ecclesiastes 12:12',
         },
         {
           id: 15,
@@ -4500,7 +4502,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 16,
-          references: 'Proverbs 12:18; 15:1',
+          references: 'Proverbs 12:18; Proverbs 15:1',
         },
         {
           id: 17,
@@ -4621,7 +4623,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 5,
-          references: 'Matthew 5:28; 15:19; Colossians 3:5',
+          references: 'Matthew 5:28; Matthew 15:19; Colossians 3:5',
         },
         {
           id: 6,
@@ -4679,7 +4681,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 19,
           references:
-            'Ephesians 5:4; Ezekiel 23:14-16; Isaiah 3:16; 23:15-17; Mark 6:22; Romans 13:13; 1 Peter 4:3',
+            'Ephesians 5:4; Ezekiel 23:14-16; Isaiah 3:16; Isaiah 23:15-17; Mark 6:22; Romans 13:13; 1 Peter 4:3',
         },
         {
           id: 20,
@@ -4709,7 +4711,7 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Psalm 15:2, 4; Zechariah 7:4, 10; 8:16-17',
+          references: 'Psalm 15:2, 4; Zechariah 7:4, 10; Zechariah 8:16-17',
         },
         {
           id: 2,
@@ -4739,7 +4741,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 8,
-          references: '1 Corinthians 7:20; Genesis 2:15, 3:19',
+          references: '1 Corinthians 7:20; Genesis 2:15; Genesis 3:19',
         },
         {
           id: 9,
@@ -4755,7 +4757,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 12,
-          references: 'Proverbs 6:1-6; 11:15',
+          references: 'Proverbs 6:1-6; Proverbs 11:15',
         },
         {
           id: 13,
@@ -4798,7 +4800,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 7,
-          references: 'Proverbs 11:1; 20:10',
+          references: 'Proverbs 11:1; Proverbs 20:10',
         },
         {
           id: 8,
@@ -4863,7 +4865,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 23,
-          references: 'Psalm 37:1, 7; 73:3',
+          references: 'Psalm 37:1, 7; Psalm 73:3',
         },
         {
           id: 24,
@@ -4871,11 +4873,11 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 25,
-          references: 'Proverbs 21:17; 23:20-21; 28:19',
+          references: 'Proverbs 21:17; Proverbs 23:20-21; Proverbs 28:19',
         },
         {
           id: 26,
-          references: 'Ecclesiastes 4:8; 6:2; 1 Timothy 5:8',
+          references: 'Ecclesiastes 4:8; Ecclesiastes 6:2; 1 Timothy 5:8',
         },
       ],
     },
@@ -5017,7 +5019,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'Proverbs 6:16, 19; 19:5',
+          references: 'Proverbs 6:16, 19; Proverbs 19:5',
         },
         {
           id: 4,
@@ -5025,7 +5027,8 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 5,
-          references: 'Jeremiah 9:3, 5; Acts 24:2, 5; Psalm 3:1-4; 12:3-4',
+          references:
+            'Jeremiah 9:3, 5; Acts 24:2, 5; Psalm 3:1-4; Psalm 12:3-4',
         },
         {
           id: 6,
@@ -5037,7 +5040,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 8,
-          references: 'Psalm 119:69; Luke 16:5-7; 19:8',
+          references: 'Psalm 119:69; Luke 16:5-7; Luke 19:8',
         },
         {
           id: 9,
@@ -5065,7 +5068,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 15,
-          references: 'Genesis 3:5, 26:7, 9',
+          references: 'Genesis 3:5; Genesis 26:7, 9',
         },
         {
           id: 16,
@@ -5105,7 +5108,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 25,
-          references: 'Mattt. 7:1',
+          references: 'Matthew 7:1',
         },
         {
           id: 26,
@@ -5118,7 +5121,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 28,
           references:
-            'Neh. 6:6-8; Romans 3:8; Psalm 69:10; 1 Samuel 1:13-15; 2 Samuel 10:3',
+            'Nehemiah 6:6-8; Romans 3:8; Psalm 69:10; 1 Samuel 1:13-15; 2 Samuel 10:3',
         },
         {
           id: 29,
@@ -5135,7 +5138,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 32,
-          references: 'Job 4:6, 27:5-6',
+          references: 'Job 4:6; Job 27:5-6',
         },
         {
           id: 33,
@@ -5144,7 +5147,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 34,
           references:
-            'Proverbs 28:13; 30:20; Genesis 3:12-13; 4:9; Jeremiah 2:35; 2 Kings 5:25',
+            'Proverbs 28:13; Proverbs 30:20; Genesis 3:12-13; Genesis 4:9; Jeremiah 2:35; 2 Kings 5:25',
         },
         {
           id: 35,
@@ -5196,7 +5199,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 47,
-          references: '2 Samuel 13:12-13; Proverbs 5:8-9; 6:33',
+          references: '2 Samuel 13:12-13; Proverbs 5:8-9; Proverbs 6:33',
         },
       ],
     },
@@ -5229,7 +5232,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 2,
           references:
-            'Job 31:29; Psalm 122:7-9; 1 Timothy 1:5; Est. 10:3; 1 Corinthians 13:4-7',
+            'Job 31:29; Psalm 122:7-9; 1 Timothy 1:5; Esther 10:3; 1 Corinthians 13:4-7',
         },
       ],
     },
@@ -5243,7 +5246,7 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Kings 21:4; Est. 5:13; 1 Corinthians 10:10',
+          references: '1 Kings 21:4; Esther 5:13; 1 Corinthians 10:10',
         },
         {
           id: 2,
@@ -5251,7 +5254,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'Psalm 112:9-10; Neh. 2:10',
+          references: 'Psalm 112:9-10; Nehemiah 2:10',
         },
         {
           id: 4,
@@ -5279,7 +5282,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'Genesis 6:5, 8:21',
+          references: 'Genesis 6:5; Genesis 8:21',
         },
         {
           id: 4,
@@ -5391,7 +5394,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 20,
           references:
-            'ZEphesians 2:8, 10-11; Matthew 18:6; 1 Corinthians 6:8; Revelation 17:6',
+            'Ephesians 2:8, 10-11; Matthew 18:6; 1 Corinthians 6:8; Revelation 17:6',
         },
         {
           id: 21,
@@ -5417,7 +5420,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 26,
           references:
-            'Colossians 3:5; 1 Timothy 6:10; Proverbs 5:8-12; 6:32-33; Joshua 7:21',
+            'Colossians 3:5; 1 Timothy 6:10; Proverbs 5:8-12; Proverbs 6:32-33; Joshua 7:21',
         },
         {
           id: 27,
@@ -5461,11 +5464,11 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 37,
-          references: 'Proverbs 23:35, 27:22',
+          references: 'Proverbs 23:35; Proverbs 27:22',
         },
         {
           id: 38,
-          references: 'Psalm 78:34-37; Jeremiah 2:20, 13:5-6, 20-21',
+          references: 'Psalm 78:34-37; Jeremiah 2:20; Jeremiah 13:5-6, 20-21',
         },
         {
           id: 39,
@@ -5575,7 +5578,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'Habakkuk 1:13; Leviticus 10:3; 11:44-45',
+          references: 'Habakkuk 1:13; Leviticus 10:3; Leviticus 11:44-45',
         },
         {
           id: 4,
@@ -5611,11 +5614,11 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 1,
           references:
-            'Acts 16:30-31; 20:21; Matthew 3:7-8; Luke 13:3, 5; John 3:16, 18',
+            'Acts 16:30-31; Acts 20:21; Matthew 3:7-8; Luke 13:3, 5; John 3:16, 18',
         },
         {
           id: 2,
-          references: 'Proverbs 2:1-5; 8:33-36',
+          references: 'Proverbs 2:1-5; Proverbs 8:33-36',
         },
       ],
     },
@@ -5644,7 +5647,7 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Neh. 8:8; Acts 26:18; Psalm 19:8',
+          references: 'Nehemiah 8:8; Acts 26:18; Psalm 19:8',
         },
         {
           id: 2,
@@ -5652,7 +5655,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 3,
-          references: 'Acts 2:37, 41; 8:27-39',
+          references: 'Acts 2:37, 41; Acts 8:27-39',
         },
         {
           id: 4,
@@ -5674,7 +5677,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 8,
           references:
-            'Romans 1:16; 10:13-17; 15:4; 16:25; 1 Thessalonians 3:2, 10-11, 13',
+            'Romans 1:16; Romans 10:13-17; Romans 15:4; Romans 16:25; 1 Thessalonians 3:2, 10-11, 13',
         },
       ],
     },
@@ -5688,7 +5691,7 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deuteronomy 31:9, 11-13; Neh. 8:2-3; 9:3-5',
+          references: 'Deuteronomy 31:9, 11-13; Nehemiah 8:2-3; Nehemiah 9:3-5',
         },
         {
           id: 2,
@@ -5716,7 +5719,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 1,
           references:
-            'Psalm 19:10; Neh. 8:3-10; Exodus 24:7; 2 Chronicles 34:27; Isaiah 66:2',
+            'Psalm 19:10; Nehemiah 8:3-10; Exodus 24:7; 2 Chronicles 34:27; Isaiah 66:2',
         },
         {
           id: 2,
@@ -5740,7 +5743,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 7,
-          references: 'Psalm 1:2, 119:97',
+          references: 'Psalm 1:2; Psalm 119:97',
         },
         {
           id: 8,
@@ -5752,7 +5755,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 10,
-          references: 'Proverbs 2:1-6; Psalm 119:18; Neh. 7:6, 8',
+          references: 'Proverbs 2:1-6; Psalm 119:18; Nehemiah 7:6, 8',
         },
       ],
     },
@@ -5772,7 +5775,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 2,
           references:
-            'Jeremiah 14:15; Romans 10:15; Hebrews 5:4; 1 Corinthians 12:28-29; 1 Timothy 3:10; 4:14; 5:22',
+            'Jeremiah 14:15; Romans 10:15; Hebrews 5:4; 1 Corinthians 12:28-29; 1 Timothy 3:10; 1 Timothy 4:14; 1 Timothy 5:22',
         },
       ],
     },
@@ -5835,7 +5838,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 13,
-          references: '2 Corinthians 2:17; 4:2',
+          references: '2 Corinthians 2:17; 2 Corinthians 4:2',
         },
         {
           id: 14,
@@ -5885,7 +5888,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 6,
-          references: 'II Thess 2:10',
+          references: '2 Thessalonians 2:10',
         },
         {
           id: 7,
@@ -5897,7 +5900,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 9,
-          references: 'I Thess 2:13',
+          references: '1 Thessalonians 2:13',
         },
         {
           id: 10,
@@ -5927,7 +5930,8 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Peter 3:21; Acts 8:13, 23; 1 Corinthians 3:6-7; 12:13',
+          references:
+            '1 Peter 3:21; Acts 8:13, 23; 1 Corinthians 3:6-7; 1 Corinthians 12:13',
         },
       ],
     },
@@ -5942,7 +5946,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 1,
           references:
-            'Genesis 17:7, 10; Exodus ch. 12; Matthew 26:26-28; 28:19',
+            'Genesis 17:7, 10; Exodus 12; Matthew 26:26-28; Matthew 28:19',
         },
         {
           id: 2,
@@ -5999,7 +6003,8 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matthew 26:26-28; 28:19; 1 Corinthians 11:20, 23',
+          references:
+            'Matthew 26:26-28; Matthew 28:19; 1 Corinthians 11:20, 23',
         },
       ],
     },
@@ -6055,12 +6060,12 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Acts 2:38; 8:36-37',
+          references: 'Acts 2:38; Acts 8:36-37',
         },
         {
           id: 2,
           references:
-            'Genesis 17:7, 9; Galatians 3:9, 14; Colossians 2:11-12; Acts 2:38-39; Romans 4:11-12; 11:16; 1 Corinthians 7:14; Matt 28:19; Luke 18:15-16',
+            'Genesis 17:7, 9; Galatians 3:9, 14; Colossians 2:11-12; Acts 2:38-39; Romans 4:11-12; Romans 11:16; 1 Corinthians 7:14; Matt 28:19; Luke 18:15-16',
         },
       ],
     },
@@ -6267,16 +6272,16 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 1,
           references:
-            'Isaiah 1:10; 1 John 5:13; Psalm 77:1-12; ch 88; Jonah 2:4, 7',
+            'Isaiah 1:10; 1 John 5:13; Psalm 77:1-12; Psalm 88; Jonah 2:4, 7',
         },
         {
           id: 2,
           references:
-            'Isaiah 54:7-10; Matthew 5:3-4; Psalm 31:22; 73:13, 22-23',
+            'Isaiah 54:7-10; Matthew 5:3-4; Psalm 31:22; Psalm 73:13, 22-23',
         },
         {
           id: 3,
-          references: 'Philemon 3:8-9; Psalm 10:17; 42:1-2, 5, 11',
+          references: 'Philemon 3:8-9; Psalm 10:17; Psalm 42:1-2, 5, 11',
         },
         {
           id: 4,
@@ -6284,7 +6289,8 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 5,
-          references: 'Isaiah 40:11, 29, 31; Matthew 11:28; 12:20; 26:28',
+          references:
+            'Isaiah 40:11, 29, 31; Matthew 11:28; Matthew 12:20; Matthew 26:28',
         },
         {
           id: 6,
@@ -6292,7 +6298,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 7,
-          references: 'Acts 2:37, 16:30',
+          references: 'Acts 2:37; Acts 16:30',
         },
         {
           id: 8,
@@ -6312,7 +6318,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 1,
           references:
-            '1 Corinthians ch. 5; 11:27-31; Matthew 7:6; Jude 1:23; 1 Timothy 5:22',
+            '1 Corinthians 5; 1 Corinthians 11:27-31; Matthew 7:6; Jude 1:23; 1 Timothy 5:22',
         },
         {
           id: 2,
@@ -6348,7 +6354,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 5,
-          references: '1 Corinthians 10:3-5, 11, 14; 11:26',
+          references: '1 Corinthians 10:3-5, 11, 14; 1 Corinthians 11:26',
         },
         {
           id: 6,
@@ -6399,7 +6405,7 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Psalm 28:7, 85:8; 1 Corinthians 11:17, 30-31',
+          references: 'Psalm 28:7; Psalm 85:8; 1 Corinthians 11:17, 30-31',
         },
         {
           id: 2,
@@ -6427,7 +6433,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 8,
-          references: 'Psalm 42:5, 8; 43:3-5; 123:1-2',
+          references: 'Psalm 42:5, 8; Psalm 43:3-5; Psalm 123:1-2',
         },
         {
           id: 9,
@@ -6463,7 +6469,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 4,
           references:
-            'John 1:33; Matthew 28:19; 1 Corinthians 4:1; 11:23; Hebrews 5:4',
+            'John 1:33; Matthew 28:19; 1 Corinthians 4:1; 1 Corinthians 11:23; Hebrews 5:4',
         },
         {
           id: 5,
@@ -6588,7 +6594,7 @@ export const WestminsterLonger: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 14:13-14, 16:24; Daniel 9:17',
+          references: 'John 14:13-14; John 16:24; Daniel 9:17',
         },
         {
           id: 2,
@@ -6700,7 +6706,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 2,
-          references: 'Psalm 51:18, 122:6',
+          references: 'Psalm 51:18; Psalm 122:6',
         },
         {
           id: 3,
@@ -6730,7 +6736,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 2,
-          references: 'Genesis 18:27; 32:10',
+          references: 'Genesis 18:27; Genesis 32:10',
         },
         {
           id: 3,
@@ -6750,7 +6756,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 7,
-          references: '1 Samuel 1:15, 2:1',
+          references: '1 Samuel 1:15; 1 Samuel 2:1',
         },
         {
           id: 8,
@@ -6762,7 +6768,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 10,
-          references: 'Psalm 17:1; 145:18',
+          references: 'Psalm 17:1; Psalm 145:18',
         },
         {
           id: 11,
@@ -6854,7 +6860,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 5,
-          references: 'Isaiah 63:15-16; Neh. 1:4-6',
+          references: 'Isaiah 63:15-16; Nehemiah 1:4-6',
         },
         {
           id: 6,
@@ -6893,15 +6899,15 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 6,
           references:
-            '2 Thessalonians 3:1; Psalm 138:1-3; 147:19-20; 2 Corinthians 2:14-15',
+            '2 Thessalonians 3:1; Psalm 138:1-3; Psalm 147:19-20; 2 Corinthians 2:14-15',
         },
         {
           id: 7,
-          references: 'Psalm ch. 8; ch. 145',
+          references: 'Psalm 8; Psalm 145',
         },
         {
           id: 8,
-          references: 'Psalm 19:14; 103:1',
+          references: 'Psalm 19:14; Psalm 103:1',
         },
         {
           id: 9,
@@ -6929,7 +6935,8 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 15,
-          references: '2 Chronicles 20:6, 10-12; Psalm ch. 83; 140:4, 8',
+          references:
+            '2 Chronicles 20:6; 2 Chronicles 10-12; Psalm 83; Psalm 140:4, 8',
         },
       ],
     },
@@ -6963,7 +6970,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 6,
-          references: 'John 17:9, 20; Romans 11:25-26; Psalm ch. 67',
+          references: 'John 17:9, 20; Romans 11:25-26; Psalm 67',
         },
         {
           id: 7,
@@ -6971,7 +6978,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 8,
-          references: 'Malachi 1:11; ZEphesians 3:9',
+          references: 'Malachi 1:11; Ephesians 3:9',
         },
         {
           id: 9,
@@ -6980,7 +6987,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 10,
           references:
-            'Acts 4:29-30; Ephesians 6:18-20; Romans 15:29-30, 32; 2 Thessalonians 1:11; 2:16-17',
+            'Acts 4:29-30; Ephesians 6:18-20; Romans 15:29-30, 32; 2 Thessalonians 1:11; 2 Thessalonians 2:16-17',
         },
         {
           id: 11,
@@ -7093,7 +7100,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 2,
           references:
-            'Genesis 2:17, 3:17; Romans 8:20-22; Jeremiah 5:25; Deuteronomy 28:15-68',
+            'Genesis 2:17; Genesis 3:17; Romans 8:20-22; Jeremiah 5:25; Deuteronomy 28:15-68',
         },
         {
           id: 3,
@@ -7122,7 +7129,7 @@ export const WestminsterLonger: CatechismData = {
         {
           id: 9,
           references:
-            'Genesis 28:20; 43:12-14; Ephesians 4:28; 2 Thessalonians 3:11-12; Philemon 4:6',
+            'Genesis 28:20; Genesis 43:12-14; Ephesians 4:28; 2 Thessalonians 3:11-12; Philemon 4:6',
         },
         {
           id: 10,
@@ -7176,7 +7183,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 8,
-          references: 'Luke 11:4; Matthew 6:14-15; 18:35',
+          references: 'Luke 11:4; Matthew 6:14-15; Matthew 18:35',
         },
       ],
     },
@@ -7236,7 +7243,7 @@ export const WestminsterLonger: CatechismData = {
         },
         {
           id: 12,
-          references: 'Psalm 51:10; 119:133',
+          references: 'Psalm 51:10; Psalm 119:133',
         },
         {
           id: 13,
