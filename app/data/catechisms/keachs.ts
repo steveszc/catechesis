@@ -22,7 +22,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Isaiah 44:6; Psalm 8:1; 97:9',
+          references: 'Isaiah 44:6; Psalm 8:1; Psalm 97:9',
         },
       ],
     },
@@ -35,7 +35,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 10:31; Psalm 73:25-26',
+          references: '1 Corinthians 10:31; Psalm 73:25-26',
         },
       ],
     },
@@ -50,7 +50,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Rom. 1:18-20; Psalm 19:1,2; 2 Tim. 3:15; 1 Cor. 1:21-24; 1 Cor. 2:9,10',
+            'Romans 1:18-20; Psalm 19:1,2; 2 Timothy 3:15; 1 Corinthians 1:21-24; 1 Corinthians 2:9-10',
         },
       ],
     },
@@ -64,7 +64,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '2 Peter 1:21; 2 Timothy 3:16,17; Isaiah 8:20',
+          references: '2 Peter 1:21; 2 Timothy 3:16-17; Isaiah 8:20',
         },
       ],
     },
@@ -79,7 +79,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            '1 Cor. 2:6,7,13; Ps. 119:18, 129; Acts 10:43, 26:22; Acts 18:28; Heb 4:12; Ps. 19:7-9; Rom.  15:4; John 16:13,14; 1 John 2:20-27; 2 Cor.  3:14-17',
+            '1 Corinthians 2:6,7,13; Psalm 119:18, 129; Acts 10:43, 26:22; Acts 18:28; Heb 4:12; Psalm 19:7-9; Romans 15:4; John 16:13,14; 1 John 2:20-27; 2 Corinthians 3:14-17',
         },
       ],
     },
@@ -108,7 +108,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            '2 Tim. 3:16,17; John 20:31; Acts 24:14; 1 Cor.  10:11; Eccles. 12:13',
+            '2 Timothy 3:16,17; John 20:31; Acts 24:14; 1 Corinthians  10:11; Ecclesiastes 12:13',
         },
       ],
     },
@@ -123,7 +123,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'John 4:24; Ps. 147:5; Ps. 90:2; James 1:17; Rev.  4:8; Ps. 89:14; Exod. 34:6,7; 1 Tim. 1:17',
+            'John 4:24; Psalm 147:5; Psalm 90:2; James 1:17; Revelation  4:8; Psalm 89:14; Exod. 34:6,7; 1 Timothy 1:17',
         },
       ],
     },
@@ -135,7 +135,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 6:4; Jeremiah 10:10',
+          references: 'Deuteronomy 6:4; Jeremiah 10:10',
         },
       ],
     },
@@ -150,7 +150,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            '1 Cor. 8:6; John 10:30; John 14:9; Acts 5:3,4; Matt. 28:19; 2 Cor. 13:14',
+            '1 Corinthians 8:6; John 10:30; John 14:9; Acts 5:3-4; Matthew 28:19; 2 Corinthians 13:14',
         },
       ],
     },
@@ -164,7 +164,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 1:11; Rom. 11:36; Dan. 4:35',
+          references: 'Ephesians 1:11; Romans 11:36; Daniel 4:35',
         },
       ],
     },
@@ -178,7 +178,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 1:1; Rev. 4:11; Matt. 6:26; Acts 14:17',
+          references: 'Genesis 1:1; Revelation 4:11; Matthew 6:26; Acts 14:17',
         },
       ],
     },
@@ -192,7 +192,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 1:1; Heb. 11:3; Ex. 20:11; Gen. 1:31',
+          references: 'Genesis 1:1; Hebrews 11:3; Exodus 20:11; Genesis 1:31',
         },
       ],
     },
@@ -206,7 +206,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 1:27; Col. 3:10; Eph. 4:24; Gen. 1:28',
+          references:
+            'Genesis 1:27; Colossians 3:10; Ephesians 4:24; Genesis 1:28',
         },
       ],
     },
@@ -221,7 +222,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Neh. 9:6; Col. 1:17; Heb. 1:3; Ps. 103:19; Matt.  10:29,30',
+            'Nehemiah 9:6; Colossians 1:17; Hebrews 1:3; Psalm 103:19; Matthew 10:29-30',
         },
       ],
     },
@@ -236,7 +237,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 2:16,17; Gal. 3:12; Rom. 5:12',
+          references: 'Genesis 2:16-17; Galatians 3:12; Romans 5:12',
         },
       ],
     },
@@ -251,7 +252,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 3:6; Eccles. 7:29; Rom. 5:12',
+          references: 'Genesis 3:6; Ecclesiastes 7:29; Romans 5:12',
         },
       ],
     },
@@ -265,7 +266,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 John 3:4; Rom. 5:13',
+          references: '1 John 3:4; Romans 5:13',
         },
       ],
     },
@@ -280,7 +281,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 3:6,12,13',
+          references: 'Genesis 3:6,12-13',
         },
       ],
     },
@@ -294,7 +295,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 15:21,22; Rom. 5:12,18,19',
+          references: '1 Corinthians 15:21-22; Romans 5:12,18-19',
         },
       ],
     },
@@ -307,7 +308,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 51:5; Rom. 5:18,19: Is. 64:6',
+          references: 'Psalm 51:5; Romans 5:18-19: Isaiah 64:6',
         },
       ],
     },
@@ -323,7 +324,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Rom. 5:19; 3:10; Eph. 2:1; Is. 53:6; Ps. 51:5; Matt. 15:19',
+            'Romans 5:19; Romans 3:10; Ephesians 2:1; Isaiah 53:6; Psalm 51:5; Matthew 15:19',
         },
       ],
     },
@@ -338,7 +339,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Gen. 3:8,24; Eph. 2:3; Gal. 3:10; Rom. 6:23; Matt.  25:41-46; Ps. 9:17',
+            'Genesis 3:8,24; Ephesians 2:3; Galatians 3:10; Romans 6:23; Matthew 25:41-46; Psalm 9:17',
         },
       ],
     },
@@ -354,7 +355,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Eph. 1:3,4; 2 Thess. 2:13; Rom. 5:21; Acts 13:8; Jer. 31:33',
+            'Ephesians 1:3-4; 2 Thessalonians 2:13; Romans 5:21; Acts 13:8; Jeremiah 31:33',
         },
       ],
     },
@@ -369,7 +370,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Gal. 3:13;1 Tim. 2:5; John 1:14; 1 Tim. 3:16; Rom.  9:5; Col. 2:9',
+            'Galatians 3:13; 1 Timothy 2:5; John 1:14; 1 Timothy 3:16; Romans 9:5; Colossians 2:9',
         },
       ],
     },
@@ -384,7 +385,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Heb. 2:14; Matt. 26:38; Luke 2:52; John 12:27; Luke 1:31,35; Heb. 4:15; 7:26',
+            'Hebrews 2:14; Matthew 26:38; Luke 2:52; John 12:27; Luke 1:31,35; Hebrews 4:15; Hebrews 7:26',
         },
       ],
     },
@@ -398,7 +399,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Acts 3:22; Heb. 5:6; Ps. 2:6',
+          references: 'Acts 3:22; Hebrews 5:6; Psalm 2:6',
         },
       ],
     },
@@ -412,7 +413,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 1:18; 14:26; 15:15',
+          references: 'John 1:18; John 14:26; John 15:15',
         },
       ],
     },
@@ -427,7 +428,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            '1 Peter 2:24; Heb. 9:28; Eph. 5:2; Heb. 2:17; 7:25; Rom. 8:34',
+            '1 Peter 2:24; Hebrews 9:28; Ephesians 5:2; Hebrews 2:17; Hebrews 7:25; Romans 8:34',
         },
       ],
     },
@@ -441,7 +442,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 110:3; Matt. 2:6; 1 Cor. 15:25',
+          references: 'Psalm 110:3; Matthew 2:6; 1 Corinthians 15:25',
         },
       ],
     },
@@ -456,7 +457,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Luke 2:7; Gal. 4:4; Is. 53:3; Luke 22:44; Matt.  27:46; Phil. 2:8; Matt. 12:40; Mark 15:45,46',
+            'Luke 2:7; Galatians 4:4; Isaiah 53:3; Luke 22:44; Matthew 27:46; Philemon 2:8; Matthew 12:40; Mark 15:45-46',
         },
       ],
     },
@@ -470,7 +471,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 15:4; Acts 1:11; Mark 16:19; Acts 17:31',
+          references: '1 Corinthians 15:4; Acts 1:11; Mark 16:19; Acts 17:31',
         },
       ],
     },
@@ -485,7 +486,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 3:5,6; Titus 3:5,6',
+          references: 'John 3:5-6; Titus 3:5-6',
         },
       ],
     },
@@ -500,7 +501,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 2:8; 3:17',
+          references: 'Ephesians 2:8; Ephesians 3:17',
         },
       ],
     },
@@ -515,7 +516,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            '2 Tim. 1:9; John 16:8-11; Acts 2:37; 26:18; Ezekiel 36:26; John 6:44,45; 1 Cor. 12:3',
+            '2 Timothy 1:9; John 16:8-11; Acts 2:37; Acts 26:18; Ezekiel 36:26; John 6:44-45; 1 Corinthians 12:3',
         },
       ],
     },
@@ -531,7 +532,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Rom. 8:30; Gal. 3:26; 1 Cor. 6:11; Rom. 8:31,32; Eph. 1:5; 1 Cor. 1:30',
+            'Romans 8:30; Galatians 3:26; 1 Corinthians 6:11; Romans 8:31-32; Ephesians 1:5; 1 Corinthians 1:30',
         },
       ],
     },
@@ -546,7 +547,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Rom. 3:24; Eph. 1:7; 2 Cor. 5:21; Rom. 5:19; Phil.  3:9; Gal. 2:16',
+            'Romans 3:24; Ephesians 1:7; 2 Corinthians 5:21; Romans 5:19; Philemon 3:9; Galatians 2:16',
         },
       ],
     },
@@ -560,7 +561,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 John 3:1; John 1:12; Rom. 8:16,17',
+          references: '1 John 3:1; John 1:12; Romans 8:16-17',
         },
       ],
     },
@@ -574,7 +575,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '2 Thess. 2:13; Eph. 4:23,24; Rom. 6:11',
+          references: '2 Thessalonians 2:13; Ephesians 4:23-24; Romans 6:11',
         },
       ],
     },
@@ -589,7 +590,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 5:1-5; 14:17; Prov. 4:18; 1 Peter 1:5;1 John 5:13',
+          references:
+            'Romans 5:1-5; 14:17; Proverbs 4:18; 1 Peter 1:5; 1 John 5:13',
         },
       ],
     },
@@ -604,7 +606,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Heb. 12:23; Phil. 1:23; 2 Cor. 5:8; Luke 23:43; 1 Thess 4:14; Is. 57:2; Job 19:26',
+            'Hebrews 12:23; Philemon 1:23; 2 Corinthians 5:8; Luke 23:43; 1 Thess 4:14; Isaiah 57:2; Job 19:26',
         },
       ],
     },
@@ -620,7 +622,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Phil. 3:20,21; 1 Cor. 15:42,43; Matt. 10:32; 1 John 3:2; 1 Thess. 4:17',
+            'Philemon 3:20-21; 1 Corinthians 15:42-43; Matthew 10:32; 1 John 3:2; 1 Thessalonians 4:17',
         },
       ],
     },
@@ -634,7 +636,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Luke 16:22-24; Ps. 49:14',
+          references: 'Luke 16:22-24; Psalm 49:14',
         },
       ],
     },
@@ -648,7 +650,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Dan. 12:2; John 5:28,29; 2 Thess. 1:9; Matt.  25:41',
+          references:
+            'Daniel 12:2; John 5:28-29; 2 Thessalonians 1:9; Matthew 25:41',
         },
       ],
     },
@@ -662,7 +665,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Micah 6:8; Eccles. 12:13; Ps. 119:4; Luke 10:26-28',
+          references:
+            'Micah 6:8; Ecclesiastes 12:13; Psalm 119:4; Luke 10:26-28',
         },
       ],
     },
@@ -677,7 +681,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 2:14,15; 5:13,14',
+          references: 'Romans 2:14-15; Romans 5:13-14',
         },
       ],
     },
@@ -691,7 +695,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 10:4; Matt. 19:17',
+          references: 'Deuteronomy 10:4; Matthew 19:17',
         },
       ],
     },
@@ -705,7 +709,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 22:36-40; Mark 12:28-33',
+          references: 'Matthew 22:36-40; Mark 12:28-33',
         },
       ],
     },
@@ -733,7 +737,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut 11:1',
+          references: 'Deuteronomy 11:1',
         },
       ],
     },
@@ -762,7 +766,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Joshua 24:15; 1 Chron. 28:9; Deut. 26:17; Ps.  29:2; Matt. 4:10',
+            'Joshua 24:15; 1 Chronicles 28:9; Deuteronomy 26:17; Psalm 29:2; Matthew 4:10',
         },
       ],
     },
@@ -776,7 +780,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Joshua 24:27; Rom. 1:20,21; Ps. 14:1; Rom. 1:25',
+          references: 'Joshua 24:27; Romans 1:20-21; Psalm 14:1; Romans 1:25',
         },
       ],
     },
@@ -791,7 +795,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut.30:17,18; Ps. 44:20,21; Ps. 90:8',
+          references: 'Deuteronomy 30:17-18; Psalm 44:20-21; Psalm 90:8',
         },
       ],
     },
@@ -819,7 +823,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 32:46; Matt. 28:20; Deut. 12:32',
+          references: 'Deuteronomy 32:46; Matthew 28:20; Deuteronomy 12:32',
         },
       ],
     },
@@ -833,7 +837,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 1:22,23; Deut. 4:15,16; Matt. 15:9; Col.  2:18',
+          references:
+            'Romans 1:22-23; Deuteronomy 4:15-16; Matthew 15:9; Colossians 2:18',
         },
       ],
     },
@@ -847,7 +852,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 45:11; Ex. 34:14; 1 Cor. 10:22',
+          references: 'Psalm 45:11; Exodus 34:14; 1 Corinthians 10:22',
         },
       ],
     },
@@ -876,7 +881,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Ps.29:2; Deut. 32:1-4; Deut.28:58,59; Ps.111:9; Matt. 6:9, Eccles. 5:1; Ps. 138:2, Job 36:24; Rev.  15:3,4; Reve 4:8',
+            'Psalm 29:2; Deuteronomy 32:1-4; Deuteronomy 28:58-59; Psalm 111:9; Matthew 6:9; Ecclesiastes 5:1; Psalm 138:2; Job 36:24; Revelation 15:3-4; Revelation 4:8',
         },
       ],
     },
@@ -891,7 +896,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Malachi 1:6,7; Lev. 20:3;19:12; Matt. 5:34-37; Isa. 52:5',
+            'Malachi 1:6-7; Leviticus 20:3; Leviticus 19:12; Matthew 5:34-37; Isaiah 52:5',
         },
       ],
     },
@@ -905,7 +910,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 28:58,59; Malachi 2:2',
+          references: 'Deuteronomy 28:58-59; Malachi 2:2',
         },
       ],
     },
@@ -933,7 +938,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Lev. 19:30; Deut. 5:12',
+          references: 'Leviticus 19:30; Deuteronomy 5:12',
         },
       ],
     },
@@ -949,7 +954,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Gen. 2:3; John 20:19; Acts 20:7; 1 Cor. 16:1,2; Rev. 1:10',
+            'Genesis 2:3; John 20:19; Acts 20:7; 1 Corinthians 16:1-2; Revelation 1:10',
         },
       ],
     },
@@ -963,7 +968,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Lev. 23:3; Isa. 58:13,14; Isa. 66:23; Matt.  12:11,12',
+          references:
+            'Leviticus 23:3; Isaiah 58:13-14; Isaiah 66:23; Matthew 12:11-12',
         },
       ],
     },
@@ -978,7 +984,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Ezekiel 22:26; 23:38; Jer. 17:21; Neh. 13:15,17; Acts 20:7',
+            'Ezekiel 22:26; Ezekiel 23:38; Jeremiah 17:21; Nehemiah 13:15,17; Acts 20:7',
         },
       ],
     },
@@ -992,7 +998,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Exodus 34:21; 31:16,17; Gen. 2:2,3',
+          references: 'Exodus 34:21; Exodus 31:16-17; Genesis 2:2-3',
         },
       ],
     },
@@ -1021,7 +1027,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Lev. 19:32; 1 Peter 2:17; Rom. 13:1; Eph. 5:21,22; Eph. 6:1,5,9; Col. 3:19-22; Rom. 12:10',
+            'Leviticus 19:32; 1 Peter 2:17; Romans 13:1; Ephesians 5:21-22; Ephesians 6:1; Ephesians 6:5; Ephesians 6:9; Colossians 3:19-22; Romans 12:10',
         },
       ],
     },
@@ -1035,7 +1041,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Prov. 30:17; Rom. 13:7,8',
+          references: 'Proverbs 30:17; Romans 13:7-8',
         },
       ],
     },
@@ -1049,7 +1055,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 6:2,3; Prov. 4:3-6; 6:20-22',
+          references: 'Ephesians 6:2-3; Proverbs 4:3-6; Proverbs 6:20-22',
         },
       ],
     },
@@ -1075,7 +1081,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 5:29,30; Ps. 82:3,4; Prov. 24:11,12; Act 16:28',
+          references:
+            'Ephesians 5:29-30; Psalm 82:3-4; Proverbs 24:11-12; Act 16:28',
         },
       ],
     },
@@ -1089,7 +1096,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 4:10,11; 9:6; Matt. 5:21-26',
+          references: 'Genesis 4:10-11; Genesis 9:6; Matthew 5:21-26',
         },
       ],
     },
@@ -1116,7 +1123,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 6:18; 7:2; 2 Tim. 2:22; Matt. 5:28; 1 Peter 3:2',
+          references:
+            '1 Corinthians 6:18; 1 Corinthians 7:2; 2 Timothy 2:22; Matthew 5:28; 1 Peter 3:2',
         },
       ],
     },
@@ -1131,7 +1139,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 5:28-32; Job 31:1; Eph. 5:3,4; Rom. 13:13; Col. 4:6',
+            'Matthew 5:28-32; Job 31:1; Ephesians 5:3-4; Romans 13:13; Colossians 4:6',
         },
       ],
     },
@@ -1157,7 +1165,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Prov. 27:23; Lev. 25:35; Deut. 15:10; 22:14',
+          references:
+            'Proverbs 27:23; Leviticus 25:35; Deuteronomy 15:10; Deuteronomy 22:14',
         },
       ],
     },
@@ -1171,7 +1180,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Tim. 5:8; Prov. 28:19; 23:20,21; Eph. 4:28',
+          references:
+            '1 Timothy 5:8; Proverbs 28:19; Proverbs 23:20-21; Ephesians 4:28',
         },
       ],
     },
@@ -1200,7 +1210,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Zech. 8:16; Acts 25:10; Eccles. 7:1; 3 John 12; Prov. 14:5,25',
+            'Zechariah 8:16; Acts 25:10; Ecclesiastes 7:1; 3 John 12; Proverbs 14:5; Proverbs 14:25',
         },
       ],
     },
@@ -1214,7 +1224,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 4:25; Ps. 15:3; 2 Cor. 8:20,21',
+          references: 'Ephesians 4:25; Psalm 15:3; 2 Corinthians 8:20-21',
         },
       ],
     },
@@ -1236,14 +1246,14 @@ export const Keachs: CatechismData = {
       number: 86,
       question: 'What is required in the tenth commandment?',
       answer:
-        'The tenth commandment requires full contentment with our own condition, with a right and charitable frame of spirit towards our neighbor, and all that is his.',
+        'The tenth commandment requires full contentment with our own condition, with a right and charitable frame of spirit towards our neighbor, and all that is hIsaiah',
       answerWithProofs:
-        'The tenth commandment requires full contentment with our own condition, with a right and charitable frame of spirit towards our neighbor, and all that is his.[1]',
+        'The tenth commandment requires full contentment with our own condition, with a right and charitable frame of spirit towards our neighbor, and all that is hIsaiah[1]',
       proofs: [
         {
           id: 1,
           references:
-            'Heb. 13:5;1 Tim. 6:6; Rom. 12:15; 1 Cor. 13:4-7; Lev. 19:18',
+            'Hebrews 13:5; 1 Timothy 6:6; Romans 12:15; 1 Corinthians 13:4-7; Leviticus 19:18',
         },
       ],
     },
@@ -1251,13 +1261,14 @@ export const Keachs: CatechismData = {
       number: 87,
       question: 'What is forbidden in the tenth commandment?',
       answer:
-        'The tenth commandment forbids all discontentment with our own estate, envying or grieving at the good of our neighbor, and all inordinate motions and affections to anything that is his.',
+        'The tenth commandment forbids all discontentment with our own estate, envying or grieving at the good of our neighbor, and all inordinate motions and affections to anything that is hIsaiah',
       answerWithProofs:
-        'The tenth commandment forbids all discontentment with our own estate, envying or grieving at the good of our neighbor, and all inordinate motions and affections to anything that is his.[1]',
+        'The tenth commandment forbids all discontentment with our own estate, envying or grieving at the good of our neighbor, and all inordinate motions and affections to anything that is hIsaiah[1]',
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 10:10; James 5:9; Gal. 5:26; Col. 3:5',
+          references:
+            '1 Corinthians 10:10; James 5:9; Galatians 5:26; Colossians 3:5',
         },
       ],
     },
@@ -1272,7 +1283,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Eccles. 7:20; Gen. 6:5; Gen. 8:21; 1 John 1:8; James 3:8; James 3:2; Rom. 3:23',
+            'Ecclesiastes 7:20; Genesis 6:5; Genesis 8:21; 1 John 1:8; James 3:8; James 3:2; Romans 3:23',
         },
       ],
     },
@@ -1287,7 +1298,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 19:7-11; Rom. 3:20,31; 7:7; 12:2; Titus 2:12-14; Gal. 3:22,24; 1 Tim. 1:8',
+            'Psalm 19:7-11; Romans 3:20,31; Romans 7:7; Romans 12:2; Titus 2:12-14; Galatians 3:22,24; 1 Timothy 1:8',
         },
       ],
     },
@@ -1315,7 +1326,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph.5:6; Gal. 3:10; Prov. 3:33; Ps. 11:6; Rev.  21:8',
+          references:
+            'Ephesians 5:6; Galatians 3:10; Proverbs 3:33; Psalm 11:6; Revelation  21:8',
         },
       ],
     },
@@ -1330,7 +1342,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Acts 20:21; Acts 16:30,31; 17:30',
+          references: 'Acts 20:21; Acts 16:30-31; Acts 17:30',
         },
       ],
     },
@@ -1344,7 +1356,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Heb. 10:39; John 1:12; Phil. 3-9; Gal. 2:15,16',
+          references:
+            'Hebrews 10:39; John 1:12; Philemon 3-9; Galatians 2:15-16',
         },
       ],
     },
@@ -1359,7 +1372,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Acts 2:37; Joel 2:13; Jer. 31:18,19: 2 Cor.  7:10,11; Rom. 6:18',
+            'Acts 2:37; Joel 2:13; Jeremiah 31:18-19: 2 Corinthians 7:10-11; Romans 6:18',
         },
       ],
     },
@@ -1374,7 +1387,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 10:17; James 1:18; 1 Cor. 3:5; Acts 14:1; 2:41,42',
+          references:
+            'Romans 10:17; James 1:18; 1 Corinthians 3:5; Acts 14:1; Acts 2:41-42',
         },
       ],
     },
@@ -1389,7 +1403,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 119:11,18; 1 Thess. 1:6; 1 Peter 2:1,2; Rom.  1:16; Ps. 19:7',
+            'Psalm 119:11; Psalm 119:18; 1 Thessalonians 1:6; 1 Peter 2:1-2; Romans 1:16; Psalm 19:7',
         },
       ],
     },
@@ -1405,7 +1419,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Prov. 8:34; 1 Peter 2:1,2; 1 Tim. 4:13; Heb.  2:1,3; Heb. 4:2; 2 Thess. 2:10; Ps. 119:11; James 1:21,25',
+            'Proverbs 8:34; 1 Peter 2:1-2; 1 Timothy 4:13; Hebrews 2:1,3; Hebrews 4:2; 2 Thessalonians 2:10; Psalm 119:11; James 1:21,25',
         },
       ],
     },
@@ -1420,7 +1434,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Peter 3:21; 1 Cor. 3:6,7; 1 Cor. 12:13',
+          references: '1 Peter 3:21; 1 Corinthians 3:6-7; 1 Corinthians 12:13',
         },
       ],
     },
@@ -1435,7 +1449,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 28:19; Acts 22:16; Matt. 26:26-28; Rom. 6:4',
+          references: 'Matthew 28:19; Acts 22:16; Matthew 26:26-28; Romans 6:4',
         },
       ],
     },
@@ -1449,7 +1463,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 28:19; Rom. 6:3-5; Col. 2:12; Gal. 3:27',
+          references:
+            'Matthew 28:19; Romans 6:3-5; Colossians 2:12; Galatians 3:27',
         },
       ],
     },
@@ -1464,7 +1479,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Acts 2:38; Matt. 3:6; Mark 16:16; Acts 8:12,36; Acts 10:47,48',
+            'Acts 2:38; Matthew 3:6; Mark 16:16; Acts 8:12,36; Acts 10:47-48',
         },
       ],
     },
@@ -1487,7 +1502,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 3:16; John 3:23; Acts 8:38,39',
+          references: 'Matthew 3:16; John 3:23; Acts 8:38-39',
         },
       ],
     },
@@ -1502,7 +1517,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Acts 2:46,47; Acts 9:26; 1 Peter 2:5; Heb. 10:25; Rom. 16:5',
+            'Acts 2:46-47; Acts 9:26; 1 Peter 2:5; Hebrews 10:25; Romans 16:5',
         },
       ],
     },
@@ -1516,7 +1531,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Acts 2:42; 20:7; Acts 7:38; Eph. 4:11,12',
+          references: 'Acts 2:42; Acts 20:7; Acts 7:38; Ephesians 4:11-12',
         },
       ],
     },
@@ -1530,7 +1545,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 1:10; 1:22,23; John 10:16; 11:52',
+          references:
+            'Ephesians 1:10; Ephesians 1:22,23; John 10:16; John 11:52',
         },
       ],
     },
@@ -1544,7 +1560,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 11:23-26; 10:16',
+          references: '1 Corinthians 11:23-26; 1 Corinthians 10:16',
         },
       ],
     },
@@ -1559,7 +1575,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: '1 Cor. 11:27-31; 1 Cor. 5:8; 2 Cor. 13:5',
+          references:
+            '1 Corinthians 11:27-31; 1 Corinthians 5:8; 2 Corinthians 13:5',
         },
       ],
     },
@@ -1574,7 +1591,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            '1 John 5:14; 1 John 1:9; Phil. 4:6; Ps. 10:17; 145:19; John 14:13,14',
+            '1 John 5:14; 1 John 1:9; Philemon 4:6; Psalm 10:17; Psalm 145:19; John 14:13-14',
         },
       ],
     },
@@ -1588,7 +1605,7 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:9-13; 2 Tim. 3:16,17',
+          references: 'Matthew 6:9-13; 2 Timothy 3:16-17',
         },
       ],
     },
@@ -1603,7 +1620,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 6:9; Luke 11:13; Rom. 8:15; Acts 12:5; 1 Tim. 2:1-3',
+            'Matthew 6:9; Luke 11:13; Romans 8:15; Acts 12:5; 1 Timothy 2:1-3',
         },
       ],
     },
@@ -1617,7 +1634,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:9; Ps. 67:1-3; Rom. 11:36; Rev. 4:11',
+          references:
+            'Matthew 6:9; Psalm 67:1-3; Romans 11:36; Revelation 4:11',
         },
       ],
     },
@@ -1632,7 +1650,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 6:10; Ps. 68:1-18; Rom. 10:1; 2 Thess. 3:1; Matt. 9:37,38; Rev. 22:20',
+            'Matthew 6:10; Psalm 68:1-18; Romans 10:1; 2 Thessalonians 3:1; Matthew 9:37-38; Revelation 22:20',
         },
       ],
     },
@@ -1646,7 +1664,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:10; Ps. 103:20,21; Ps. 25:4,5; Ps. 119:26',
+          references:
+            'Matthew 6:10; Psalm 103:20-21; Psalm 25:4-5; Psalm 119:26',
         },
       ],
     },
@@ -1660,7 +1679,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:11; Prov. 30:8,9; 1 Tim. 6:6-8; 4:4,5',
+          references:
+            'Matthew 6:11; Proverbs 30:8-9; 1 Timothy 6:6-8; 1 Timothy 4:4-5',
         },
       ],
     },
@@ -1674,7 +1694,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:12; Ps. 51:1,3,7; Mark 11:25; Matt. 18:35',
+          references:
+            'Matthew 6:12; Psalm 51:1; Psalm 51:3; Psalm 51:7; Mark 11:25; Matthew 18:35',
         },
       ],
     },
@@ -1688,7 +1709,8 @@ export const Keachs: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:13; 26:41; Ps. 19:13; 1 Cor. 10:13; John 17:15',
+          references:
+            'Matthew 6:13; Matthew 26:41; Psalm 19:13; 1 Corinthians 10:13; John 17:15',
         },
       ],
     },
@@ -1703,7 +1725,7 @@ export const Keachs: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 6:13; Dan. 9:18,19; 1 Chron. 29:11-13; 1 Cor. 14:16; Phil. 4:6; Rev. 22:20',
+            'Matthew 6:13; Daniel 9:18-19; 1 Chronicles 29:11-13; 1 Corinthians 14:16; Philemon 4:6; Revelation 22:20',
         },
       ],
     },
