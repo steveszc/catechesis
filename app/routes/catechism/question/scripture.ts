@@ -5,14 +5,16 @@ import { inject as service } from '@ember/service';
 import type { CatechismItem } from 'catechesis/data';
 import type { QuestionRouteModel } from 'catechesis/routes/catechism/question';
 
+interface EsvApiPassageResponse {
+  detail?: string; // only if the response is no okay
+  query: string;
+  canonical: string;
+  passage_meta: Array<{ canonical: string }>;
+  passages: string[];
+}
+
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type ScriptureRouteModel = Resolved<ReturnType<ScriptureRoute['model']>>;
-
-const isPromiseFulfilled = (
-  promiseSettledResult?: PromiseSettledResult<any>
-): promiseSettledResult is PromiseFulfilledResult<any> => {
-  return promiseSettledResult?.status === 'fulfilled';
-};
 
 const proofsToScriptures = (
   proofs?: CatechismItem['proofs']
@@ -22,11 +24,10 @@ const proofsToScriptures = (
   );
 };
 
-const esvUrlForVerse = (verse: string) => {
-  const normalizedVerse = verse.replace('. ', ' ');
+const esvUrlForVerse = (q: string) => {
   const url = '/api/esv/v3/passage/text/';
   const params = new URLSearchParams({
-    q: normalizedVerse,
+    q,
     'include-passage-references': 'false',
     'include-verse-numbers': 'false',
     'include-footnotes': 'false',
@@ -48,36 +49,25 @@ export default class ScriptureRoute extends Route {
       proofsToScriptures(questionModel?.current?.proofs) ??
       [];
 
-    if (this.fastboot.isFastBoot) return scripture;
+    const hasTexts = scripture.every(({ text }) => text);
 
-    const loadedVerses = await Promise.allSettled(
-      scripture.map(async ({ verse, text }) => {
-        if (text) {
-          return text;
-        } else {
-          let response = await fetch(esvUrlForVerse(verse));
-          let { passages, detail } = await response.json();
-          if (!response.ok) {
-            return `Could not load verse: ${detail}`;
-          }
-          return (
-            passages.map((p: string) => p.replace('(ESV)', '')).join('\n') +
-            '(ESV)'
-          );
-        }
+    if (this.fastboot.isFastBoot || hasTexts) return scripture;
+
+    const verseQuery = scripture.map(({ verse }) => verse).join(';');
+
+    let response = await fetch(esvUrlForVerse(verseQuery));
+    let { passages, passage_meta, detail } =
+      (await response.json()) as EsvApiPassageResponse;
+    if (!response.ok) {
+      return `Could not load verse: ${detail}`;
+    }
+    const verses = passage_meta.map(
+      ({ canonical }: { canonical: string }, i: number) => ({
+        verse: canonical,
+        text: passages[i],
       })
     );
 
-    const scriptureWithLoadedVerses = scripture.map((item, i) => {
-      let loadedVerse = loadedVerses[i];
-      return {
-        ...item,
-        text: isPromiseFulfilled(loadedVerse)
-          ? loadedVerse.value
-          : loadedVerse?.reason ?? '',
-      };
-    });
-
-    return scriptureWithLoadedVerses;
+    return verses;
   }
 }
