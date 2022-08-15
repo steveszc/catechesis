@@ -1,0 +1,4 @@
+// This one-liner script can be run from the console on shortercatechism.com to scrap the `proofs array for a given question. scraped proof will be copied to clipboard. Must hit tab to focus the document immediately after firing the script.
+// could be modified to scrape other data
+
+setTimeout(async () => {await window.navigator.clipboard.writeText(`proofs: ${JSON.stringify([...document.querySelectorAll('ol li')].map((item, i) => ({id: i + 1,references: [...item.querySelectorAll('b')].map((item) => item.textContent.replace('\n', '')).join('; '),})))},`);console.log(await window.navigator.clipboard.readText())}, 2000);
