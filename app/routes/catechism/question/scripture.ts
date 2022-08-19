@@ -2,7 +2,7 @@ import Route from '@ember/routing/route';
 import fetch from 'fetch';
 import { inject as service } from '@ember/service';
 
-import type { CatechismItem } from 'catechesis/data';
+import type { CatechismItem, Scripture } from 'catechesis/data/types';
 import type { QuestionRouteModel } from 'catechesis/routes/catechism/question';
 
 interface EsvApiPassageResponse {
@@ -16,12 +16,28 @@ interface EsvApiPassageResponse {
 type Resolved<P> = P extends Promise<infer T> ? T : P;
 export type ScriptureRouteModel = Resolved<ReturnType<ScriptureRoute['model']>>;
 
-const proofsToScriptures = (
-  proofs?: CatechismItem['proofs']
-): CatechismItem['scripture'] => {
-  return proofs?.flatMap(({ references, id }) =>
-    references.split('; ').map((verse) => ({ verse, footnote: `${id}` }))
-  );
+const proofsToScriptures = (proofs?: CatechismItem['proofs']): Scripture[] => {
+  return Array.isArray(proofs)
+    ? proofs.flatMap(({ references, id }) =>
+        references
+          .split(';')
+          .map((verse) => ({
+            verse: verse.trim(),
+            text: '',
+            footnote: `${id}`,
+          }))
+          .map((scripture) => {
+            let [chapter, verses] = scripture.verse.split(':');
+            let verseNums = verses?.split(',').map((num) => num.trim());
+            let scriptures = verseNums?.map((num) => ({
+              ...scripture,
+              verse: `${chapter}:${num}`,
+            }));
+            return scriptures || scripture;
+          })
+          .flat()
+      )
+    : [];
 };
 
 const esvUrlForVerse = (q: string) => {
@@ -36,6 +52,10 @@ const esvUrlForVerse = (q: string) => {
   return `${url}?${params.toString()}`;
 };
 
+const scripturesToQuery = (scriptures: Scripture[] = []) => {
+  return scriptures.map(({ verse }: Scripture) => verse).join(';');
+};
+
 export default class ScriptureRoute extends Route {
   @service declare fastboot: { isFastBoot: boolean };
 
@@ -44,29 +64,39 @@ export default class ScriptureRoute extends Route {
       'catechism.question'
     ) as QuestionRouteModel;
 
-    const scripture =
-      questionModel?.current?.scripture ??
-      proofsToScriptures(questionModel?.current?.proofs) ??
-      [];
+    const scripture = proofsToScriptures(questionModel.current.proofs);
 
-    const hasTexts = scripture.every(({ text }) => text);
+    if (this.fastboot.isFastBoot) return scripture;
 
-    if (this.fastboot.isFastBoot || hasTexts) return scripture;
-
-    const verseQuery = scripture.map(({ verse }) => verse).join(';');
+    const verseQuery = scripturesToQuery(scripture);
 
     let response = await fetch(esvUrlForVerse(verseQuery));
     let { passages, passage_meta, detail } =
       (await response.json()) as EsvApiPassageResponse;
     if (!response.ok) {
-      return `Could not load verse: ${detail}`;
+      return [
+        {
+          verse: 'error',
+          text: `Could not load verse: ${detail}`,
+        } as Scripture,
+      ];
     }
     const verses = passage_meta.map(
       ({ canonical }: { canonical: string }, i: number) => ({
         verse: canonical,
-        text: passages[i],
+        text: passages[i] ?? '',
+        footnote: scripture[i]?.footnote,
       })
     );
+
+    if (verses.length !== scripture.length) {
+      return [
+        {
+          verse: 'error',
+          text: 'Verse mismatch',
+        } as Scripture,
+      ];
+    }
 
     return verses;
   }

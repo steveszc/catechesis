@@ -18,7 +18,7 @@
       {{/unless}}
       <div class="pb-16 {{unless @isAnswerShown 'invisible'}}">
         {{#if @data.answerWithProofs}}
-          <p class="py-4 text-lg">{{@data.answerWithProofs}}</p>
+          <p class="py-4 text-lg">{{this.htmlSafe this.formattedAnswerWithProofs}}</p>
         {{else}}
           {{#if (this.isStringAnswer @data.answer)}}
             <p class="py-4 text-lg">{{@data.answer}}</p>

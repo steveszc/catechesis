@@ -2,9 +2,7 @@
   <div class='mb-4'>
     <strong>{{@scripture.verse}}</strong>
     {{#if @scripture.footnote}}
-      <span
-        class='font-mono text-xs align-text-top'
-      >[{{@scripture.footnote}}]</span>
+      <sup class='font-mono text-xs'>[{{@scripture.footnote}}]</sup>
     {{/if}}
   </div>
 
