@@ -26,7 +26,6 @@ export interface CatechismItem {
   answer: string | { adult: string; children: string };
   answerWithProofs?: string;
   proofs?: { id: number; references: string }[];
-  scripture?: Scripture[];
   commentary?: Commentary[];
   prayer?: string;
   audio?: Audio[];
@@ -34,9 +33,9 @@ export interface CatechismItem {
 }
 
 export interface Scripture {
-  footnote?: string;
   verse: string;
-  text: string;
+  text?: string;
+  footnote?: string;
 }
 
 export interface Commentary {

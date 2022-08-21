@@ -27,43 +27,45 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 6:19, 2',
+          references: '1 Corinthians 6:19, 2',
         },
         {
           id: 2,
-          references: 'Rom. 14:7-9',
+          references: 'Romans 14:7-9',
         },
         {
           id: 3,
-          references: 'I Cor. 3:23; Tit. 2:14',
+          references: '1 Corinthians 3:23; Titus 2:14',
         },
         {
           id: 4,
-          references: 'I Pet. 1:18, 19; I John 1:7; 2:2',
+          references: '1 Peter 1:18-19; 1 John 1:7; 1 John 2:2',
         },
         {
           id: 5,
-          references: 'John 8:34-36; Heb. 2:14, 15; I John 3:8',
+          references: 'John 8:34-36; Hebrews 2:14-15; 1 John 3:8',
         },
         {
           id: 6,
-          references: 'John 6:39, 40; 10:27-30; II Thess. 3:3; I Pet. 1:5',
+          references:
+            'John 6:39, 40; John 10:27-30; 2 Thessalonians 3:3; 1 Peter 1:5',
         },
         {
           id: 7,
-          references: 'Matt. 10:29-31; Luke 21:16-18',
+          references: 'Matthew 10:29-31; Luke 21:16-18',
         },
         {
           id: 8,
-          references: 'Rom. 8:28',
+          references: 'Romans 8:28',
         },
         {
           id: 9,
-          references: 'Rom. 8:15, 16; II Cor. 1:21, 22; 5:5; Eph. 1:13, 14',
+          references:
+            'Romans 8:15, 16; 2 Corinthians 1:21, 22; 2 Corinthians 5:5; Ephesians 1:13-14',
         },
         {
           id: 10,
-          references: 'Rom. 8:14.',
+          references: 'Romans 8:14',
         },
       ],
     },
@@ -78,15 +80,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 3:9, 10; I John 1:10',
+          references: 'Romans 3:9-10; 1 John 1:10',
         },
         {
           id: 2,
-          references: 'John 17:3; Acts 4:12; 10:43',
+          references: 'John 17:3; Acts 4:12; Acts 10:43',
         },
         {
           id: 3,
-          references: 'Matt. 5:16; Rom. 6:13; Eph. 5:8-10; I Pet. 2:9, 10.',
+          references:
+            'Matthew 5:16; Romans 6:13; Ephesians 5:8-10; 1 Peter 2:9-10',
         },
       ],
     },
@@ -98,7 +101,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 3: 20;',
+          references: 'Romans 3: 20',
         },
       ],
     },
@@ -112,11 +115,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 6:5',
+          references: 'Deuteronomy 6:5',
         },
         {
           id: 2,
-          references: 'Lev. 19:18.',
+          references: 'Leviticus 19:18',
         },
       ],
     },
@@ -129,12 +132,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 3:10, 23; I John 1:8, 10',
+          references: 'Romans 3:10, 23; 1 John 1:8, 10',
         },
         {
           id: 2,
           references:
-            'Gen. 6:5; 8:21; Jer. 17:9; Rom. 7:23; 8:7; Eph. 2:3; Tit. 3:3.',
+            'Genesis 6:5; 8:21; Jeremiah 17:9; Romans 7:23; 8:7; Ephesians 2:3; Titus 3:3.',
         },
       ],
     },
@@ -148,23 +151,23 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 1:31',
+          references: 'Genesis 1:31',
         },
         {
           id: 2,
-          references: 'Gen. 1:26, 27',
+          references: 'Genesis 1:26-27',
         },
         {
           id: 3,
-          references: 'Eph. 4:24',
+          references: 'Ephesians 4:24',
         },
         {
           id: 4,
-          references: 'Col. 3:10',
+          references: 'Colossians 3:10',
         },
         {
           id: 5,
-          references: 'Ps. 8.',
+          references: 'Psalms 8',
         },
       ],
     },
@@ -178,15 +181,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 3',
+          references: 'Genesis 3',
         },
         {
           id: 2,
-          references: 'Rom. 5:12, 18, 19',
+          references: 'Romans 5:12, 18, 19',
         },
         {
           id: 3,
-          references: 'Ps. 51:5.',
+          references: 'Psalms 51:5',
         },
       ],
     },
@@ -200,11 +203,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 6:5; 8:21; Job 14:4; Is. 53:6',
+          references: 'Genesis 6:5; 8:21; Job 14:4; Isaiah 53:6',
         },
         {
           id: 2,
-          references: 'John 3:3-5.',
+          references: 'John 3:3-5',
         },
       ],
     },
@@ -219,19 +222,19 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 1:31',
+          references: 'Genesis 1:31',
         },
         {
           id: 2,
-          references: 'Gen. 3:13; John 8:44; I Tim. 2:13, 14',
+          references: 'Genesis 3:13; John 8:44; 1 Timothy 2:13, 14',
         },
         {
           id: 3,
-          references: 'Gen. 3:6',
+          references: 'Genesis 3:6',
         },
         {
           id: 4,
-          references: 'Rom. 5:12, 18, 19.',
+          references: 'Romans 5:12, 18, 19.',
         },
       ],
     },
@@ -247,11 +250,11 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ex. 34:7; Ps. 5:4-6; 7:10; Nah. 1:2; Rom. 1:18; 5:12; Eph. 5:6; Heb. 9:27',
+            'Exodus 34:7; Psalms 5:4-6; 7:10; Nahum 1:2; Romans 1:18; 5:12; Ephesians 5:6; Hebrews 9:27',
         },
         {
           id: 2,
-          references: 'Deut. 27:26.',
+          references: 'Deuteronomy 27:26.',
         },
       ],
     },
@@ -265,15 +268,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ex. 20:6; 34:6, 7; Ps. 103:8, 9',
+          references: 'Exodus 20:6; 34:6-7; Psalms 103:8-9',
         },
         {
           id: 2,
-          references: 'Ex. 20:5; 34:7; Deut. 7:9-11; Ps. 5:4-6; Heb. 10:30, 31',
+          references:
+            'Exodus 20:5; 34:7; Deuteronomy 7:9-11; Psalms 5:4-6; Hebrews 10:30-31',
         },
         {
           id: 3,
-          references: 'Matt. 25:45,46.',
+          references: 'Matthew 25:45-46',
         },
       ],
     },
@@ -288,11 +292,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ex. 20:5; 23:7; Rom. 2:1-11',
+          references: 'Exodus 20:5; 23:7; Romans 2:1-11',
         },
         {
           id: 2,
-          references: 'Is. 53:11; Rom. 8:3, 4.',
+          references: 'Isaiah 53:11; Romans 8:3, 4',
         },
       ],
     },
@@ -305,7 +309,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 130:3; Matt. 6:12; Rom. 2:4, 5.',
+          references: 'Psalms 130:3; Matthew 6:12; Romans 2:4-5',
         },
       ],
     },
@@ -319,11 +323,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ezek. 18:4, 20; Heb. 2:14-18',
+          references: 'Ezekiel 18:4, 20; Hebrews 2:14-18',
         },
         {
           id: 2,
-          references: 'Ps. 130:3; Nah. 1:6.',
+          references: 'Psalms 130:3; Nahum 1:6',
         },
       ],
     },
@@ -337,15 +341,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 15:21; Heb. 2:17',
+          references: '1 Corinthians 15:21; Hebrews 2:17',
         },
         {
           id: 2,
-          references: 'Is. 53:9; II Cor. 5:21; Heb. 7:26',
+          references: 'Isaiah 53:9; 2 Corinthians 5:21; Hebrews 7:26',
         },
         {
           id: 3,
-          references: 'Is. 7:14; 9:6; Jer. 23:6; John 1:1; Rom. 8:3, 4.',
+          references: 'Isaiah 7:14; 9:6; Jeremiah 23:6; John 1:1; Romans 8:3-4',
         },
       ],
     },
@@ -359,11 +363,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom: 5:12, 15; I Cor. 15:21; Heb. 2:14-16',
+          references: 'Rom: 5:12, 15; 1 Corinthians 15:21; Hebrews 2:14-16',
         },
         {
           id: 2,
-          references: 'Heb. 7:26, 27; I Pet. 3:18.',
+          references: 'Hebrews 7:26-27; 1 Peter 3:18',
         },
       ],
     },
@@ -377,15 +381,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Is. 9:5',
+          references: 'Isaiah 9:5',
         },
         {
           id: 2,
-          references: 'Deut. 4:24; Nah. 1:6; Ps. 130:3',
+          references: 'Deuteronomy 4:24; Nahum 1:6; Psalms 130:3',
         },
         {
           id: 3,
-          references: 'Is. 53:5, 11; John 3:16; II Cor. 5:21.',
+          references: 'Isaiah 53:5, 11; John 3:16; 2 Corinthians 5:21',
         },
       ],
     },
@@ -400,7 +404,8 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 1:21-23; Luke 2:11; I Tim. 2:5; 3:16.',
+          references:
+            'Matthew 1:21-23; Luke 2:11; 1 Timothy 2:5; 1 Timothy 3:16.',
         },
       ],
     },
@@ -414,24 +419,24 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 3:15',
+          references: 'Genesis 3:15',
         },
         {
           id: 2,
-          references: 'Gen. 12:3; 22:18; 49:10',
+          references: 'Genesis 12:3; Genesis 22:18; Genesis 49:10',
         },
         {
           id: 3,
           references:
-            'Is. 53; Jer. 23:5, 6; Mic. 7:18-20; Acts 10:43; Heb. 1:1',
+            'Isaiah 53; Jeremiah 23:5, 6; Micah 7:18-20; Acts 10:43; Hebrews 1:1',
         },
         {
           id: 4,
-          references: 'Lev. 1:7; John 5:46; Heb. 10:1-10',
+          references: 'Leviticus 1:7; John 5:46; Hebrews 10:1-10',
         },
         {
           id: 5,
-          references: 'Rom. 10:4; Gal. 4:4, 5; Col. 2:17.',
+          references: 'Romans 10:4; Galatians 4:4-5; Colossians 2:17',
         },
       ],
     },
@@ -446,7 +451,8 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 7:14; John 1:12; 3:16, 18, 36; Rom. 11:16-21.',
+          references:
+            'Matthew 7:14; John 1:12; John 3:16; John 3:18; John 3:36; Romans 11:16-21',
         },
       ],
     },
@@ -460,27 +466,28 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 17:3, 17; Heb. 11:1-3; James 2:19',
+          references: 'John 17:3; John 17:17; Hebrews 11:1-3; James 2:19',
         },
         {
           id: 2,
-          references: 'Rom. 4:18-21; 5:1; 10:10; Heb. 4:16',
+          references: 'Romans 4:18-21; Romans 5:1; Romans 10:10; Hebrews 4:16',
         },
         {
           id: 3,
-          references: 'Gal. 2:20',
+          references: 'Galatians 2:20',
         },
         {
           id: 4,
-          references: 'Rom. 1:17; Heb. 10:10',
+          references: 'Romans 1:17; Hebrews 10:10',
         },
         {
           id: 5,
-          references: 'Rom.3:20-26; Gal. 2:16; Eph. 2:8-10',
+          references: 'Romans 3:20-26; Galatians 2:16; Ephesians 2:8-10',
         },
         {
           id: 6,
-          references: 'Acts 16:14; Rom. 1:16; 10:17; I Cor. 1:21.',
+          references:
+            'Acts 16:14; Romans 1:16; Romans 10:17; 1 Corinthians 1:21',
         },
       ],
     },
@@ -494,7 +501,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 28:19; John 20:30, 31.',
+          references: 'Matthew 28:19; John 20:30-31',
         },
       ],
     },
@@ -529,12 +536,13 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 6:4; Is. 44:6; 45:5; I Cor. 8:4, 6',
+          references:
+            'Deuteronomy 6:4; Isaiah 44:6; Isaiah 45:5; 1 Corinthians 8:4;  1 Corinthians 8:6',
         },
         {
           id: 2,
           references:
-            'Gen. 1:2, 3; Is. 61:1; 63:8-10; Matt. 3:16, 17; 28:18, 19; Luke 4:18; John 14:26; 15:26; II Cor. 13:14; Gal. 4:6; Tit. 3:5, 6. God the Father and Our Creation',
+            'Genesis 1:2-3; Isaiah 61:1; Isaiah 63:8-10; Matthew 3:16-17; Matthew 28:18-19; Luke 4:18; John 14:26; John 15:26; 2 Corinthians 13:14; Galatians 4:6; Titus 3:5-6',
         },
       ],
     },
@@ -550,31 +558,33 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Gen. 1 and 2; Ex. 20:11; Job 38 and 39; Ps. 33:6; Is. 44:24; Acts 4:24; 14:15',
+            'Genesis 1; Genesis 2; Exodus 20:11; Job 38; Job 39; Psalms 33:6; Isaiah 44:24; Acts 4:24; Acts 14:15',
         },
         {
           id: 2,
-          references: 'Ps. 104:27-30; Matt. 6:30; 10:29; Eph. 1:11',
+          references:
+            'Psalms 104:27-30; Matthew 6:30; Matthew 10:29; Ephesians 1:11',
         },
         {
           id: 3,
-          references: 'John 1:12, 13; Rom. 8:15, 16; Gal. 4:4-7; Eph. 1:5',
+          references:
+            'John 1:12-13; Romans 8:15-16; Galatians 4:4-7; Ephesians 1:5',
         },
         {
           id: 4,
-          references: 'Ps. 55:22; Matt. 6:25, 26; Luke 12:22-31',
+          references: 'Psalms 55:22; Matthew 6:25-26; Luke 12:22-31',
         },
         {
           id: 5,
-          references: 'Rom. 8:28',
+          references: 'Romans 8:28',
         },
         {
           id: 6,
-          references: 'Gen. 18:14; Rom. 8:31-39',
+          references: 'Genesis 18:14; Romans 8:31-39',
         },
         {
           id: 7,
-          references: 'Matt. 6:32, 33; 7:9-11.',
+          references: 'Matthew 6:32-33; 7:9-11.',
         },
       ],
     },
@@ -588,23 +598,23 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Jer. 23:23, 24; Acts 17:24-28',
+          references: 'Jeremiah 23:23-24; Acts 17:24-28',
         },
         {
           id: 2,
-          references: 'Heb. 1:3',
+          references: 'Hebrews 1:3',
         },
         {
           id: 3,
-          references: 'Jer. 5:24; Acts 14:15-17; John 9:3; Prov. 22:2',
+          references: 'Jeremiah 5:24; Acts 14:15-17; John 9:3; Proverbs 22:2',
         },
         {
           id: 4,
-          references: 'Prov. 16:33',
+          references: 'Proverbs 16:33',
         },
         {
           id: 5,
-          references: 'Matt. 10:29.',
+          references: 'Matthew 10:29',
         },
       ],
     },
@@ -619,19 +629,19 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Job. 1:21, 22; Ps. 39:10; James 1:3',
+          references: 'Job 1:21-22; Psalms 39:10; James 1:3',
         },
         {
           id: 2,
-          references: 'Deut. 8:10; I Thess. 5:18',
+          references: 'Deuteronomy 8:10; 1 Thessalonians 5:18',
         },
         {
           id: 3,
-          references: 'Ps. 55:22; Rom. 5:3-5; 8:38, 39',
+          references: 'Psalms 55:22; Romans 5:3-5; Romans 8:38-39',
         },
         {
           id: 4,
-          references: 'Job 1:12; 2:6; Prov. 21:1; Acts 17:24-28.',
+          references: 'Job 1:12; Job 2:6; Proverbs 21:1; Acts 17:24-28',
         },
       ],
     },
@@ -645,11 +655,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 1:21; Heb. 7:25',
+          references: 'Matthew 1:21; Hebrews 7:25',
         },
         {
           id: 2,
-          references: 'Is. 43:11; John 15:4, 5; Acts 4:11, 12; I Tim. 2:5.',
+          references: 'Isaiah 43:11; John 15:4-5; Acts 4:11-12; 1 Timothy 2:5',
         },
       ],
     },
@@ -664,11 +674,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 1:12, 13; Gal. 5:4',
+          references: '1 Corinthians 1:12-13; Galatians 5:4',
         },
         {
           id: 2,
-          references: 'Col. 1:19, 20; 2:10; I John 1:7.',
+          references: 'Colossians 1:19-20;Colossians 2:10; 1 John 1:7',
         },
       ],
     },
@@ -682,35 +692,36 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 45:7 (Heb. 1:9); Is. 61:1 (Luke 4:18; Luke 3:21, 22',
+          references:
+            'Psalms 45:7; Hebrews 1:9; Isaiah 61:1; Luke 4:18; Luke 3:21-22',
         },
         {
           id: 2,
-          references: 'Deut. 18:15 (Acts 3:22)',
+          references: 'Deuteronomy 18:15; Acts 3:22',
         },
         {
           id: 3,
-          references: 'John 1:18; 15:15',
+          references: 'John 1:18; John 15:15',
         },
         {
           id: 4,
-          references: 'Ps. 110:4 (Heb. 7:17)',
+          references: 'Psalms 110:4; Hebrews 7:17',
         },
         {
           id: 5,
-          references: 'Heb. 9:12; 10:11-14',
+          references: 'Hebrews 9:12; Hebrews 10:11-14',
         },
         {
           id: 6,
-          references: 'Rom. 8:34; Heb. 9:24; I John 2:1',
+          references: 'Romans 8:34; Hebrews 9:24; 1 John 2:1',
         },
         {
           id: 7,
-          references: 'Zach. 9:9 (Matt. 21:5); Luke 1:33',
+          references: 'Zachariah 9:9; Matthew 21:5; Luke 1:33',
         },
         {
           id: 8,
-          references: 'Matt. 28:18-20; John 10:28; Rev. 12:10, 11.',
+          references: 'Matthew 28:18-20; John 10:28; Revelation 12:10-11',
         },
       ],
     },
@@ -724,27 +735,27 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 12:12-27',
+          references: '1 Corinthians 12:12-27',
         },
         {
           id: 2,
-          references: 'Joel 2:28 (Acts 2:17); I John 2:27',
+          references: 'Joel 2:28; Acts 2:17; 1 John 2:27',
         },
         {
           id: 3,
-          references: 'Matt. 10:32; Rom 10:9, 10; Heb. 13:15',
+          references: 'Matthew 10:32; Rom 10:9-10; Hebrews 13:15',
         },
         {
           id: 4,
-          references: 'Rom. 12:1; I Pet. 2:5, 9',
+          references: 'Romans 12:1; 1 Peter 2:5; 1 Peter 2:9',
         },
         {
           id: 5,
-          references: 'Gal. 5:16, 17; Eph. 6:11; I Tim. 1:18, 19',
+          references: 'Galatians 5:16-17; Ephesians 6:11; 1 Timothy 1:18-19',
         },
         {
           id: 6,
-          references: 'Matt. 25:34; II Tim. 2:12.',
+          references: 'Matthew 25:34; 2 Timothy 2:12',
         },
       ],
     },
@@ -759,11 +770,13 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 1:1-3, 14, 18; 3:16; Rom. 8:32; Heb. 1; I John 4:9',
+          references:
+            'John 1:1-3; John 1:14; John 1:18; John 3:16; Romans 8:32; Hebrews 1; 1 John 4:9',
         },
         {
           id: 2,
-          references: 'John 1:12; Rom. 8:14-17; Gal. 4:6; Eph. 1:5, 6.',
+          references:
+            'John 1:12; Romans 8:14-17; Galatians 4:6; Ephesians 1:5-6',
         },
       ],
     },
@@ -777,15 +790,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 6:20; I Tim. 2:5, 6',
+          references: '1 Corinthians 6:20; 1 Timothy 2:5-6',
         },
         {
           id: 2,
-          references: 'I Peter 1:18, 19',
+          references: '1 Peterer 1:18-19',
         },
         {
           id: 3,
-          references: 'Col. 1:13, 14; Heb. 2:14, 15.',
+          references: 'Colossians 1:13-14; Hebrews 2:14-15',
         },
       ],
     },
@@ -801,11 +814,11 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'John 1:1; 10:30-36; Rom. 1:3; 9:5; Col. 1:15-17; I John 5:20',
+            'John 1:1; John 10:30-36; Romans 1:3; Romans 9:5; Colossians 1:15-17; 1 John 5:20',
         },
         {
           id: 2,
-          references: 'Matt. 1:18-23; John 1:14; Gal. 4:4; Heb. 2:14',
+          references: 'Matthew 1:18-23; John 1:14; Galatians 4:4; Hebrews 2:14',
         },
         {
           id: 3,
@@ -814,15 +827,15 @@ export const Heidelberg: CatechismData = {
         {
           id: 4,
           references:
-            'II Sam. 7:12-16; Ps. 132:11; Matt. 1:1; Luke 1:32; Rom. 1:3',
+            '2 Samuel 7:12-16; Psalms 132:11; Matthew 1:1; Luke 1:32; Romans 1:3',
         },
         {
           id: 5,
-          references: 'Phil. 2:7; Heb. 2:17',
+          references: 'Philemon 2:7; Hebrews 2:17',
         },
         {
           id: 6,
-          references: 'Heb. 4:15; 7:26, 27.',
+          references: 'Hebrews 4:15; Hebrews 7:26-27',
         },
       ],
     },
@@ -837,12 +850,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Tim. 2:5, 6; Heb. 9:13-15',
+          references: '1 Timothy 2:5, 6; Hebrews 9:13-15',
         },
         {
           id: 2,
           references:
-            'Rom. 8:3, 4; II Cor. 5:21; Gal. 4:4, 5; I Pet. 1:18, 19.',
+            'Romans 8:3-4; 2 Corinthians 5:21; Galatians 4:4-5; 1 Peter 1:18-19',
         },
       ],
     },
@@ -856,21 +869,22 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Is. 53; I Tim. 2:6; I Pet. 2:24; 3:18',
+          references: 'Isaiah 53; 1 Timothy 2:6; 1 Peter 2:24; 1 Peter 3:18',
         },
         {
           id: 2,
           references:
-            'Rom. 3:25; I Cor. 5:7; Eph. 5:2; Heb. 10:14; I John 2:2; 4:10',
+            'Romans 3:25; 1 Corinthians 5:7; Ephesians 5:2; Hebrews 10:14; 1 John 2:2; 1 John 4:10',
         },
         {
           id: 3,
           references:
-            'Rom. 8:1-4; Gal. 3:13; Col. 1:13; Heb. 9:12; I Pet 1:18, 19',
+            'Romans 8:1-4; Galatians 3:13; Colossians 1:13; Hebrews 9:12; 1 Peter 1:18-19',
         },
         {
           id: 4,
-          references: 'John 3:16; Rom. 3:24-26; II Cor. 5:21; Heb. 9:15.',
+          references:
+            'John 3:16; Romans 3:24-26; 2 Corinthians 5:21; Hebrews 9:15',
         },
       ],
     },
@@ -884,11 +898,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Luke 23:13-24; John 19:4, 12-16',
+          references: 'Luke 23:13-24; John 19:4; John 19:12-16',
         },
         {
           id: 2,
-          references: 'Is. 53:4, 5; II Cor. 5:21; Gal. 3:13.',
+          references: 'Isaiah 53:4-5; 2 Corinthians 5:21; Galatians 3:13',
         },
       ],
     },
@@ -903,7 +917,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 21:23; Gal. 3:13.',
+          references: 'Deuteronomy 21:23; Galatians 3:13',
         },
       ],
     },
@@ -918,11 +932,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 2:17',
+          references: 'Genesis 2:17',
         },
         {
           id: 2,
-          references: 'Rom. 8:3; Phil. 2:8; Heb. 2:9, 14, 15.',
+          references:
+            'Romans 8:3; Philemon 2:8; Hebrews 2:9; Hebrews 2:14; Hebrews 2:15.',
         },
       ],
     },
@@ -934,7 +949,8 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Is. 53:9; John 19:38-42; Acts 13:29; I Cor. 15:3,4.',
+          references:
+            'Isaiah 53:9; John 19:38-42; Acts 13:29; 1 Corinthians 15:3-4',
         },
       ],
     },
@@ -948,7 +964,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 5:24; Phil. 1:21-23; I Thess. 5:9, 10.',
+          references: 'John 5:24; Philemon 1:21-23; 1 Thessalonians 5:9-10',
         },
       ],
     },
@@ -963,15 +979,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 6:5-11; Col. 2:11, 12',
+          references: 'Romans 6:5-11; Colossians 2:11-12',
         },
         {
           id: 2,
-          references: 'Rom. 6:12-14',
+          references: 'Romans 6:12-14',
         },
         {
           id: 3,
-          references: 'Rom. 12:1; Eph. 5:1, 2.',
+          references: 'Romans 12:1; Ephesians 5:1-2',
         },
       ],
     },
@@ -986,11 +1002,11 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 18:5, 6; 116:3; Matt. 26:36-46; 27:45, 46; Heb. 5:7-10',
+            'Psalms 18:5-6; Psalms 116:3; Matthew 26:36-46; Matthew 27:45-46; Hebrews 5:7-10',
         },
         {
           id: 2,
-          references: 'Is. 53.',
+          references: 'Isaiah 53',
         },
       ],
     },
@@ -1004,15 +1020,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 4:25; I Cor. 15:16-20; I Pet. 1:3-5',
+          references: 'Romans 4:25; 1 Corinthians 15:16-20; 1 Peter 1:3-5',
         },
         {
           id: 2,
-          references: 'Rom. 6:5-11; Eph. 2:4-6; Col. 3:1-4',
+          references: 'Romans 6:5-11; Ephesians 2:4-6; Colossians 3:1-4',
         },
         {
           id: 3,
-          references: 'Rom. 8:11; I Cor. 15:12-23; Phil. 3:20, 21.',
+          references: 'Romans 8:11; 1 Corinthians 15:12-23; Philemon 3:20-21',
         },
       ],
     },
@@ -1030,11 +1046,12 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 2,
-          references: 'Rom. 8:34; Heb. 4:14; 7:23-25; 9:24',
+          references:
+            'Romans 8:34; Hebrews 4:14; Hebrews 7:23-25; Hebrews 9:24',
         },
         {
           id: 3,
-          references: 'Matt. 24:30; Acts 1:11.',
+          references: 'Matthew 24:30; Acts 1:11',
         },
       ],
     },
@@ -1051,15 +1068,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 28:20',
+          references: 'Matthew 28:20',
         },
         {
           id: 2,
-          references: 'Matt. 26:11; John 16:28; 17:11; Acts 3:19-21; Heb. 8:4',
+          references:
+            'Matthew 26:11; John 16:28; John 17:11; Acts 3:19-21; Hebrews 8:4',
         },
         {
           id: 3,
-          references: 'Matt. 28:18-20; John 14:16-19; 16:13.',
+          references: 'Matthew 28:18-20; John 14:16-19; John 16:13',
         },
       ],
     },
@@ -1074,11 +1092,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Jer. 23:23, 24; Acts 7:48, 49',
+          references: 'Jeremiah 23:23-24; Acts 7:48-49',
         },
         {
           id: 2,
-          references: 'John 1:14; 3:13; Col. 2:9.',
+          references: 'John 1:14; John 3:13; Colossians 2:9',
         },
       ],
     },
@@ -1092,19 +1110,20 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 8:34; I John 2:1',
+          references: 'Romans 8:34; 1 John 2:1',
         },
         {
           id: 2,
-          references: 'John 14:2; 17:24; Eph. 2:4-6',
+          references: 'John 14:2; John 17:24; Ephesians 2:4-6',
         },
         {
           id: 3,
-          references: 'John 14:16; Acts 2:33; II Cor. 1:21, 22; 5:5',
+          references:
+            'John 14:16; Acts 2:33; 2 Corinthians 1:21-22; 2 Corinthians 5:5',
         },
         {
           id: 4,
-          references: 'Col. 3:1-4.',
+          references: 'Colossians 3:1-4',
         },
       ],
     },
@@ -1118,11 +1137,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 1:20-23; Col. 1:18',
+          references: 'Ephesians 1:20-23; Colossians 1:18',
         },
         {
           id: 2,
-          references: 'Matt. 28:18; John 5:22, 23.',
+          references: 'Matthew 28:18; John 5:22-23',
         },
       ],
     },
@@ -1136,11 +1155,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Acts 2:33; Eph. 4:7-12',
+          references: 'Acts 2:33; Ephesians 4:7-12',
         },
         {
           id: 2,
-          references: 'Ps. 2:9; 110:1, 2; John 10:27-30; Rev. 19:11-16.',
+          references:
+            'Psalms 2:9; Psalms 110:1-2; John 10:27-30; Revelation 19:11-16',
         },
       ],
     },
@@ -1155,11 +1175,13 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Luke 21:28; Rom. 8:22-25; Phil. 3:20,21; Tit. 2:13, 14',
+          references:
+            'Luke 21:28; Romans 8:22-25; Philemon 3:20-21; Titus 2:13-14',
         },
         {
           id: 2,
-          references: 'Matt. 25:31-46; I Thess. 4:16, 17; II Thess. 1:6-10.',
+          references:
+            'Matthew 25:31-46; 1 Thessalonians 4:16-17; 2 Thessalonians 1:6-10',
         },
       ],
     },
@@ -1173,15 +1195,17 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 1:1, 2; Matt. 28:19; Acts 5:3, 4; I Cor. 3:16',
+          references:
+            'Genesis 1:1-2; Matthew 28:19; Acts 5:3-4; 1 Corinthians 3:16',
         },
         {
           id: 2,
-          references: 'I Cor. 6:19; II Cor. 1:21, 22; Gal. 4:6; Eph. 1:13',
+          references:
+            '1 Corinthians 6:19; 2 Corinthians 1:21-22; Galatians 4:6; Ephesians 1:13',
         },
         {
           id: 3,
-          references: 'Gal. 3:14; I Pet. 1:2',
+          references: 'Galatians 3:14; 1 Peter 1:2',
         },
         {
           id: 4,
@@ -1189,7 +1213,7 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 5,
-          references: 'John 14:16, 17; I Pet. 4:14.',
+          references: 'John 14:16-17; 1 Peter 4:14',
         },
       ],
     },
@@ -1204,39 +1228,41 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 10:11; Acts 20:28; Eph. 4:11-13; Col. 1:18',
+          references:
+            'John 10:11; Acts 20:28; Ephesians 4:11-13; Colossians 1:18',
         },
         {
           id: 2,
-          references: 'Gen. 26:4; Rev. 5:9',
+          references: 'Genesis 26:4; Revelation 5:9',
         },
         {
           id: 3,
-          references: 'Is. 59:21; I Cor. 11:26',
+          references: 'Isaiah 59:21; 1 Corinthians 11:26',
         },
         {
           id: 4,
-          references: 'Ps. 129:1-5; Matt. 16:18; John 10:28-30',
+          references: 'Psalms 129:1-5; Matthew 16:18; John 10:28-30',
         },
         {
           id: 5,
-          references: 'Rom. 1:16; 10:14-17; Eph. 5:26',
+          references: 'Romans 1:16; Romans 10:14-17; Ephesians 5:26',
         },
         {
           id: 6,
-          references: 'Acts 2:42-47; Eph. 4:1-6',
+          references: 'Acts 2:42-47; Ephesians 4:1-6',
         },
         {
           id: 7,
-          references: 'Rom. 8:29; Eph. 1:3-14',
+          references: 'Romans 8:29; Ephesians 1:3-14',
         },
         {
           id: 8,
-          references: 'I John 3:14, 19-21',
+          references: '1 John 3:14; 1 John 19-21',
         },
         {
           id: 9,
-          references: 'Ps. 23:6; John 10:27, 28; I Cor. 1:4-9; I Pet. 1:3-5.',
+          references:
+            'Psalms 23:6; John 10:27-28; 1 Corinthians 1:4-9; 1 Peter 1:3-5',
         },
       ],
     },
@@ -1250,11 +1276,13 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 8:32; I Cor. 6:17; 12:4-7, 12, 13; I John 1:3',
+          references:
+            'Romans 8:32; 1 Corinthians 6:17; 1 Corinthians 12:4-7; 1 Corinthians 12:12; 1 Corinthians 12:13; 1 John 1:3',
         },
         {
           id: 2,
-          references: 'Rom. 12:4-8; I Cor. 12:20-27; 13:1-7; Phil. 2:4-8.',
+          references:
+            'Romans 12:4-8; 1 Corinthians 12:20-27; 1 Corinthians 13:1-7; Philemon 2:4-8.',
         },
       ],
     },
@@ -1269,15 +1297,15 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 103:3, 4, 10, 12; Mic. 7:18, 19; II Cor. 5:18-21; I John 1:7; 2:2',
+            'Psalms 103:3; Psalms 103:4; Psalms 103:10; Psalms 103:12; Micah 7:18, 19; 2 Corinthians 5:18-21; 1 John 1:7; 1 John 2:2',
         },
         {
           id: 2,
-          references: 'Rom. 7:21-25',
+          references: 'Romans 7:21-25',
         },
         {
           id: 3,
-          references: 'John 3:17, 18; 5:24; Rom. 8:1, 2.',
+          references: 'John 3:17-18; John 5:24; Romans 8:1-2',
         },
       ],
     },
@@ -1291,12 +1319,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Luke 16:22; 23:43; Phil. 1:21-23',
+          references: 'Luke 16:22; Luke 23:43; Philemon 1:21-23',
         },
         {
           id: 2,
           references:
-            'Job 19:25, 26; I Cor. 15:20, 42-46, 54; Phil. 3:21; I John 3:2.',
+            'Job 19:25-26; 1 Corinthians 15:20; 1 Corinthians 15:42-46; 1 Corinthians 15:54; Philemon 3:21; 1 John 3:2',
         },
       ],
     },
@@ -1311,11 +1339,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 17:3; Rom. 14:17; II Cor. 5:2, 3',
+          references: 'John 17:3; Romans 14:17; 2 Corinthians 5:2-3',
         },
         {
           id: 2,
-          references: 'John 17:24; I Cor. 2:9.',
+          references: 'John 17:24; 1 Corinthians 2:9',
         },
       ],
     },
@@ -1329,7 +1357,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Hab. 2:4; John 3:36; Rom. 1:17; 5:1, 2.',
+          references: 'Habakkuk 2:4; John 3:36; Romans 1:17; Romans 5:1-2',
         },
       ],
     },
@@ -1343,35 +1371,36 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 3:21-28; Gal. 2:16; Eph. 2:8, 9; Phil. 3:8-11',
+          references:
+            'Romans 3:21-28; Galatians 2:16; Ephesians 2:8, 9; Philemon 3:8-11',
         },
         {
           id: 2,
-          references: 'Rom. 3:9, 10',
+          references: 'Romans 3:9-10',
         },
         {
           id: 3,
-          references: 'Rom. 7:23',
+          references: 'Romans 7:23',
         },
         {
           id: 4,
-          references: 'Deut. 9:6; Ezek. 36:22; Tit. 3:4, 5',
+          references: 'Deuteronomy 9:6; Ezekiel 36:22; Titus 3:4-5',
         },
         {
           id: 5,
-          references: 'Rom. 3:24; Eph. 2:8',
+          references: 'Romans 3:24; Ephesians 2:8',
         },
         {
           id: 6,
-          references: 'Rom. 4:3-5; II Cor. 5:17-19; I John 2:1, 2',
+          references: 'Romans 4:3-5; 2 Corinthians 5:17-19; 1 John 2:1-2',
         },
         {
           id: 7,
-          references: 'Rom. 4:24, 25; II Cor. 5:21',
+          references: 'Romans 4:24-25; 2 Corinthians 5:21',
         },
         {
           id: 8,
-          references: 'John 3:18; Acts 16:30, 31; Rom. 3:22.',
+          references: 'John 3:18; Acts 16:30-31; Romans 3:22',
         },
       ],
     },
@@ -1385,11 +1414,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 1:30, 31; 2:2',
+          references: '1 Corinthians 1:30-31; 1 Corinthians 2:2',
         },
         {
           id: 2,
-          references: 'Rom. 10:10; I John 5:10-12.',
+          references: 'Romans 10:10; 1 John 5:10-12',
         },
       ],
     },
@@ -1404,11 +1433,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 27:26; Gal. 3:10',
+          references: 'Deuteronomy 27:26; Galatians 3:10',
         },
         {
           id: 2,
-          references: 'Is. 64:6.',
+          references: 'Isaiah 64:6',
         },
       ],
     },
@@ -1422,11 +1451,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 5:12; Heb. 11:6',
+          references: 'Matthew 5:12; Hebrews 11:6',
         },
         {
           id: 2,
-          references: 'Luke 17:10; II Tim. 4:7, 8.',
+          references: 'Luke 17:10; 2 Timothy 4:7-8',
         },
       ],
     },
@@ -1440,7 +1469,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 7:18; Luke 6:43-45; John 15:5.',
+          references: 'Matthew 7:18; Luke 6:43-45; John 15:5',
         },
       ],
     },
@@ -1455,15 +1484,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 3:5; I Cor. 2:10-14; Eph. 2:8; Phil. 1:29',
+          references:
+            'John 3:5; 1 Corinthians 2:10-14; Ephesians 2:8; Philemon 1:29',
         },
         {
           id: 2,
-          references: 'Rom. 10:17; I Pet. 1:23-25',
+          references: 'Romans 10:17; 1 Peter 1:23-25',
         },
         {
           id: 3,
-          references: 'Matt. 28:19, 20; I Cor. 10:16.',
+          references: 'Matthew 28:19-20; 1 Corinthians 10:16',
         },
       ],
     },
@@ -1477,11 +1507,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 17:11; Deut. 30:6; Rom. 4:1',
+          references: 'Genesis 17:11; Deuteronomy 30:6; Romans 4:1',
         },
         {
           id: 2,
-          references: 'Matt. 26:27, 28; Acts 2:38; Heb. 10:10.',
+          references: 'Matthew 26:27-28; Acts 2:38; Hebrews 10:10',
         },
       ],
     },
@@ -1496,7 +1526,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 6:3; I Cor. 11:26; Gal. 3:27.',
+          references: 'Romans 6:3; 1 Corinthians 11:26; Galatians 3:27',
         },
       ],
     },
@@ -1509,7 +1539,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 28:19, 20; I Cor. 11:23-26. Holy Baptism',
+          references: 'Matthew 28:19-20; 1 Corinthians 11:23-26',
         },
       ],
     },
@@ -1524,12 +1554,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 28:19',
+          references: 'Matthew 28:19',
         },
         {
           id: 2,
           references:
-            'Matt. 3:11; Mark 16:16; John 1:33; Acts 2:38; Rom. 6:3, 4; I Pet. 3:21. ',
+            'Matthew 3:11; Mark 16:16; John 1:33; Acts 2:38; Romans 6:3-4; 1 Peter 3:21',
         },
       ],
     },
@@ -1545,11 +1575,12 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ez. 36:25; Zech. 13:1; Eph. 1:7; Heb. 12:24; I Pet. 1:2; Rev. 1:5; 7:14',
+            'Ezekiel 36:25; Zechariah 13:1; Ephesians 1:7; Hebrews 12:24; 1 Peter 1:2; Revelation 1:5; Revelation 7:14',
         },
         {
           id: 2,
-          references: 'John 3:5-8; Rom. 6:4; I Cor. 6:11; Col. 2:11, 12.',
+          references:
+            'John 3:5-8; Romans 6:4; 1 Corinthians 6:11; Colossians 2:11-12',
         },
       ],
     },
@@ -1572,7 +1603,7 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 3,
-          references: 'Titus 3:5; Acts 22:16.',
+          references: 'Titus 3:5; Acts 22:16',
         },
       ],
     },
@@ -1586,7 +1617,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 3:11; I Pet. 3:21; I John 1:7.',
+          references: 'Matthew 3:11; 1 Peter 3:21; 1 John 1:7',
         },
       ],
     },
@@ -1601,11 +1632,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 6:11; Rev. 1:5; 7:14',
+          references: '1 Corinthians 6:11; Revelation 1:5; Revelation 7:14',
         },
         {
           id: 2,
-          references: 'Mark 16:16; Acts 2:38; Rom. 6:3, 4; Gal. 3:27.',
+          references: 'Mark 16:16; Acts 2:38; Romans 6:3-4; Galatians 3:27',
         },
       ],
     },
@@ -1619,23 +1650,23 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 17:7; Matt. 19:14',
+          references: 'Genesis 17:7; Matthew 19:14',
         },
         {
           id: 2,
-          references: 'Ps. 22:11; Is. 44:1-3; Acts 2:38, 39; 16:31',
+          references: 'Psalms 22:11; Isaiah 44:1-3; Acts 2:38-39; Acts 16:31',
         },
         {
           id: 3,
-          references: 'Acts 10:47; I Cor. 7:14',
+          references: 'Acts 10:47; 1 Corinthians 7:14',
         },
         {
           id: 4,
-          references: 'Gen. 17:9-14',
+          references: 'Genesis 17:9-14',
         },
         {
           id: 5,
-          references: 'Col. 2: 11-13.',
+          references: 'Colossians 2:11-13',
         },
       ],
     },
@@ -1651,7 +1682,7 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 26:26-28; Mark 14:22-24; Luke 22:19, 20; I Cor. 11:23-25.',
+            'Matthew 26:26-28; Mark 14:22-24; Luke 22:19-20; 1 Corinthians 11:23-25',
         },
       ],
     },
@@ -1666,23 +1697,25 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 6:35, 40, 50-54',
+          references: 'John 6:35; John 6:40; John 6:50-54',
         },
         {
           id: 2,
-          references: 'John 6:55, 56; I Cor. 12:13',
+          references: 'John 6:55-56; 1 Corinthians 12:13',
         },
         {
           id: 3,
-          references: 'Acts 1:9-11; 3:21; I Cor. 11:26; Col. 3:1',
+          references:
+            'Acts 1:9-11; Acts 3:21; 1 Corinthians 11:26; Colossians 3:1',
         },
         {
           id: 4,
-          references: 'I Cor. 6:15, 17; Eph. 5:29, 30; I John 4:13',
+          references: '1 Corinthians 6:15-17; Ephesians 5:29-30; 1 John 4:13',
         },
         {
           id: 5,
-          references: 'John 6:56-58; 15:1-6; Eph. 4:15, 16; I John 3:24.',
+          references:
+            'John 6:56-58; John 15:1-6; Ephesians 4:15-16; 1 John 3:24',
         },
       ],
     },
@@ -1701,7 +1734,7 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 2,
-          references: 'I Corinthians 10:16, 17',
+          references: 'I Corinthians 10:16-17',
         },
       ],
     },
@@ -1716,20 +1749,20 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eph. 5:26; Tit. 3:5',
+          references: 'Ephesians 5:26; Titus 3:5',
         },
         {
           id: 2,
-          references: 'Matt. 26:26-29',
+          references: 'Matthew 26:26-29',
         },
         {
           id: 3,
-          references: 'I Cor. 10:16, 17; 11:26-28',
+          references: '1 Corinthians 10:16-17; 1 Corinthians 11:26-28',
         },
         {
           id: 4,
           references:
-            'Gen. 17:10, 11; Ex. 12:11, 13; I Cor. 10:3, 4; I Pet. 3:21.',
+            'Genesis 17:10-11; Exodus 12:11; Exodus 12:13; 1 Corinthians 10:3-4; 1 Peter 3:21',
         },
       ],
     },
@@ -1744,15 +1777,15 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'John 6:51, 55',
+          references: 'John 6:51; John 6:55',
         },
         {
           id: 2,
-          references: 'I Cor. 10:16, 17; 11:26',
+          references: '1 Corinthians 10:16-17; 1 Corinthians 11:26',
         },
         {
           id: 3,
-          references: 'Rom. 6:5-11.',
+          references: 'Romans 6:5-11',
         },
       ],
     },
@@ -1768,19 +1801,20 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 26:28; John 19:30; Heb. 7:27; 9:12, 25, 26; 10:10-18',
+            'Matthew 26:28; John 19:30; Hebrews 7:27; Hebrews 9:12; Hebrews 9:25-26; Hebrews 10:10-18',
         },
         {
           id: 2,
-          references: 'I Cor. 6:17; 10:16, 17',
+          references: '1 Corinthians 6:17; 1 Corinthians 10:16-17',
         },
         {
           id: 3,
-          references: 'Joh. 20:17; Acts 7:55, 56; Heb. 1:3; 8:1',
+          references: 'John 20:17; Acts 7:55-56; Hebrews 1:3; Hebrews 8:1',
         },
         {
           id: 4,
-          references: 'John 4:21-24; Phil. 3:20; Col. 3:1; I Thess. 1:10.',
+          references:
+            'John 4:21-24; Philemon 3:20; Colossians 3:1; 1 Thessalonians 1:10',
         },
       ],
     },
@@ -1794,7 +1828,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 10:19-22; 11:26-32.',
+          references: '1 Corinthians 10:19-22; 1 Corinthians 11:26-32',
         },
       ],
     },
@@ -1809,7 +1843,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 50:16; Is. 1:11-17; I Cor. 11:17-34.',
+          references: 'Psalms 50:16; Isaiah 1:11-17; 1 Corinthians 11:17-34',
         },
       ],
     },
@@ -1823,7 +1857,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 16:19; John 20:21-23.',
+          references: 'Matthew 16:19; John 20:21-23',
         },
       ],
     },
@@ -1838,7 +1872,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 16:19; John 3:31-36; 20:21-23.',
+          references: 'Matthew 16:19; John 3:31-36; John 20:21-23',
         },
       ],
     },
@@ -1853,11 +1887,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 18:15-20; I Cor. 5:3-5; 11-13; II Thess. 3:14, 15',
+          references:
+            'Matthew 18:15-20; 1 Corinthians 5:3-5; 1 Corinthians 11-13; 2 Thessalonians 3:14-15',
         },
         {
           id: 2,
-          references: 'Luke 15:20-24; II Cor. 2:6-11.',
+          references: 'Luke 15:20-24; 2 Corinthians 2:6-11',
         },
       ],
     },
@@ -1872,19 +1907,20 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 6:13; 12:1, 2; I Pet. 2:5-10',
+          references: 'Romans 6:13; Romans 12:1-2; 1 Peter 2:5-10',
         },
         {
           id: 2,
-          references: 'Matt. 5:16; I Cor. 6:19, 20',
+          references: 'Matthew 5:16; 1 Corinthians 6:19-20',
         },
         {
           id: 3,
-          references: 'Matt. 7:17, 18; Gal. 5:22-24; II Pet. 1:10, 11',
+          references: 'Matthew 7:17-18; Galatians 5:22-24; 2 Peter 1:10-11',
         },
         {
           id: 4,
-          references: 'Matt. 5:14-16; Rom. 14:17-19; I Pet. 2:12; 3:1, 2.',
+          references:
+            'Matthew 5:14-16; Romans 14:17-19; 1 Peter 2:12; 1 Peter 3:1-2',
         },
       ],
     },
@@ -1899,7 +1935,8 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 6:9, 10; Gal. 5:19-21; Eph. 5:5, 6; I John 3:14.',
+          references:
+            '1 Corinthians 6:9-10; Galatians 5:19-21; Ephesians 5:5-6; 1 John 3:14',
         },
       ],
     },
@@ -1914,7 +1951,7 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Rom. 6:1-11; I Cor. 5:7; II Cor. 5:17; Eph. 4:22-24; Col. 3:5-10.',
+            'Romans 6:1-11; 1 Corinthians 5:7; 2 Corinthians 5:17; Ephesians 4:22-24; Colossians 3:5-10',
         },
       ],
     },
@@ -1929,7 +1966,7 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 51:3, 4, 17; Joel 2:12, 13; Rom. 8:12, 13; II Cor. 7:10.',
+            'Psalms 51:3-4; Psalms 51:17; Joel 2:12-13; Romans 8:12-13; 2 Corinthians 7:10',
         },
       ],
     },
@@ -1943,11 +1980,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 51:8, 12; Is. 57:15; Rom. 5:1; 14:17',
+          references:
+            'Psalms 51:8; Psalms 51:12; Isaiah 57:15; Romans 5:1; Romans 14:17',
         },
         {
           id: 2,
-          references: 'Rom. 6:10, 11; Gal. 2:20.',
+          references: 'Romans 6:10-11; Galatians 2:20',
         },
       ],
     },
@@ -1961,19 +1999,20 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Joh. 15:5; Rom. 14:23; Heb. 11:6',
+          references: 'John 15:5; Romans 14:23; Hebrews 11:6',
         },
         {
           id: 2,
-          references: 'Lev. 18:4; I Sam. 15:22; Eph. 2:10',
+          references: 'Leviticus 18:4; 1 Samuel 15:22; Ephesians 2:10',
         },
         {
           id: 3,
-          references: 'I Cor. 10:31',
+          references: '1 Corinthians 10:31',
         },
         {
           id: 4,
-          references: 'Deut. 12:32; Is. 29:13; Ezek. 20:18, 19; Matt. 15:7-9.',
+          references:
+            'Deuteronomy 12:32; Isaiah 29:13; Ezekiel 20:18-19; Matthew 15:7-9',
         },
       ],
     },
@@ -1987,7 +2026,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ex. 20:1-17; Deut. 5:6-21.',
+          references: 'Exodus 20:1-17; Deuteronomy 5:6-21',
         },
       ],
     },
@@ -2001,7 +2040,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 22:37-40.',
+          references: 'Matthew 22:37-40',
         },
       ],
     },
@@ -2015,15 +2054,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Cor. 6:9, 10; 10:5-14; I John 5:21',
+          references:
+            '1 Corinthians 6:9-10; 1 Corinthians 10:5-14; 1 John 5:21',
         },
         {
           id: 2,
-          references: 'Lev. 19:31; Deut. 18:9-12',
+          references: 'Leviticus 19:31; Deuteronomy 18:9-12',
         },
         {
           id: 3,
-          references: 'Matt. 4:10; Rev. 19:10; 22:8, 9',
+          references: 'Matthew 4:10; Revelation 19:10; Revelation 22:8-9',
         },
         {
           id: 4,
@@ -2031,37 +2071,37 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 5,
-          references: 'Jer. 17:5, 7',
+          references: 'Jeremiah 17:5; Jeremiah 17:7',
         },
         {
           id: 6,
-          references: 'I Pet. 5:5, 6',
+          references: '1 Peter 5:5-6',
         },
         {
           id: 7,
           references:
-            'Rom. 5:3, 4; I Cor. 10:10; Phil. 2:14; Col. 1:11; Heb. 10:36',
+            'Romans 5:3-4; 1 Corinthians 10:10; Philemon 2:14; Colossians 1:11; Hebrews 10:36',
         },
         {
           id: 8,
-          references: 'Ps. 104:27, 28; Is. 45:7; James 1:17',
+          references: 'Psalms 104:27-28; Isaiah 45:7; James 1:17',
         },
         {
           id: 9,
-          references: 'Deut. 6:5; (Matt. 22:37)',
+          references: 'Deuteronomy 6:5; Matthew 22:37',
         },
         {
           id: 10,
           references:
-            'Deut. 6:2; Ps. 111:10; Prov. 1:7; 9:10; Matt. 10:28; I Pet. 1:17',
+            'Deuteronomy 6:2; Psalms 111:10; Proverbs 1:7; Proverbs 9:10; Matthew 10:28; 1 Peter 1:17',
         },
         {
           id: 11,
-          references: 'Deut. 6:13; (Matt. 4:10); Deut. 10:20',
+          references: 'Deuteronomy 6:13; Matthew 4:10; Deuteronomy 10:20',
         },
         {
           id: 12,
-          references: 'Matt. 5:29, 30; 10:37-39; Acts 5:29.',
+          references: 'Matthew 5:29-30; Matthew 10:37-39; Acts 5:29',
         },
       ],
     },
@@ -2075,7 +2115,8 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'I Chron. 16:26; Gal. 4:8, 9; Eph. 5:5; Phil. 3:19.',
+          references:
+            '1 Chronicles 16:26; Galatians 4:8-9; Ephesians 5:5; Philemon 3:19',
         },
       ],
     },
@@ -2089,12 +2130,13 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 4:15-19; Is. 40:18-25; Acts 17:29; Rom. 1:23',
+          references:
+            'Deuteronomy 4:15-19; Isaiah 40:18-25; Acts 17:29; Romans 1:23',
         },
         {
           id: 2,
           references:
-            'Lev. 10:1-7; Deut. 12:30; I Sam. 15:22, 23; Matt. 15:9; John 4:23, 24.',
+            'Leviticus 10:1-7; Deuteronomy 12:30; 1 Samuel 15:22-23; Matthew 15:9; John 4:23-24',
         },
       ],
     },
@@ -2109,7 +2151,7 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ex. 34:13, 14, 17; Num. 33:52; II Kings 18:4, 5; Is. 40:25.',
+            'Exodus 34:13-14; Exodus 34:17; Numbers 33:52; 2 Kings 18:4-5; Isaiah 40:25',
         },
       ],
     },
@@ -2124,11 +2166,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Jer. 10:8; Hab. 2:18-20',
+          references: 'Jeremiah 10:8; Habakkuk 2:18-20',
         },
         {
           id: 2,
-          references: 'Rom. 10:14, 15, 17; II Tim. 3:16, 17; II Pet. 1:19.',
+          references:
+            'Romans 10:14-15; Romans 10:17; 2 Timothy 3:16-17; 2 Peter 1:19',
         },
       ],
     },
@@ -2142,35 +2185,35 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Lev. 24:10-17',
+          references: 'Leviticus 24:10-17',
         },
         {
           id: 2,
-          references: 'Lev. 19:1',
+          references: 'Leviticus 19:1',
         },
         {
           id: 3,
-          references: 'Matt. 5:37; James 5:12',
+          references: 'Matthew 5:37; James 5:12',
         },
         {
           id: 4,
-          references: 'Lev. 5:1; Prov. 29:24',
+          references: 'Leviticus 5:1; Proverbs 29:24',
         },
         {
           id: 5,
-          references: 'Ps. 99:1-5; Is. 45:23; Jer. 4:2',
+          references: 'Psalms 99:1-5; Isaiah 45:23; Jeremiah 4:2',
         },
         {
           id: 6,
-          references: 'Matt. 10:32, 33; Rom. 10:9, 10',
+          references: 'Matthew 10:32-33; Romans 10:9-10',
         },
         {
           id: 7,
-          references: 'Ps. 50:14, 15; I Tim. 2:8',
+          references: 'Psalms 50:14-15; 1 Timothy 2:8',
         },
         {
           id: 8,
-          references: 'Rom. 2:24; Col. 3:17; I Tim. 6:1.',
+          references: 'Romans 2:24; Colossians 3:17; 1 Timothy 6:1',
         },
       ],
     },
@@ -2185,11 +2228,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Lev. 5:1',
+          references: 'Leviticus 5:1',
         },
         {
           id: 2,
-          references: 'Lev. 24:16.',
+          references: 'Leviticus 24:16',
         },
       ],
     },
@@ -2204,12 +2247,13 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Deut. 6:13; 10:20; Jer. 4:1, 2; Heb. 6:16',
+          references:
+            'Deuteronomy 6:13; Deuteronomy 10:20; Jeremiah 4:1-2; Hebrews 6:16',
         },
         {
           id: 2,
           references:
-            'Gen. 21:24; 31:53; Josh. 9:15; I Sam. 24:22; I Kings 1:29, 30; Rom. 1:9; II Cor. 1:23.',
+            'Genesis 21:24; Genesis 31:53; Joshua 9:15; 1 Samuel 24:22; 1 Kings 1:29-30; Romans 1:9; 2 Corinthians 1:23',
         },
       ],
     },
@@ -2223,11 +2267,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 9:1; II Cor. 1:23',
+          references: 'Romans 9:1; 2 Corinthians 1:23',
         },
         {
           id: 2,
-          references: 'Matt. 5:34-37; 23:16-22; James 5:12.',
+          references: 'Matthew 5:34-37; Matthew 23:16-22; James 5:12',
         },
       ],
     },
@@ -2242,32 +2286,33 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Deut. 6:4-9; 20-25; I Cor. 9:13, 14; II Tim. 2:2; 3:13-17; Tit. 1:5',
+            'Deuteronomy 6:4-9; Deuteronomy 6:20-25; 1 Corinthians 9:13-14; 2 Timothy 2:2; 2 Timothy 3:13-17; Titus 1:5',
         },
         {
           id: 2,
           references:
-            'Deut. 12:5-12; Ps. 40:9, 10; 68:26; Acts 2:42-47; Heb. 10:23-25',
+            'Deuteronomy 12:5-12; Psalms 40:9-10; Psalms 68:26; Acts 2:42-47; Hebrews 10:23-25',
         },
         {
           id: 3,
-          references: 'Rom. 10:14-17; I Cor. 14:26-33; I Tim. 4:13',
+          references: 'Romans 10:14-17; 1 Corinthians 14:26-33; 1 Timothy 4:13',
         },
         {
           id: 4,
-          references: 'I Cor. 11:23, 24',
+          references: '1 Corinthians 11:23-24',
         },
         {
           id: 5,
-          references: 'Col. 3:16; I Tim. 2:1',
+          references: 'Colossians 3:16; 1 Timothy 2:1',
         },
         {
           id: 6,
-          references: 'Ps. 50:14; I Cor. 16:2; II Cor. 8 and 9',
+          references:
+            'Psalms 50:14; 1 Corinthians 16:2; 2 Corinthians 8; 2 Corinthians 9',
         },
         {
           id: 7,
-          references: 'Is. 66:23; Heb. 4:9-11.',
+          references: 'Isaiah 66:23; Hebrews 4:9-11',
         },
       ],
     },
@@ -2282,15 +2327,16 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ex. 21:17; Prov. 1:8; 4:1; Rom. 13:1, 2; Eph. 5:21, 22; 6:1-9; Col. 3:18-4:1',
+            'Exodus 21:17; Proverbs 1:8; Proverbs 4:1; Romans 13:1-2; Ephesians 5:21-22; Ephesians 6:1-9; Colossians 3:18-4:1',
         },
         {
           id: 2,
-          references: 'Prov. 20:20; 23:22; I Pet.2:18',
+          references: 'Proverbs 20:20; Proverbs 23:22; 1 Peter 2:18',
         },
         {
           id: 3,
-          references: 'Matt. 22:21, Rom. 13:1-8; Eph. 6:1-9; Col. 3:18-21.',
+          references:
+            'Matthew 22:21; Romans 13:1-8; Ephesians 6:1-9; Colossians 3:18-21',
         },
       ],
     },
@@ -2304,19 +2350,21 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Gen. 9:6; Lev. 19:17, 18; Matt. 5:21, 22; 26:52',
+          references:
+            'Genesis 9:6; Leviticus 19:17-18; Matthew 5:21-22; Matthew 26:52',
         },
         {
           id: 2,
-          references: 'Prov. 25:21, 22; Matt. 18:35; Rom. 12:19; Eph. 4:26',
+          references:
+            'Proverbs 25:21-22; Matthew 18:35; Romans 12:19; Ephesians 4:26',
         },
         {
           id: 3,
-          references: 'Matt. 4:7; 26:52; Rom. 13:11-14',
+          references: 'Matthew 4:7; Matthew 26:52; Romans 13:11-14',
         },
         {
           id: 4,
-          references: 'Gen. 9:6; Ex. 21:14; Rom. 13:4.',
+          references: 'Genesis 9:6; Exodus 21:14; Romans 13:4',
         },
       ],
     },
@@ -2331,11 +2379,11 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Prov. 14:30; Rom. 1:29; 12:19; Gal. 5:19-21; James 1:20; I John 2:9-11',
+            'Proverbs 14:30; Romans 1:29; Romans 12:19; Galatians 5:19-21; James 1:20; 1 John 2:9-11',
         },
         {
           id: 2,
-          references: 'I John 3:15.',
+          references: '1 John 3:15',
         },
       ],
     },
@@ -2350,16 +2398,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 7:12; 22:39; Rom. 12:10',
+          references: 'Matthew 7:12; Matthew 22:39; Romans 12:10',
         },
         {
           id: 2,
           references:
-            'Matt. 5:5; Luke 6:36; Rom. 12:10, 18; Gal. 6:1, 2; Eph. 4:2; Col. 3:12; IPet. 3:8',
+            'Matthew 5:5; Luke 6:36; Romans 12:10; Romans 12:18; Galatians 6:1-2; Ephesians 4:2; Colossians 3:12; 1 Peter 3:8',
         },
         {
           id: 3,
-          references: 'Ex. 23:4, 5; Matt. 5:44, 45; Rom. 12:20.',
+          references: 'Exodus 23:4-5; Matthew 5:44-45; Romans 12:20',
         },
       ],
     },
@@ -2373,15 +2421,16 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Lev. 18:30; Eph. 5:3-5',
+          references: 'Leviticus 18:30; Ephesians 5:3-5',
         },
         {
           id: 2,
-          references: 'Jude 22, 23',
+          references: 'Jude 22;  Jude 23',
         },
         {
           id: 3,
-          references: 'I Cor. 7:1-9; I Thess. 4:3-8; Heb. 13:4.',
+          references:
+            '1 Corinthians 7:1-9; 1 Thessalonians 4:3-8; Hebrews 13:4',
         },
       ],
     },
@@ -2396,11 +2445,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 5:27-29; I Cor. 6:18-20; Eph. 5:3, 4',
+          references: 'Matthew 5:27-29; 1 Corinthians 6:18-20; Ephesians 5:3-4',
         },
         {
           id: 2,
-          references: 'I Cor. 15:33; Eph. 5:18.',
+          references: '1 Corinthians 15:33; Ephesians 5:18',
         },
       ],
     },
@@ -2414,24 +2463,24 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ex. 22:1; I Cor. 5:9, 10; 6:9, 10',
+          references: 'Exodus 22:1; 1 Corinthians 5:9-10; 1 Corinthians 6:9,10',
         },
         {
           id: 2,
           references:
-            'Deut. 25:13-16; Ps. 15:5; Prov. 11:1; 12:22; Ezek. 45:9-12; Luke 6:35',
+            'Deuteronomy 25:13-16; Psalms 15:5; Proverbs 11:1; Proverbs 12:22; Ezekiel 45:9-12; Luke 6:35',
         },
         {
           id: 3,
-          references: 'Mic. 6:9-11; Luke 3:14; James 5:1-6',
+          references: 'Micah 6:9-11; Luke 3:14; James 5:1-6',
         },
         {
           id: 4,
-          references: 'Luke 12:15; Eph. 5:5',
+          references: 'Luke 12:15; Ephesians 5:5',
         },
         {
           id: 5,
-          references: 'Prov. 21:20; 23:20, 21; Luke 16:10-13.',
+          references: 'Proverbs 21:20; Proverbs 23:20-21; Luke 16:10-13',
         },
       ],
     },
@@ -2445,7 +2494,8 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Is. 58:5-10; Matt. 7:12; Gal. 6:9, 10; Eph. 4:28.',
+          references:
+            'Isaiah 58:5-10; Matthew 7:12; Galatians 6:9-10; Ephesians 4:28',
         },
       ],
     },
@@ -2460,19 +2510,20 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 15; Prov. 19:5, 9; 21:28; Matt. 7:1; Luke 6:37; Rom. 1:28-32',
+            'Psalms 15; Proverbs 19:5; Proverbs 19:9; Proverbs 21:28; Matthew 7:1; Luke 6:37; Romans 1:28-32',
         },
         {
           id: 2,
-          references: 'Lev. 19:11, 12; Prov. 12:22; 13:5; John 8:44; Rev. 21:8',
+          references:
+            'Leviticus 19:11-12; Proverbs 12:22; Proverbs 13:5; John 8:44; Revelation 21:8',
         },
         {
           id: 3,
-          references: 'I Cor. 13:6; Eph. 4:25',
+          references: '1 Corinthians 13:6; Ephesians 4:25',
         },
         {
           id: 4,
-          references: 'I Pet. 3:8, 9; 4:8.',
+          references: '1 Peter 3:8-9; 1 Peter 4:8',
         },
       ],
     },
@@ -2486,7 +2537,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 19:7-14; 139:23, 24; Rom. 7:7, 8.',
+          references: 'Psalms 19:7-14; Psalms 139:23-24; Romans 7:7-8',
         },
       ],
     },
@@ -2501,11 +2552,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Eccles. 7:20; Rom. 7:14, 15; I Cor. 13:9; I John 1:8',
+          references:
+            'Ecclesiastes 7:20; Romans 7:14-15; 1 Corinthians 13:9; 1 John 1:8',
         },
         {
           id: 2,
-          references: 'Ps. 1:1, 2; Rom. 7:22-25; Phil. 3:12-16.',
+          references: 'Psalms 1:1-2; Romans 7:22-25; Philemon 3:12-16',
         },
       ],
     },
@@ -2520,11 +2572,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 32:5; Rom. 3:19-26; 7:7, 24, 25; I John 1:9',
+          references:
+            'Psalms 32:5; Romans 3:19-26; Romans 7:7; Romans 7:24-25; 1 John 1:9',
         },
         {
           id: 2,
-          references: 'I Cor. 9:24; Phil. 3:12-14; I John 3:1-3.',
+          references: '1 Corinthians 9:24; Philemon 3:12-14; 1 John 3:1-3',
         },
       ],
     },
@@ -2538,11 +2591,12 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 50:14, 15; 116:12-19; I Thess. 5:16-18',
+          references:
+            'Psalms 50:14-15; Psalms 116:12-19; 1 Thessalonians 5:16-18',
         },
         {
           id: 2,
-          references: 'Matt. 7:7, 8; Luke 11:9-13.',
+          references: 'Matthew 7:7-8; Luke 11:9-13',
         },
       ],
     },
@@ -2558,17 +2612,17 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Ps. 145:18-20; John 4:22-24; Rom. 8:26, 27; James 1:5; I John 5:14, 15; Rev. 19:10',
+            'Psalms 145:18-20; John 4:22-24; Romans 8:26-27; James 1:5; 1 John 5:14-15; Revelation 19:10',
         },
         {
           id: 2,
           references:
-            'II Chron. 7:14; 20:12; Ps. 2:11; 34:18; 62:8; Is. 66:2; Rev. 4',
+            '2 Chronicles 7:14; 2 Chronicles 20:12; Psalms 2:11; Psalms 34:18; Psalms 62:8; Isaiah 66:2; Revelation 4',
         },
         {
           id: 3,
           references:
-            'Dan. 9:17-19; Matt. 7:8; John 14:13, 14; 16:23; Rom. 10:13; James 1:6.',
+            'Daniel 9:17-19; Matthew 7:8; John 14:13-14; John 16:23; Romans 10:13; James 1:6',
         },
       ],
     },
@@ -2582,7 +2636,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:33; James 1:17.',
+          references: 'Matthew 6:33; James 1:17',
         },
       ],
     },
@@ -2596,7 +2650,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 6:9-13; Luke 11:2-4.',
+          references: 'Matthew 6:9-13; Luke 11:2-4',
         },
       ],
     },
@@ -2610,7 +2664,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Matt. 7:9-11; Luke 11:11-13.',
+          references: 'Matthew 7:9-11; Luke 11:11-13',
         },
       ],
     },
@@ -2624,11 +2678,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Jer.23:23,24; Acts 17:24, 25',
+          references: 'Jeremiah 23:23-24; Acts 17:24-25',
         },
         {
           id: 2,
-          references: 'Mt.6:25-34; Rom.8:31,32.',
+          references: 'Matthew 6:25-34; Romans 8:31-32',
         },
       ],
     },
@@ -2642,16 +2696,17 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Jer. 9:23, 24; 31: 33, 34; Matt. 16:17; John 17:3',
+          references:
+            'Jeremiah 9:23-24; Jeremiah 31:33-34; Matthew 16:17; John 17:3',
         },
         {
           id: 2,
           references:
-            'Ex. 34:5-8; Ps. 145; Jer. 32:16-20; Luke 1:46-55, 68-75; Rom. 11: 33-36',
+            'Exodus 34:5-8; Psalms 145; Jeremiah 32:16-20; Luke 1:46-55; Luke 1:68-75; Romans 11: 33-36',
         },
         {
           id: 3,
-          references: 'Ps. 115:1; Matt. 5:16.',
+          references: 'Psalms 115:1; Matthew 5:16',
         },
       ],
     },
@@ -2665,19 +2720,22 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 119:5, 105; 143:10; Matt. 6:33',
+          references:
+            'Psalms 119:5; Psalms 119:105; Psalms 143:10; Matthew 6:33',
         },
         {
           id: 2,
-          references: 'Ps. 51:18; 122:6-9; Matt. 16:18; Acts 2:42-47',
+          references:
+            'Psalms 51:18; Psalms 122:6-9; Matthew 16:18; Acts 2:42-47',
         },
         {
           id: 3,
-          references: 'Rom. 16:20; I John 3:8',
+          references: 'Romans 16:20; 1 John 3:8',
         },
         {
           id: 4,
-          references: 'Rom. 8:22, 23; I Cor. 15:28; Rev. 22: 17, 20.',
+          references:
+            'Romans 8:22-23; 1 Corinthians 15:28; Revelation 22:17; Revelation 22:20',
         },
       ],
     },
@@ -2692,15 +2750,15 @@ export const Heidelberg: CatechismData = {
         {
           id: 1,
           references:
-            'Matt. 7:21; 16:24-26; Luke 22:42; Rom. 12:1, 2; Tit. 2:11, 12',
+            'Matthew 7:21; Matthew 16:24-26; Luke 22:42; Romans 12:1-2; Titus 2:11-12',
         },
         {
           id: 2,
-          references: 'I Cor. 7:17-24; Eph. 6:5-9',
+          references: '1 Corinthians 7:17-24; Ephesians 6:5-9',
         },
         {
           id: 3,
-          references: 'Ps. 103:20, 21.',
+          references: 'Psalms 103:20-21',
         },
       ],
     },
@@ -2714,19 +2772,21 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 104:27-30; 145:15, 16; Matt. 6:25-34',
+          references: 'Psalms 104:27-30; Psalms 145:15-16; Matthew 6:25-34',
         },
         {
           id: 2,
-          references: 'Acts 14:17; 17:25; James 1:17',
+          references: 'Acts 14:17; Acts 17:25; James 1:17',
         },
         {
           id: 3,
-          references: 'Deut. 8:3; Ps. 37:16; 127:1, 2; I Cor. 15:58',
+          references:
+            'Deuteronomy 8:3; Psalms 37:16; Psalms 127:1-2; 1 Corinthians 15:58',
         },
         {
           id: 4,
-          references: 'Ps. 55:22; 62; 146; Jer. 17:5-8; Heb. 13:5, 6.',
+          references:
+            'Psalms 55:22; Psalms 62; Psalms 146; Jeremiah 17:5-8; Hebrews 13:5-6',
         },
       ],
     },
@@ -2740,11 +2800,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 51:1-7; 143:2; Rom. 8:1; I John 2:1, 2',
+          references: 'Psalms 51:1-7; Psalms 143:2; Romans 8:1; 1 John 2:1-2',
         },
         {
           id: 2,
-          references: 'Matt. 6:14, 15; 18:21-35.',
+          references: 'Matthew 6:14-15; Matthew 18:21-35',
         },
       ],
     },
@@ -2758,11 +2818,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Ps. 103:14-16; John 15:1-5',
+          references: 'Psalms 103:14-16; John 15:1-5',
         },
         {
           id: 2,
-          references: 'II Cor. 11:14; Eph. 6:10-13; I Pet. 5:8',
+          references: '2 Corinthians 11:14; Ephesians 6:10-13; 1 Peter 5:8',
         },
         {
           id: 3,
@@ -2770,15 +2830,17 @@ export const Heidelberg: CatechismData = {
         },
         {
           id: 4,
-          references: 'Rom. 7:23; Gal. 5:17',
+          references: 'Romans 7:23; Galatians 5:17',
         },
         {
           id: 5,
-          references: 'Matt. 10:19, 20; 26:41; Mark 13:33; Rom. 5:3-5',
+          references:
+            'Matthew 10:19-20; Matthew 26:41; Mark 13:33; Romans 5:3-5',
         },
         {
           id: 6,
-          references: 'I Cor. 10:13; I Thess. 3:13; 5:23.',
+          references:
+            '1 Corinthians 10:13; 1 Thessalonians 3:13; 1 Thessalonians 5:23',
         },
       ],
     },
@@ -2792,11 +2854,11 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Rom. 10:11-13; II Pet 2:9',
+          references: 'Romans 10:11-13; 2 Peter 2:9',
         },
         {
           id: 2,
-          references: 'Ps. 115:1; Jer. 33:8, 9; John 14:13.',
+          references: 'Psalms 115:1; Jeremiah 33:8-9; John 14:13',
         },
       ],
     },
@@ -2810,7 +2872,7 @@ export const Heidelberg: CatechismData = {
       proofs: [
         {
           id: 1,
-          references: 'Is. 65:24; II Cor. 1:20; II Tim. 2:13.',
+          references: 'Isaiah 65:24; 2 Corinthians 1:20; 2 Timothy 2:13',
         },
       ],
     },

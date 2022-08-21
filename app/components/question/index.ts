@@ -1,8 +1,8 @@
+import { htmlSafe } from '@ember/template';
 import { tracked, cached } from '@glimmer/tracking';
 import Component from '@glimmer/component';
 
 import type { CatechismItem } from 'catechesis/data';
-import { htmlSafe } from '@ember/template';
 
 interface QuestionComponentSignature {
   Element: HTMLElement;
@@ -19,20 +19,22 @@ interface QuestionComponentSignature {
 export default class QuestionComponent extends Component<QuestionComponentSignature> {
   @tracked audioEmbedIndex = 0;
 
+  htmlSafe = htmlSafe;
+
   isStringAnswer(answer: CatechismItem['answer']): answer is string {
     return typeof answer === 'string';
   }
 
-  @cached
-  get spotifyEmbed() {
-    let embedCode = this.args.data.audio?.[this.audioEmbedIndex]?.links?.find(
-      ({ platform }) => platform === 'spotify'
-    )?.embed;
-
-    if (embedCode) {
-      return htmlSafe(embedCode);
+  get formattedAnswerWithProofs() {
+    if (this.args.data.answerWithProofs) {
+      let raw = this.args.data.answerWithProofs;
+      let formatted = raw.replace(
+        /\[(\d)\]/g,
+        (_match: string, proofId: string) => `<sup>${proofId}</sup>`
+      );
+      return formatted;
     } else {
-      return undefined;
+      return '';
     }
   }
 

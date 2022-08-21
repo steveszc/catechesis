@@ -1,0 +1,13 @@
+[build]
+command = "sed -i \"s|ESV_TOKEN_PLACEHOLDER|${ESV_TOKEN}|g\" netlify.toml && npm run build"
+
+[[redirects]]
+  from = "/api/esv/*"
+  to = "https://api.esv.org/:splat"
+  status = 200
+  headers = {Authorization = "Token ESV_TOKEN_PLACEHOLDER"}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

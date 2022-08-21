@@ -558,12 +558,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Christ Our Hope, in life and in death, we cast ourselves on your merciful, fatherly care. You love us because we are your own. We have no good apart from you, and we could ask for no greater gift than to belong to you. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For none of us lives to himself, and none of us dies to himself. For if we live, we live to the Lord, and if we die, we die to the Lord. So then, whether we live or whether we die, we are the Lord’s.</p>',
-          verse: 'Romans 14:7–8',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 14:7–8' }],
     },
     {
       part: 1,
@@ -584,12 +579,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Our Creator and Sustainer, everything holds together in you. The smallest creature is known to you, and the mightiest army is at your command. You rule with justice. Help us to trust your goodness in all that you will. Amen.</p>',
-      scripture: [
-        {
-          text: "<p class='poetry'>There is none like you among the gods, O Lord,</p><p class='poetry indent'>nor are there any works like yours.</p><p class='poetry'>All the nations you have made shall come</p><p class='poetry indent'>and worship before you, O Lord,</p><p class='poetry'>and shall glorify your name.</p><p class='poetry indent'>For you are great and do wondrous things;</p><p class='poetry indent'>you alone are God. . . . </p><p class='poetry'>But you, O Lord, are a God merciful and gracious,</p><p class='poetry indent'>slow to anger and abounding in steadfast love and faithfulness.</p>",
-          verse: 'Psalm 86:8–10, 15',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Psalm 86:8–10, 15' }],
     },
     {
       part: 1,
@@ -611,12 +601,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Father, Son, and Spirit, you are beyond our understanding. Thank you for bringing us into your love, a love that existed before the world in your three perfect persons. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.</p>',
-          verse: '2 Corinthians 13:14',
-        },
-      ],
+      proofs: [{ id: 1, references: '2 Corinthians 13:14' }],
     },
     {
       part: 1,
@@ -638,12 +623,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Maker of All, let us not lose sight that we, and every human being you have made, are created in your image. Never let us doubt this about ourselves. Never let us doubt this about any other man or woman, for to do so denies you the glory that is due to your name. Your likeness glimpsed in us testifies that we belong to you, body and soul. Amen.</p>',
-      scripture: [
-        {
-          text: "<p class='poetry'>So God created man in his own image,</p><p class='poetry indent'>in the image of God he created him;</p><p class='poetry indent'>male and female he created them.</p>",
-          verse: 'Genesis 1:27',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Genesis 1:27' }],
     },
     {
       part: 1,
@@ -664,12 +644,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Lord Who Spoke the World into Existence, we marvel at your creation, even though it has been corrupted. Your beauty is revealed in the splendor of the stars. Your might is shown forth in the strength of a hurricane. Your order is displayed in the laws of mathematics. Let everything that has breath praise the Lord for the works of his hands! Amen.</p>',
-      scripture: [
-        {
-          text: '<p>And God saw everything that he had made, and behold, it was very good. . . . </p>',
-          verse: 'Genesis 1:31',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Genesis 1:31' }],
     },
     {
       part: 1,
@@ -690,12 +665,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Gracious Lord, we want to fully know and enjoy you. Open our eyes to see you as you are that we might trust you and long with all we are to keep your commands. Whether through small kindnesses or great courage, may each act of obedience bring you glory. Amen.</p>',
-      scripture: [
-        {
-          text: "<p>You shall therefore love the <span class='small-caps'>Lord</span> your God and keep his charge, his statutes, his rules, and his commandments always.</p>",
-          verse: 'Deuteronomy 11:1',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Deuteronomy 11:1' }],
     },
     {
       part: 1,
@@ -717,12 +687,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Great Law-Giver, you have spoken a perfect law, and you deserve perfect obedience. Let us not merely think that your law requires outward submission; it demands the full assent of our minds and our hearts. Who is equal to such a task? We confess that we fall far short of keeping your law. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>And [Jesus] said to him, “You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the great and first commandment. And a second is like it: You shall love your neighbor as yourself. On these two commandments depend all the Law and the Prophets.”</p>',
-          verse: 'Matthew 22: 37-40',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Matthew 22: 37-40' }],
     },
     {
       part: 1,
@@ -744,12 +709,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Holy God, you showed your love to your people by giving them your commands. May we always give thanks for your law. You have not left us ignorant of how to walk in the way of righteousness. Help us to glorify you by obeying your Ten Commandments. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>You shall have no other gods before me.</p>',
-          verse: 'Exodus 20:3',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Exodus 20:3' }],
     },
     {
       part: 1,
@@ -772,12 +732,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>One and Only God, your name is above all names, and we come before you in reverence and fear. Keep us true to your commandments. Reveal to us any false gods in our lives. Let us worship you alone in spirit and truth. Amen.</p>',
-      scripture: [
-        {
-          text: "<p>It is the <span class='small-caps'>Lord</span> your God you shall fear. Him you shall serve and by his name you shall swear. You shall not go after other gods, the gods of the peoples who are around you.</p>",
-          verse: 'Deuteronomy 6:13–14',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Deuteronomy 6:13–14' }],
     },
     {
       part: 1,
@@ -799,12 +754,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Life-Giving Father, we will flourish only when we walk in your ways. You have made us, and you tell us we need rest. Keep us from justifying ourselves through ceaseless work. Give us humility to honor our parents. May we always live by your commands rather than by our own instincts. Amen.</p>',
-      scripture: [
-        {
-          text: "<p>Every one of you shall revere his mother and his father, and you shall keep my Sabbaths: I am the <span class='small-caps'>Lord</span> your God.</p>",
-          verse: 'Leviticus 19:3',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Leviticus 19:3' }],
     },
     {
       part: 1,
@@ -827,12 +777,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Faithful Shepherd of Our Souls, you created us to live in love and fellowship on the earth, but we fail in that again and again. May your love rule every relationship so that we walk in purity, putting away lust, covetousness, and greed, for your name’s sake. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For the commandments, “You shall not commit adultery, You shall not murder, You shall not steal, You shall not covet,” and any other commandment, are summed up in this word: “You shall love your neighbor as yourself.”</p>',
-          verse: 'Romans 13:9',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 13:9' }],
     },
     {
       part: 1,
@@ -854,12 +799,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Lord of All Truth, help us to reflect your goodness in word and deed. You know all things. Nothing is hidden from you. You give good gifts and withhold no good thing from your children. May your truth be on our lips and contentment be in our hearts. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>If you really fulfill the royal law according to the Scripture, “You shall love your neighbor as yourself,” you are doing well.</p>',
-          verse: 'James 2:8',
-        },
-      ],
+      proofs: [{ id: 1, references: 'James 2:8' }],
     },
     {
       part: 1,
@@ -881,12 +821,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Holy God, left to our own devices, we transgress your law at every turn. We have no defense, but must plead guilty before your throne of judgment. Your law condemns us and cuts through our pretensions to righteousness, convincing us that we desperately need a Savior. Amen.</p>',
-      scripture: [
-        {
-          text: "<p class='poetry'>None is righteous, no, not one;</p><p class='poetry indent'>no one understands;</p><p class='poetry indent'>no one seeks for God.</p><p class='poetry'>All have turned aside; together they have become worthless;</p><p class='poetry indent'>no one does good,</p><p class='poetry indent'>not even one.</p>",
-          verse: 'Romans 3:10–12',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 3:10–12' }],
     },
     {
       part: 1,
@@ -908,12 +843,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Merciful Lord, we are corrupt in our very natures. We are sons and daughters of the first Adam who desire what you forbid. Give us a new nature through new birth in Christ, the second Adam, that we might be able to keep your law in the power of the Holy Spirit. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned.</p>',
-          verse: 'Romans 5:12',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 5:12' }],
     },
     {
       part: 1,
@@ -935,12 +865,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Giver of All Good Gifts, your law reveals to us what is just. Though it condemns us, through it we know how great is your holiness and how perfect is your Son. Though we fall short, may we always give you thanks and praise for your law and rejoice that we have a Savior. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For by works of the law no human being will be justified in his sight, since through the law comes knowledge of sin.</p>',
-          verse: 'Romans 3:20',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 3:20' }],
     },
     {
       part: 1,
@@ -962,12 +887,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Lord of the Universe, all your ways are good. We pursue the way of death when we go our own way. Help us to see sin as the poison it is. Let your law, rather than the spirit of lawlessness, shape our minds and our lives. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Everyone who makes a practice of sinning also practices lawlessness; sin is lawlessness.</p>',
-          verse: '1 John 3:4',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 John 3:4' }],
     },
     {
       part: 1,
@@ -989,12 +909,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Creator God, forgive us for worshiping the things you have made. No person or thing should be our hope or our trust. You alone are self-existent and all sufficient. May you be our all in all. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened. . . . They exchanged the truth about God for a lie and worshiped and served the creature rather than the Creator. . . . </p>',
-          verse: 'Romans 1:21 and 25',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 1:21; Romans 1:25' }],
     },
     {
       part: 1,
@@ -1017,12 +932,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Righteous Lord, if we think that we are good, we deceive ourselves. We deserve your wrath. We have broken your commands, and we have not loved you with our whole hearts, minds, and strength. We can only plead the righteousness of Christ and ask you to let our punishment fall on him. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For you may be sure of this, that everyone who is sexually immoral or impure, or who is covetous (that is, an idolater), has no inheritance in the kingdom of Christ and God. Let no one deceive you with empty words, for because of these things the wrath of God comes upon the sons of disobedience.</p>',
-          verse: 'Ephesians 5:5–6',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Ephesians 5:5–6' }],
     },
     {
       part: 1,
@@ -1044,12 +954,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>O Reconciling One, thank you for making a way for us. You have been perfect, both in justice and in mercy. We accept the salvation we do not deserve. We come before you in the name of Jesus Christ, your beloved Son, trusting in his merits rather than our own. Amen.</p>',
-      scripture: [
-        {
-          text: "<p class='poetry'>Yet it was the will of the <span class='small-caps'>Lord</span> to crush him;</p><p class='poetry indent'>he has put him to grief;</p><p class='poetry'>when his soul makes an offering for guilt,</p><p class='poetry indent'>he shall see his offspring; he shall prolong his days;</p><p class='poetry'>the will of the <span class='small-caps'>Lord</span> shall prosper in his hand.</p><p class='poetry'>Out of the anguish of his soul he shall see and be satisfied;</p><p class='poetry'>by his knowledge shall the righteous one, my servant,</p><p class='poetry indent'>make many to be accounted righteous,</p><p class='poetry indent'>and he shall bear their iniquities.</p>",
-          verse: 'Isaiah 53:10–11',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Isaiah 53:10–11' }],
     },
     {
       part: 1,
@@ -1070,12 +975,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Precious Redeemer, before the world began, you loved us. You gave up your glory to bear our shame. You glorified your Father by obeying him all the way to the cross. You deserve our praise, thanks, and worship. We have no hope but in you. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For there is one God, and there is one mediator between God and men, the man Christ Jesus.</p>',
-          verse: '1 Timothy 2:5',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 Timothy 2:5' }],
     },
     {
       part: 2,
@@ -1095,12 +995,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Son of God and Son of Man, for generations you were prophesied. Only One who is both divine and human could live in perfect obedience and be a fitting sacrifice on our behalf. There is no other way to God but by you. Amen.</p>',
-      scripture: [
-        {
-          text: "<p class='poetry'>For to us a child is born,</p><p class='poetry indent'>to us a son is given;</p><p class='poetry'>and the government shall be upon his shoulder,</p><p class='poetry indent'>and his name shall be called</p><p class='poetry'>Wonderful Counselor, Mighty God,</p><p class='poetry indent'>Everlasting Father, Prince of Peace.</p>",
-          verse: 'Isaiah 9:6',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Isaiah 9:6' }],
     },
     {
       part: 2,
@@ -1122,12 +1017,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Faithful High Priest, you were tempted in every way as we are, yet you remained perfect in your obedience. Thank you that you know our weakness. Keep us from excusing or denying our sinfulness. We joyfully accept your exchange. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Therefore he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in the service of God, to make propitiation for the sins of the people.</p>',
-          verse: 'Hebrews 2:17',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Hebrews 2:17' }],
     },
     {
       part: 2,
@@ -1149,12 +1039,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>God the Son, because of our sin, we could never bear the wrath of God or overcome death. Only you, the Holy One, could suffer the just punishment for sin and defeat death. Thank you for making a way for us to God, to enjoy him eternally. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>God raised him up, loosing the pangs of death, because it was not possible for him to be held by it.</p>',
-          verse: 'Acts 2:24',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Acts 2:24' }],
     },
     {
       part: 2,
@@ -1176,12 +1061,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Atoning Savior, thank you that you didn’t turn back, but endured all the way to death on the cross, and beyond. Because of your death, we can live eternally. With this knowledge, help us face our own deaths with courage, faith, and hope. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>And you, who once were alienated and hostile in mind, doing evil deeds, he has now reconciled in his body of flesh by his death, in order to present you holy and blameless and above reproach before him.</p>',
-          verse: 'Colossians 1:21–22',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Colossians 1:21–22' }],
     },
     {
       part: 2,
@@ -1203,12 +1083,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Forgiving Father, when we are covered in the righteousness of Christ, you remember our sins no more. You have put them as far as the east is from the west. Help us not to doubt your forgiveness, your mercy, or your love, but come to you boldly as your beloved children. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.</p>',
-          verse: '2 Corinthians 5:21',
-        },
-      ],
+      proofs: [{ id: 1, references: '2 Corinthians 5:21' }],
     },
     {
       part: 2,
@@ -1229,12 +1104,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Creation’s Redeemer, the world will not always be as it is now, fallen and groaning for the fullness of your kingdom. Thank you that, ultimately, you will make all things new. We rejoice that your redemption extends to the world you have made. Amen. </p>',
-      scripture: [
-        {
-          text: '<p>For in him all the fullness of God was pleased to dwell, and through him to reconcile to himself all things, whether on earth or in heaven, making peace by the blood of his cross.</p>',
-          verse: 'Colossians 1:19–20',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Colossians 1:19–20' }],
     },
     {
       part: 2,
@@ -1257,12 +1127,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Sovereign Savior, there is salvation in no one but you, and you save everyone who calls upon your name. We would never have called upon you if you had not brought us from death to life. We do not fully understand your electing love, but we confess that neither we nor anyone else deserves it. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For if, because of one man’s trespass, death reigned through that one man, much more will those who receive the abundance of grace and the free gift of righteousness reign in life through the one man Jesus Christ.</p>',
-          verse: 'Romans 5:17',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 5:17' }],
     },
     {
       part: 2,
@@ -1285,12 +1150,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Judge of All the Earth, we tremble to think of the judgment that awaits all outside your covenant. Before it is too late, may those we love be reconciled to you so that they do not suffer the punishment that is theirs, and would have been ours, apart from you. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life. For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him. Whoever believes in him is not condemned, but whoever does not believe is condemned already, because he has not believed in the name of the only Son of God. . . . Whoever believes in the Son has eternal life; whoever does not obey the Son shall not see life, but the wrath of God remains on him.</p>',
-          verse: 'John 3:16–18, 36',
-        },
-      ],
+      proofs: [{ id: 1, references: 'John 3:16–18; John 3:36' }],
     },
     {
       part: 2,
@@ -1312,12 +1172,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Merciful One, we renounce our pride and all pretensions of self-righteousness, and we come to you in repentance and faith. We trust your death to give us life. We praise you for the gift of salvation. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.</p>',
-          verse: 'Ephesians 2:8–9',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Ephesians 2:8–9' }],
     },
     {
       part: 2,
@@ -1339,12 +1194,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Author of Our Faith, we believe that you are who you say you are. Your Word is truth, and it reveals you as our only hope of salvation. We believe your promises, walking by faith, not by sight. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.</p>',
-          verse: 'Galatians 2:20',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Galatians 2:20' }],
     },
     {
       part: 2,
@@ -1366,12 +1216,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Maker of Heaven and Earth, make the startling claims of our faith come alive to us. Let us not divorce theological truth from the history of your salvation, which occurred in time and space. Let us not waver in unbelief, but rest our lives upon the truth that you raise the dead. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>I found it necessary to write appealing to you to contend for the faith that was once for all delivered to the saints.</p>',
-          verse: 'Jude 3',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Jude 3' }],
     },
     {
       part: 2,
@@ -1393,12 +1238,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Our Savior and Lord, you have completed the work of our justification. You have begun the work of our sanctification, and we trust that you will carry us through to its completion. Transform us day by day into your likeness, conforming us to your ways. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>To those who are elect exiles . . . according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ and for sprinkling with his blood: May grace and peace be multiplied to you.</p>',
-          verse: '1 Peter 1:1–2',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 Peter 1:1–2' }],
     },
     {
       part: 2,
@@ -1420,12 +1260,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>One and Only God, keep us from trusting in good works or living in such a way that we imply they are the grounds of our salvation. Let us glorify your grace by leaning our whole weight upon it, staking our lives on the promise that you are the beginning and the end of our salvation. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Yet we know that a person is not justified by works of the law but through faith in Jesus Christ, so we also have believed in Christ Jesus, in order to be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified.</p>',
-          verse: 'Galatians 2:16',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Galatians 2:16' }],
     },
     {
       part: 2,
@@ -1448,12 +1283,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Heavenly Father, you have saved us <em>from</em> sin. Let us not continue in it as if we were still enslaved to it. You have given us commands that are the path of life. Let us treasure those commands. May all who know us see our good works and glorify you because of them. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light. Once you were not a people, but now you are God’s people; once you had not received mercy, but now you have received mercy. Beloved, I urge you as sojourners and exiles to abstain from the passions of the flesh, which wage war against your soul. Keep your conduct among the Gentiles honorable, so that when they speak against you as evildoers, they may see your good deeds and glorify God on the day of visitation.</p>',
-          verse: '1 Peter 2:9–12',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 Peter 2:9–12' }],
     },
     {
       part: 2,
@@ -1475,12 +1305,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Holy Spirit, you sought us when we could not seek you because we were dead in our trespasses and sins. You are the giver of our faith; none of us would believe apart from your regenerating grace, by which you make hearts of stone into hearts of flesh. Let us put aside all boasting in light of your undeserved mercy. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>But when the goodness and loving kindness of God our Savior appeared, he saved us, not because of works done by us in righteousness, but according to his own mercy, by the washing of regeneration and renewal of the Holy Spirit, whom he poured out on us richly through Jesus Christ our Savior.</p>',
-          verse: 'Titus 3:4–6',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Titus 3:4–6' }],
     },
     {
       part: 3,
@@ -1501,12 +1326,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>God Our Help, we thank you for sending your Spirit to live in us. Thank you that he chastens and disciplines, strengthens and comforts us. Let us live the life of faith in his power, not our own. Let us walk the path of obedience, filled with his joy. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth, whom the world cannot receive, because it neither sees him nor knows him. You know him, for he dwells with you and will be in you.</p>',
-          verse: 'John 14:16–17',
-        },
-      ],
+      proofs: [{ id: 1, references: 'John 14:16–17' }],
     },
     {
       part: 3,
@@ -1528,12 +1348,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>God the Spirit, have your way in us. Shine your light on the secret sins of our hearts. Equip us for tasks that are too large for us. Make us glad in what delights you. Intercede for us and open our eyes to rightly understand the Word of truth. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>And take the helmet of salvation, and the sword of the Spirit, which is the word of God, praying at all times in the Spirit, with all prayer and supplication. To that end keep alert with all perseverance, making supplication for all the saints.</p>',
-          verse: 'Ephesians 6:17–18',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Ephesians 6:17–18' }],
     },
     {
       part: 3,
@@ -1554,12 +1369,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Our Great Refuge, thank you for calling us to prayer. You are not far away; you are near, and you hear us when we pray. Let us pour out our hearts to you without ceasing. Let us pray without guile, bringing our true selves before your throne of grace. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Trust in him at all times, O people; pour out your heart before him; God is a refuge for us.</p>',
-          verse: 'Psalm 62:8',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Psalm 62:8' }],
     },
     {
       part: 3,
@@ -1580,12 +1390,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Loving Father, we come to you in the name of your beloved Son. Give us perseverance in prayer, even when we do not immediately see answers. Let us believe that you will not keep back any good thing from us, and trust that you will withhold those things we seek that would harm us. Your ways are higher than our ways, and we entrust our requests to your sovereign kindness. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.</p>',
-          verse: 'Philippians 4:6',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Philippians 4:6' }],
     },
     {
       part: 3,
@@ -1606,12 +1411,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>God Who Hears, let your living Word shape our desires and our prayers. May it challenge us to pray for things that don’t seem possible. May it inform our view of you as we approach you as beloved sons and daughters. May it drive us to our knees as we recognize our need of you. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For this reason I bow my knees before the Father, from whom every family in heaven and on earth is named, that according to the riches of his glory he may grant you to be strengthened with power through his Spirit in your inner being, so that Christ may dwell in your hearts through faith—that you, being rooted and grounded in love, may have strength to comprehend with all the saints what is the breadth and length and height and depth, and to know the love of Christ that surpasses knowledge, that you may be filled with all the fullness of God.</p><p>Now to him who is able to do far more abundantly than all that we ask or think, according to the power at work within us, to him be glory in the church and in Christ Jesus throughout all generations, forever and ever. Amen.</p>',
-          verse: 'Ephesians 3:14–21',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Ephesians 3:14–21' }],
     },
     {
       part: 3,
@@ -1633,12 +1433,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Our Father in Heaven, when we pray the prayer that you taught us, keep us from reciting empty words. Let these petitions be the cries of our hearts. Bring your kingdom on earth to us and through us for your great name’s sake. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Pray then like this: “Our Father in heaven, hallowed be your name. . . .”</p>',
-          verse: 'Matthew 6:9',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Matthew 6:9' }],
     },
     {
       part: 3,
@@ -1660,12 +1455,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Giver of the Word, help us to treasure your Scriptures as our most precious possession. May it be in our minds and on our lips. Let it transform our thinking and reform our living. Make us attentive students and devoted servants of your perfect Word. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work.</p>',
-          verse: '2 Timothy 3:16–17',
-        },
-      ],
+      proofs: [{ id: 1, references: '2 Timothy 3:16–17' }],
     },
     {
       part: 3,
@@ -1686,12 +1476,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Giver of the Gospel, you have given us signs of your grace that can be seen, felt, and tasted. Help us to observe them according to your commands. May they turn our eyes away from ourselves and onto your saving work. Keep us from exalting the signs in any way that distracts us from the Savior to which they point. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life.</p><h3>Luke 22:19–20</h3><p>And he took bread, and when he had given thanks, he broke it and gave it to them, saying, “This is my body, which is given for you. Do this in remembrance of me.” And likewise the cup after they had eaten, saying, “This cup that is poured out for you is the new covenant in my blood.”</p>',
-          verse: 'Romans 6:4',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 6:4' }],
     },
     {
       part: 3,
@@ -1713,12 +1498,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Cleansing One, we cannot purify our own hearts, but must come to you to wash away our sin. Thank you for water baptism, which does not save us but portrays our salvation and unites us as one people, your adopted sons and daughters. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit. . . . </p>',
-          verse: 'Matthew 28:19',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Matthew 28:19' }],
     },
     {
       part: 3,
@@ -1739,12 +1519,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Lamb of God, our baptism is a sign that we are saved not by our own righteousness, but because we have been given the righteousness of Christ. Let us not make baptism the object of our trust, but look instead to the cleansing work of Jesus, beautifully depicted in baptism. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>John answered them all, saying, “I baptize you with water, but he who is mightier than I is coming, the strap of whose sandals I am not worthy to untie. He will baptize you with the Holy Spirit and fire.”</p>',
-          verse: 'Luke 3:16',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Luke 3:16' }],
     },
     {
       part: 3,
@@ -1766,12 +1541,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Bread of Life, we take the Lord’s Supper in reverent obedience. We do not want to receive it unworthily, so we come in repentance and faith. Help us to forgive the sins of those who have sinned against us, especially the believers with whom we share the bread and the cup. May our partaking of this meal proclaim your saving death and our desperate need of it. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For I received from the Lord what I also delivered to you, that the Lord Jesus on the night when he was betrayed took bread, and when he had given thanks, he broke it, and said, “This is my body which is for you. Do this in remembrance of me.” In the same way also he took the cup, after supper, saying, “This cup is the new covenant in my blood. Do this, as often as you drink it, in remembrance of me.” For as often as you eat this bread and drink the cup, you proclaim the Lord’s death until he comes.</p>',
-          verse: '1 Corinthians 11:23–26',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 Corinthians 11:23–26' }],
     },
     {
       part: 3,
@@ -1792,12 +1562,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Conqueror of Death, we celebrate your finished work when we take the Lord’s Supper. May our eating be a confession of faith, that though we are unworthy, we have been joined together with the worthiness of Christ. May we come to your table with repentant hearts, putting away pride and self-sufficiency, enjoying the free grace you offer to us. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God. . . . </p>',
-          verse: '1 Peter 3:18',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 Peter 3:18' }],
     },
     {
       part: 3,
@@ -1819,12 +1584,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>King Over All, you have brought us together as the family of God. Keep us faithful to worship together, to love one another, and to provide for each other’s needs. Let our fellowship be genuine, and help us to spur one another on in the faith. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>But we ought always to give thanks to God for you, brothers beloved by the Lord, because God chose you as the firstfruits to be saved, through sanctification by the Spirit and belief in the truth.</p>',
-          verse: '2 Thessalonians 2:13',
-        },
-      ],
+      proofs: [{ id: 1, references: '2 Thessalonians 2:13' }],
     },
     {
       part: 3,
@@ -1846,12 +1606,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Risen and Ascended Lord, though you no longer walk this earth, you rule over us from your throne. All authority and power are in you. Your name is above all names. Raise us up at the last day to live with you in your kingdom. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>He raised him from the dead and seated him at his right hand in the heavenly places, far above all rule and authority and power and dominion, and above every name that is named, not only in this age but also in the one to come.</p>',
-          verse: 'Ephesians 1:20–21',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Ephesians 1:20–21' }],
     },
     {
       part: 3,
@@ -1873,12 +1628,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Resurrecting God, make us mindful that death is not the end for us. Save us from the judgment we deserve, and make us faithful to implore others to flee from the wrath to come. We look in hope to the joy that will be ours when, saved from that wrath through the merits of Christ, we will be clothed with resurrected bodies to reign on a renewed earth. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>But we do not want you to be uninformed, brothers, about those who are asleep, that you may not grieve as others do who have no hope. For since we believe that Jesus died and rose again, even so, through Jesus, God will bring with him those who have fallen asleep.</p>',
-          verse: '1 Thessalonians 4:13–14',
-        },
-      ],
+      proofs: [{ id: 1, references: '1 Thessalonians 4:13–14' }],
     },
     {
       part: 3,
@@ -1900,12 +1650,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Interceding Savior, you have not stopped showing compassion for your people. You were tempted in every way as we are, and you now intercede for us when we are tempted. Plead for us to your Father, for you are our advocate before the judge of all the earth. Amen.</p>',
-      scripture: [
-        {
-          text: '<p>Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us.</p>',
-          verse: 'Romans 8:34',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Romans 8:34' }],
     },
     {
       part: 3,
@@ -1927,12 +1672,7 @@ export const NewCity: CatechismData = {
       ],
       prayer:
         '<p>Eternal God, we eagerly await the fullness of your kingdom. We long for every tear to be dried. We groan for the day when we no longer struggle against the flesh. Let the sure hope of everlasting life give us courage to face the trials of this life. Amen. Come, Lord Jesus!</p>',
-      scripture: [
-        {
-          text: '<p>Then I saw a new heaven and a new earth, for the first heaven and the first earth had passed away, and the sea was no more. And I saw the holy city, new Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband. And I heard a loud voice from the throne saying, “Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God. He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.”</p>',
-          verse: 'Revelation 21:1–4',
-        },
-      ],
+      proofs: [{ id: 1, references: 'Revelation 21:1–4' }],
     },
   ],
 };
