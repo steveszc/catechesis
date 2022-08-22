@@ -523,7 +523,7 @@ const COMMENTARY = {
   ],
 };
 
-export const NewCity: CatechismData = {
+const NewCity: CatechismData = {
   metadata: {
     title: 'New City Catechism',
     alternativeTitles: ['52 Questions and Answers for Our Hearts and Minds'],
@@ -1676,3 +1676,5 @@ export const NewCity: CatechismData = {
     },
   ],
 };
+
+export default NewCity;

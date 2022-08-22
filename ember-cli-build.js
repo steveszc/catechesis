@@ -67,6 +67,7 @@ module.exports = function (defaults) {
   const compiledApp = require('@embroider/compat').compatBuild(app, Webpack, {
     staticAddonTestSupportTrees: true,
     staticAddonTrees: true,
+    staticAppPaths: ['data'],
     staticHelpers: true,
     staticModifiers: true,
     staticComponents: true,

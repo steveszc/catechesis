@@ -1,6 +1,6 @@
 import type { CatechismData } from '../types';
 
-export const Heidelberg: CatechismData = {
+const Heidelberg: CatechismData = {
   metadata: {
     title: 'Heidelberg Catechism',
     alternativeTitles: [
@@ -2878,3 +2878,5 @@ export const Heidelberg: CatechismData = {
     },
   ],
 };
+
+export default Heidelberg;

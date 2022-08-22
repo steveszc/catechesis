@@ -1,6 +1,6 @@
 import type { CatechismData } from '../types';
 
-export const WestminsterLonger: CatechismData = {
+const WestminsterLonger: CatechismData = {
   metadata: {
     title: 'Westminster Larger Catechism',
     alternativeTitles: [],
@@ -7335,3 +7335,5 @@ export const WestminsterLonger: CatechismData = {
     },
   ],
 };
+
+export default WestminsterLonger;

@@ -1,6 +1,6 @@
 import type { catechisms } from './catechisms';
 
-export type Catechism = keyof typeof catechisms;
+export type CatechismId = keyof typeof catechisms;
 
 export interface CatechismData {
   metadata: {

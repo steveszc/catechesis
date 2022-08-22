@@ -1,6 +1,6 @@
 import type { CatechismData } from '../types';
 
-export const Puritan: CatechismData = {
+const Puritan: CatechismData = {
   metadata: {
     title: 'Puritan Catechism',
     alternativeTitles: [],
@@ -521,3 +521,5 @@ export const Puritan: CatechismData = {
     },
   ],
 };
+
+export default Puritan;

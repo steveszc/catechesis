@@ -3,7 +3,7 @@
     Available catechisms
   </h1>
   <ul class='flex-col space-y-8'>
-    {{#each-in this.catechisms as |id catechism|}}
+    {{#each-in this.catechisms as |id title|}}
       <li class="block my-2">
         <LinkTo
           @route='catechism'
@@ -11,7 +11,7 @@
           class='py-2 px-6 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold whitespace-nowrap'
           data-catechism-link
         >
-          {{catechism.metadata.title}}
+          {{title}}
         </LinkTo>
       </li>
     {{/each-in}}

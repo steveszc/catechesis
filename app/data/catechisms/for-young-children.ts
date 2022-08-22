@@ -1,6 +1,6 @@
 import type { CatechismData } from '../types';
 
-export const ForYoungChildren: CatechismData = {
+const ForYoungChildren: CatechismData = {
   metadata: {
     title: 'Catechism For Young Children',
     alternativeTitles: [],
@@ -772,3 +772,5 @@ export const ForYoungChildren: CatechismData = {
     },
   ],
 };
+
+export default ForYoungChildren;
