@@ -1,17 +1,9 @@
-import { WestminsterShorter } from './westminster-shorter';
-import { WestminsterLonger } from './westminster-longer';
-import { ForYoungChildren } from './for-young-children';
-import { Heidelberg } from './heidelberg';
-import { NewCity } from './new-city';
-import { Puritan } from './puritan';
-import { Keachs } from './keachs';
-
 export const catechisms = {
-  'westminster-shorter': WestminsterShorter,
-  'westminster-longer': WestminsterLonger,
-  'for-young-children': ForYoungChildren,
-  heidelberg: Heidelberg,
-  'new-city': NewCity,
-  keachs: Keachs,
-  puritan: Puritan,
+  'westminster-shorter': 'Westminster Shorter Catechism',
+  'westminster-longer': 'Westminster Larger Catechism',
+  'for-young-children': 'Catechism For Young Children',
+  heidelberg: 'Heidelberg Catechism',
+  'new-city': 'New City Catechism',
+  keachs: "Keach's Catechism",
+  puritan: 'Puritan Catechism',
 } as const;

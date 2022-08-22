@@ -1,6 +1,6 @@
 import type { CatechismData } from '../types';
 
-export const Keachs: CatechismData = {
+const Keachs: CatechismData = {
   metadata: {
     title: "Keach's Catechism",
     alternativeTitles: ['Baptist Catechism'],
@@ -1731,3 +1731,5 @@ export const Keachs: CatechismData = {
     },
   ],
 };
+
+export default Keachs;

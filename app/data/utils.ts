@@ -1,13 +1,15 @@
 import { catechisms } from './catechisms';
-import type { Catechism, CatechismData } from './types';
+import type { CatechismId, CatechismData } from './types';
 
-export function isCatechism(str: string): str is Catechism {
+export function isCatechismId(str: string): str is CatechismId {
   return Object.keys(catechisms).includes(str);
 }
 
-export async function getCatechism(str: string) {
-  if (isCatechism(str)) {
-    return catechisms[str];
+export async function getCatechism(id: string): Promise<CatechismData> {
+  if (isCatechismId(id)) {
+    const module = await import(`./catechisms/${id}`);
+
+    return module.default;
   }
 
   throw new Error('404');
