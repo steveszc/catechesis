@@ -66,7 +66,7 @@ export default class ScriptureRoute extends Route {
 
     const scripture = proofsToScriptures(questionModel.current.proofs);
 
-    if (this.fastboot.isFastBoot) return scripture;
+    if (this.fastboot.isFastBoot || scripture.length === 0) return scripture;
 
     const verseQuery = scripturesToQuery(scripture);
 
