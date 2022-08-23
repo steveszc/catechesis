@@ -1,5 +1,7 @@
 # Catechesis
 
+[![CI](https://github.com/steveszc/catechesis/actions/workflows/ci.yml/badge.svg)](https://github.com/steveszc/catechesis/actions/workflows/ci.yml)
+
 This README outlines the details of collaborating on this Ember application.
 
 Catechesis is an open source catechism viewer application.
