@@ -1,17 +1,26 @@
-import templateOnlyComponent from '@ember/component/template-only';
+import Component from '@glimmer/component';
+import mixpanel from 'mixpanel-browser';
+import { action } from '@ember/object';
 
-import type { CatechismData } from 'catechesis/data';
+import type { CatechismData, CatechismId } from 'catechesis/data';
 
 interface QuestionListSignature {
   Element: HTMLInputElement;
   Args: {
+    catechismId: CatechismId;
     data: CatechismData['data'];
   };
 }
 
-const QuestionListComponent = templateOnlyComponent<QuestionListSignature>();
-
-export default QuestionListComponent;
+export default class QuestionListComponent extends Component<QuestionListSignature> {
+  @action
+  trackLink(datum: CatechismData['data'][number]) {
+    mixpanel.track('link - question', {
+      catechism: this.args.catechismId,
+      question: datum.number,
+    });
+  }
+}
 
 declare module '@glint/environment-ember-loose/registry' {
   export default interface Registry {

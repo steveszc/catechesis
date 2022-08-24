@@ -4,6 +4,7 @@
       @route='catechism.question'
       @model={{@previous.number}}
       class='p-6 text-left group'
+      {{on "click" this.trackPreviousQuestion}}
     >
       <span class="pb-1 border-b-2 border-transparent group-hover:border-white whitespace-nowrap">‹ Q.{{@previous.number}}</span>
     </LinkTo>
@@ -13,7 +14,7 @@
     </div>
   {{/if}}
 
-  <LinkTo @route='catechism.index' class='p-6 text-center group'>
+  <LinkTo @route='catechism.index' class='p-6 text-center group' {{on "click" this.trackSeeAllQuestions}}>
     <span class="pb-1 border-b-2 border-transparent group-hover:border-white">See all Questions</span>
   </LinkTo>
 
@@ -22,6 +23,7 @@
       @route='catechism.question'
       @model={{@next.number}}
       class='p-6 text-right group'
+      {{on "click" this.trackNextQuestion}}
     >
       <span class="pb-1 border-b-2 border-transparent group-hover:border-white whitespace-nowrap">Q.{{@next.number}} ›</span>
     </LinkTo>

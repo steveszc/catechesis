@@ -3,9 +3,10 @@
 <Layout @metadata={{@model.catechism.metadata}}>
   <:half1>
     <div class="h-full flex flex-col">
-      <CatechismNav @previous={{@model.previous}} @next={{@model.next}} class="sticky md:static top-0" />
+      <CatechismNav @previous={{@model.previous}} @next={{@model.next}} @catechismId={{@model.catechism.id}} class="sticky md:static top-0" />
       <Question
         class="p-8 md:p-16 grow"
+        @catechismId={{@model.catechism.id}}
         @data={{@model.current}}
         @isAnswerShown={{if this.settings.alwaysShowAnswers this.settings.alwaysShowAnswers this.isAnswerShown}}
         @showAnswer={{this.showAnswer}}
@@ -14,7 +15,7 @@
   </:half1>
   <:half2>
     <div class="h-full flex flex-col">
-      <QuestionNav class="sticky md:static top-0" />
+      <QuestionNav @catechismId={{@model.catechism.id}} @questionNumber={{@model.current.number}} class="sticky md:static top-0" />
       <article class="overflow-y-scroll p-8 md:p-16">
         {{outlet}}
       </article>
