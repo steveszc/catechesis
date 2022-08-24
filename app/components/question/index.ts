@@ -1,10 +1,11 @@
 import { htmlSafe } from '@ember/template';
 import { tracked, cached } from '@glimmer/tracking';
+import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
 import Component from '@glimmer/component';
 
 import type { CatechismId, CatechismItem } from 'catechesis/data';
-import { action } from '@ember/object';
-import mixpanel from 'mixpanel-browser';
+import type TrackService from 'catechesis/services/track';
 
 interface QuestionComponentSignature {
   Element: HTMLElement;
@@ -20,6 +21,7 @@ interface QuestionComponentSignature {
 }
 
 export default class QuestionComponent extends Component<QuestionComponentSignature> {
+  @service declare track: TrackService;
   @tracked audioEmbedIndex = 0;
 
   htmlSafe = htmlSafe;
@@ -53,7 +55,7 @@ export default class QuestionComponent extends Component<QuestionComponentSignat
   @action
   showAnswer() {
     this.args.showAnswer();
-    mixpanel.track('show answer', {
+    this.track.event('show answer', {
       catechism: this.args.catechismId,
       question: this.args.data.number,
     });

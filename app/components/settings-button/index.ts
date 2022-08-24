@@ -1,10 +1,10 @@
 import Component from '@glimmer/component';
-import mixpanel from 'mixpanel-browser';
 import { action } from '@ember/object';
 import { inject as service } from '@ember/service';
 import { tracked } from '@glimmer/tracking';
 
 import type SettingsService from 'catechesis/services/settings';
+import type TrackService from 'catechesis/services/track';
 
 interface SettingsButtonSignature {
   Element: HTMLButtonElement;
@@ -16,11 +16,13 @@ interface SettingsButtonSignature {
 
 export default class SettingsButtonComponent extends Component<SettingsButtonSignature> {
   @service declare settings: SettingsService;
+  @service declare track: TrackService;
+
   @tracked isShowingSettings = false;
 
   @action toggleSettings() {
     this.isShowingSettings = !this.isShowingSettings;
-    mixpanel.track('Open settings', {
+    this.track.event('Open settings', {
       alwaysShowAnswers: this.settings.alwaysShowAnswers ? 'on' : 'off',
       pickUpWhereYouLeftOff: this.settings.pickUpWhereYouLeftOff ? 'on' : 'off',
     });
@@ -41,7 +43,7 @@ export default class SettingsButtonComponent extends Component<SettingsButtonSig
       this.settings.alwaysShowAnswers = alwaysShowAnswers === 'on';
       this.settings.pickUpWhereYouLeftOff = pickUpWhereYouLeftOff === 'on';
 
-      mixpanel.track('save settings', {
+      this.track.event('save settings', {
         alwaysShowAnswers,
         pickUpWhereYouLeftOff,
       });

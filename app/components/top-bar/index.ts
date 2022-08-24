@@ -1,6 +1,8 @@
 import Component from '@glimmer/component';
-import mixpanel from 'mixpanel-browser';
+import { inject as service } from '@ember/service';
+import type TrackService from 'catechesis/services/track';
 import { action } from '@ember/object';
+
 interface TopBarSignature {
   Element: HTMLElement;
   Args: {
@@ -8,14 +10,16 @@ interface TopBarSignature {
   };
 }
 export default class TopBarComponent extends Component<TopBarSignature> {
+  @service declare track: TrackService;
+
   @action
   trackHome() {
-    mixpanel.track('link - topbar home');
+    this.track.event('link - topbar home');
   }
 
   @action
   trackCatechism() {
-    mixpanel.track('link - topbar catechism', {
+    this.track.event('link - topbar catechism', {
       name: this.args.name,
     });
   }

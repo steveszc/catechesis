@@ -1,7 +1,9 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 import { catechisms } from 'catechesis/data';
-import mixpanel from 'mixpanel-browser';
+import { inject as service } from '@ember/service';
+
+import type TrackService from 'catechesis/services/track';
 
 interface CatechismListSignature {
   Element: HTMLElement;
@@ -11,8 +13,10 @@ interface CatechismListSignature {
 export default class CatechismListComponent extends Component<CatechismListSignature> {
   catechisms = catechisms;
 
+  @service declare track: TrackService;
+
   @action trackLink(id: string) {
-    mixpanel.track('link - catechism', { id });
+    this.track.event('link - catechism', { id });
   }
 }
 

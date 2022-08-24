@@ -1,6 +1,7 @@
 import Component from '@glimmer/component';
-import mixpanel from 'mixpanel-browser';
+import { inject as service } from '@ember/service';
 import { action } from '@ember/object';
+import type TrackService from 'catechesis/services/track';
 import type { CatechismId } from 'catechesis/data';
 
 interface QuestionNavSignature {
@@ -12,9 +13,11 @@ interface QuestionNavSignature {
 }
 
 export default class QuestionNavComponent extends Component<QuestionNavSignature> {
+  @service declare track: TrackService;
+
   @action
   trackScripture() {
-    mixpanel.track('link - scripture', {
+    this.track.event('link - scripture', {
       catechism: this.args.catechismId,
       question: this.args.questionNumber,
     });
@@ -22,7 +25,7 @@ export default class QuestionNavComponent extends Component<QuestionNavSignature
 
   @action
   trackCommentry() {
-    mixpanel.track('link - commentary', {
+    this.track.event('link - commentary', {
       catechism: this.args.catechismId,
       question: this.args.questionNumber,
     });
@@ -30,7 +33,7 @@ export default class QuestionNavComponent extends Component<QuestionNavSignature
 
   @action
   trackPrayer() {
-    mixpanel.track('link - prayer', {
+    this.track.event('link - prayer', {
       catechism: this.args.catechismId,
       question: this.args.questionNumber,
     });

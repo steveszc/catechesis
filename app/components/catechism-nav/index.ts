@@ -1,6 +1,7 @@
-import { action } from '@ember/object';
 import Component from '@glimmer/component';
-import mixpanel from 'mixpanel-browser';
+import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
+import type TrackService from 'catechesis/services/track';
 
 import type { CatechismId, CatechismItem } from 'catechesis/data';
 
@@ -14,9 +15,11 @@ interface CatechismNavSignature {
 }
 
 export default class CatechismNavComponent extends Component<CatechismNavSignature> {
+  @service declare track: TrackService;
+
   @action
   trackPreviousQuestion() {
-    mixpanel.track('link - previous question', {
+    this.track.event('link - previous question', {
       catechism: this.args.catechismId,
       previous: this.args.previous?.number,
     });
@@ -24,7 +27,7 @@ export default class CatechismNavComponent extends Component<CatechismNavSignatu
 
   @action
   trackNextQuestion() {
-    mixpanel.track('link - next question', {
+    this.track.event('link - next question', {
       catechism: this.args.catechismId,
       next: this.args.next?.number,
     });
@@ -32,7 +35,7 @@ export default class CatechismNavComponent extends Component<CatechismNavSignatu
 
   @action
   trackSeeAllQuestions() {
-    mixpanel.track('link - See all questions', {
+    this.track.event('link - See all questions', {
       catechism: this.args.catechismId,
     });
   }
