@@ -18,6 +18,10 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+    mixpanel: {
+      token: null,
+      debug: false,
+    },
   };
 
   if (environment === 'development') {
@@ -41,7 +45,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    ENV.mixpanel.token = 'c47bf98d78789ad630f884829dacd69b';
   }
 
   return ENV;

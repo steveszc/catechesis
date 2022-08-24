@@ -3,6 +3,7 @@ import type { catechisms } from './catechisms';
 export type CatechismId = keyof typeof catechisms;
 
 export interface CatechismData {
+  id: CatechismId;
   metadata: {
     title: string;
     alternativeTitles?: string[];

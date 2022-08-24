@@ -1,12 +1,16 @@
 import { htmlSafe } from '@ember/template';
 import { tracked, cached } from '@glimmer/tracking';
+import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
 import Component from '@glimmer/component';
 
-import type { CatechismItem } from 'catechesis/data';
+import type { CatechismId, CatechismItem } from 'catechesis/data';
+import type TrackService from 'catechesis/services/track';
 
 interface QuestionComponentSignature {
   Element: HTMLElement;
   Args: {
+    catechismId: CatechismId;
     data: CatechismItem;
     isAnswerShown: boolean;
     showAnswer: () => void;
@@ -17,6 +21,7 @@ interface QuestionComponentSignature {
 }
 
 export default class QuestionComponent extends Component<QuestionComponentSignature> {
+  @service declare track: TrackService;
   @tracked audioEmbedIndex = 0;
 
   htmlSafe = htmlSafe;
@@ -45,6 +50,15 @@ export default class QuestionComponent extends Component<QuestionComponentSignat
     )?.id;
 
     return id;
+  }
+
+  @action
+  showAnswer() {
+    this.args.showAnswer();
+    this.track.event('show answer', {
+      catechism: this.args.catechismId,
+      question: this.args.data.number,
+    });
   }
 }
 

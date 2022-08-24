@@ -10,6 +10,7 @@
           @model={{id}}
           class='py-2 px-6 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold whitespace-nowrap'
           data-catechism-link
+          {{on 'click' (fn this.trackLink id)}}
         >
           {{title}}
         </LinkTo>

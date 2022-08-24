@@ -1,6 +1,7 @@
 import type { CatechismData } from '../types';
 
 const ForYoungChildren: CatechismData = {
+  id: 'for-young-children',
   metadata: {
     title: 'Catechism For Young Children',
     alternativeTitles: [],

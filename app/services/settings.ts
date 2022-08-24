@@ -10,7 +10,7 @@ export default class SettingsService extends Service {
   @service declare router: RouterService;
 
   @stored alwaysShowAnswers = false;
-  @stored pickUpWhereYouLeftOff = false;
+  @stored pickUpWhereYouLeftOff = true;
   @stored lastQuestion?: { catechism: CatechismId; question: string };
 
   @action doPickupWhereYouLeftOff(transition: Transition) {

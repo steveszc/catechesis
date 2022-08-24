@@ -1,6 +1,7 @@
 import type { CatechismData } from '../types';
 
 const Heidelberg: CatechismData = {
+  id: 'heidelberg',
   metadata: {
     title: 'Heidelberg Catechism',
     alternativeTitles: [

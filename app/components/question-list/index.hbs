@@ -6,6 +6,7 @@
         @model={{item.number}}
         class="pb-1 group-hover:border-b-2 border-cyan-600"
         data-question-link
+        {{on 'click' (fn this.trackLink item)}}
       >
         {{item.number}}. {{item.question}}
       </LinkTo>

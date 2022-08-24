@@ -524,6 +524,7 @@ const COMMENTARY = {
 };
 
 const NewCity: CatechismData = {
+  id: 'new-city',
   metadata: {
     title: 'New City Catechism',
     alternativeTitles: ['52 Questions and Answers for Our Hearts and Minds'],

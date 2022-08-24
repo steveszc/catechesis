@@ -11,4 +11,8 @@ declare const config: {
   locationType: 'history' | 'hash' | 'none' | 'auto';
   rootURL: string;
   APP: Record<string, unknown>;
+  mixpanel: {
+    token: string | null;
+    debug: boolean;
+  };
 };

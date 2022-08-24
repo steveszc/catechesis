@@ -1,6 +1,7 @@
 import type { CatechismData } from '../types';
 
 const WestminsterShorter: CatechismData = {
+  id: 'westminster-shorter',
   metadata: {
     title: 'Westminster Shorter Catechism',
     year: '1647',

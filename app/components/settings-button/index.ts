@@ -4,6 +4,8 @@ import { inject as service } from '@ember/service';
 import { tracked } from '@glimmer/tracking';
 
 import type SettingsService from 'catechesis/services/settings';
+import type TrackService from 'catechesis/services/track';
+
 interface SettingsButtonSignature {
   Element: HTMLButtonElement;
   Args: {};
@@ -14,10 +16,16 @@ interface SettingsButtonSignature {
 
 export default class SettingsButtonComponent extends Component<SettingsButtonSignature> {
   @service declare settings: SettingsService;
+  @service declare track: TrackService;
+
   @tracked isShowingSettings = false;
 
   @action toggleSettings() {
     this.isShowingSettings = !this.isShowingSettings;
+    this.track.event('Open settings', {
+      alwaysShowAnswers: this.settings.alwaysShowAnswers ? 'on' : 'off',
+      pickUpWhereYouLeftOff: this.settings.pickUpWhereYouLeftOff ? 'on' : 'off',
+    });
   }
 
   @action hideSettings() {
@@ -34,7 +42,13 @@ export default class SettingsButtonComponent extends Component<SettingsButtonSig
 
       this.settings.alwaysShowAnswers = alwaysShowAnswers === 'on';
       this.settings.pickUpWhereYouLeftOff = pickUpWhereYouLeftOff === 'on';
+
+      this.track.event('save settings', {
+        alwaysShowAnswers,
+        pickUpWhereYouLeftOff,
+      });
     }
+
     this.isShowingSettings = false;
   }
 }
