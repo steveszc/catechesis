@@ -2,11 +2,14 @@ import { htmlSafe } from '@ember/template';
 import { tracked, cached } from '@glimmer/tracking';
 import Component from '@glimmer/component';
 
-import type { CatechismItem } from 'catechesis/data';
+import type { CatechismId, CatechismItem } from 'catechesis/data';
+import { action } from '@ember/object';
+import mixpanel from 'mixpanel-browser';
 
 interface QuestionComponentSignature {
   Element: HTMLElement;
   Args: {
+    catechismId: CatechismId;
     data: CatechismItem;
     isAnswerShown: boolean;
     showAnswer: () => void;
@@ -45,6 +48,15 @@ export default class QuestionComponent extends Component<QuestionComponentSignat
     )?.id;
 
     return id;
+  }
+
+  @action
+  showAnswer() {
+    this.args.showAnswer();
+    mixpanel.track('show answer', {
+      catechism: this.args.catechismId,
+      question: this.args.data.number,
+    });
   }
 }
 
