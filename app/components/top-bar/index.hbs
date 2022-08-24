@@ -1,5 +1,10 @@
 <header class='p-6 bg-black font-bold text-sm md:text-lg text-white flex justify-center sm:justify-between' ...attributes>
-  <h1><LinkTo @route="index" class="hover:border-b-2 border-cyan-800 {{if @name "sr-only sm:not-sr-only"}}">📖 Catechesis</LinkTo></h1>
+  <h1>
+    <LinkTo @route="index" class="group {{if @name "sr-only sm:not-sr-only"}}">
+      <img src="/assets/images/catechesis.png" role="presentation" alt="" class="inline h-8 mr-2">
+      <span class="group-hover:border-b-2 border-cyan-800">Catechesis</span>
+    </LinkTo>
+  </h1>
 
   <h2><LinkTo @route="index" class="hover:border-b-2 border-cyan-800">{{@name}}</LinkTo></h2>
 
