@@ -63,6 +63,7 @@
     "@types/ember-qunit": "^5.0.0",
     "@types/ember-resolver": "^5.0.11",
     "@types/htmlbars-inline-precompile": "^3.0.0",
+    "@types/mixpanel-browser": "^2.38.0",
     "@types/qunit": "^2.19.2",
     "@types/rsvp": "^4.0.4",
     "@typescript-eslint/eslint-plugin": "5.33.1",
@@ -120,5 +121,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "mixpanel-browser": "^2.45.0"
   }
 }
