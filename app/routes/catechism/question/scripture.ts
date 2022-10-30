@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import Route from '@ember/routing/route';
 import fetch from 'fetch';
 import { inject as service } from '@ember/service';
@@ -66,7 +67,8 @@ export default class ScriptureRoute extends Route {
 
     const scripture = proofsToScriptures(questionModel.current.proofs);
 
-    if (this.fastboot.isFastBoot || scripture.length === 0) return scripture;
+    if (this.fastboot.isFastBoot || scripture.length === 0 || Ember.testing)
+      return scripture;
 
     const verseQuery = scripturesToQuery(scripture);
 

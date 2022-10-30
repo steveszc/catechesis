@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import Service from '@ember/service';
 import stored from 'catechesis/decorators/stored';
 import { action } from '@ember/object';
@@ -14,6 +15,8 @@ export default class SettingsService extends Service {
   @stored lastQuestion?: { catechism: CatechismId; question: string };
 
   @action doPickupWhereYouLeftOff(transition: Transition) {
+    if (Ember.testing) return;
+
     let toCatechism = transition.to.find(({ name }) => name === 'catechism')
       ?.params?.['catechism'];
     let toQuestion = transition.to.find(
