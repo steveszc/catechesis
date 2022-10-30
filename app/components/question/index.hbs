@@ -2,7 +2,7 @@
   <div class="grow flex flex-col justify-center items-start">
     <h1 class="text-lg font-bold">Question {{@data.number}}</h1>
 
-    <p class="py-2 mb-6 text-2xl font-bold border-b border-black">
+    <p class="py-2 mb-6 text-2xl font-bold border-b border-black" data-test="question">
       {{if @data.questionWithProofs @data.questionWithProofs @data.question}}
     </p>
 
@@ -12,11 +12,12 @@
           type="button"
           class="absolute py-2 px-6 my-2 border-2 border-cyan-800 bg-transparent text-cyan-800 font-bold"
           {{on "click" this.showAnswer}}
+          data-test="show-answer"
         >
           Show answer
         </button>
       {{/unless}}
-      <div class="pb-16 {{unless @isAnswerShown 'invisible'}}">
+      <div class="pb-16 {{unless @isAnswerShown 'invisible'}}" data-test="answer">
         {{#if @data.answerWithProofs}}
           <p class="py-4 text-lg">{{this.htmlSafe this.formattedAnswerWithProofs}}</p>
         {{else}}
