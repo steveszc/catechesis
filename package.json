@@ -66,7 +66,7 @@
     "@types/mixpanel-browser": "^2.38.0",
     "@types/qunit": "^2.19.2",
     "@types/rsvp": "^4.0.4",
-    "@typescript-eslint/eslint-plugin": "5.42.1",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
     "@typescript-eslint/parser": "5.42.1",
     "autoprefixer": "^10.4.8",
     "babel-eslint": "^10.1.0",
