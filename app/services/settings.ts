@@ -8,6 +8,7 @@ import type RouterService from '@ember/routing/router-service';
 import type Transition from '@ember/routing/-private/transition';
 
 export default class SettingsService extends Service {
+  @service declare fastboot: { isFastBoot: boolean };
   @service declare router: RouterService;
 
   @stored alwaysShowAnswers = false;
@@ -15,7 +16,7 @@ export default class SettingsService extends Service {
   @stored lastQuestion?: { catechism: CatechismId; question: string };
 
   @action doPickupWhereYouLeftOff(transition: Transition) {
-    if (Ember.testing) return;
+    if (Ember.testing || this.fastboot.isFastBoot) return;
 
     let toCatechism = transition.to.find(({ name }) => name === 'catechism')
       ?.params?.['catechism'];
