@@ -22,6 +22,14 @@ module.exports = function (environment) {
       token: null,
       debug: false,
     },
+    fastboot: {
+      hostWhitelist: [
+        '',
+        'catechesis.com',
+        /^deploy-preview-\d{3,4}--gentle-raindrop-2794df.netlify.app$/,
+        /^localhost:\d+$/,
+      ],
+    },
   };
 
   if (environment === 'development') {
