@@ -5,6 +5,7 @@ export default class HeadDataService extends Service {
   @tracked description?: string;
   @tracked ogTitle?: string;
   @tracked ogDescription?: string;
+  @tracked ogImage?: string;
   twitterCard = 'summary';
   twitterUsername = '@catechesisapp';
   ogSite = 'Catechesis app';

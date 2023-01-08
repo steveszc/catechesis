@@ -48,6 +48,7 @@ export default class QuestionRoute extends Route {
     this.headData.description = `Q${model.current.number} ${model.current.question}`;
     this.headData.ogTitle = model.current.question;
     this.headData.ogDescription = `Question ${model.current.number} of ${model.catechism.metadata.title}`;
+    this.headData.ogImage = `/assets/og/${model.catechism.id}/${model.current.number}.jpg`;
   }
 
   resetController(controller: QuestionController) {

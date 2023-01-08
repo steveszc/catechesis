@@ -38,6 +38,7 @@ module.exports = {
         './postcss.config.js',
         './server/**/*.js',
         './tailwind.config.js',
+        './bin/**/*.js',
       ],
       parserOptions: {
         sourceType: 'script',

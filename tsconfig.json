@@ -75,5 +75,11 @@
   "include": ["app/**/*", "tests/**/*", "types/**/*"],
   "glint": {
     "environment": "ember-loose"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "es2022",
+      "allowSyntheticDefaultImports": true
+    }
   }
 }
