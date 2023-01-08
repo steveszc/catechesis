@@ -1,27 +1,21 @@
 'use strict';
 
-import { mkdir } from 'node:fs/promises';
+import { Buffer } from 'node:buffer';
 import sharp from 'sharp';
-const catechisms = {
-  'westminster-shorter': 'Westminster Shorter Catechism',
-  'westminster-longer': 'Westminster Larger Catechism',
-  'for-young-children': 'Catechism For Young Children',
-  heidelberg: 'Heidelberg Catechism',
-  'new-city': 'New City Catechism',
-  keachs: "Keach's Catechism",
-  puritan: 'Puritan Catechism',
-} as const;
+import { catechisms } from '../app/data/catechisms/index.mjs';
 
 import type { CatechismData } from '../app/data/types';
 
-//const toSvg = (name: string, question: string) => `
-const toSvg = (title: string, number: string, question: string) => `
+const toSvg = (title: string, number: string) => `
   <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  <rect width="100%" height="15%" fill="rgb(21 94 117)" y="85%" />
   <g>
-    <text fill="#000000" stroke-width="0" x="54.50705" y="211.0213" id="svg_1" font-size="24" font-family="Sans" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(1.62629 0 0 1.62629 -53.9881 -12.2692)">${title}</text>
-    <text fill="#000000" stroke-width="0" x="72.78178" y="101.06941" id="svg_2" font-size="24" font-family="Serif" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(6.35437 0 0 6.35437 -423.642 -438.435)">Q. ${number}</text>
+    <text fill="rgb(203 213 225)" stroke-width="0" x="-10" y="60%" font-size="280" font-family="Serif" text-anchor="start" xml:space="preserve">Q</text>
+    <text fill="rgb(100 116 139)" stroke-width="0" x="70%" y="60%" font-size="140" font-family="Serif" text-anchor="middle" xml:space="preserve">${number}</text>
+    <text fill="#fff" stroke-width="0" x="50%" y="95%" font-size="24" width="100%" font-family="Sans" text-anchor="middle" xml:space="preserve">${title}</text>
   </g>
-  </svg>
+</svg>
 `;
 
 const imports = Object.keys(catechisms).map(
@@ -35,12 +29,8 @@ let catechismData = (await Promise.all(imports)) as Array<
 const svgs: Record<string, string> = {};
 
 catechismData.forEach(async ({ default: { id, data, metadata } }) =>
-  data.forEach(({ number, question }) => {
-    svgs[`${String(id)}-${number}`] = toSvg(
-      metadata.title,
-      `${number}`,
-      question
-    );
+  data.forEach(({ number }) => {
+    svgs[`${String(id)}-${number}`] = toSvg(metadata.title, `${number}`);
   })
 );
 
@@ -49,6 +39,7 @@ for (const svg in svgs) {
   if (_svg !== undefined) {
     await sharp(Buffer.from(_svg))
       .resize(300, 300)
-      .toFile(`./public/assets/og/${svg}.jpg`);
+      .png()
+      .toFile(`./public/assets/og/${svg}.png`);
   }
 }
