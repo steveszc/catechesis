@@ -1,0 +1,35 @@
+<nav class='flex justify-between bg-cyan-800 text-white font-bold text-xs sm:text-sm md: text-base' ...attributes>
+  {{#if @previous}}
+    <LinkTo
+      @route='confession.chapter'
+      @model={{@previous.chapter}}
+      class='p-6 text-left group'
+      {{on "click" this.trackPreviousChapter}}
+    >
+      <span class="pb-1 border-b-2 border-transparent group-hover:border-white whitespace-nowrap">‹ Ch.{{@previous.chapter}}</span>
+    </LinkTo>
+  {{else}}
+    <div class='p-6 text-left' aria-hidden="true">
+      <span class="invisible">‹ Ch.1</span>
+    </div>
+  {{/if}}
+
+  <LinkTo @route='confession.index' class='p-6 text-center group' {{on "click" this.trackSeeAllChapters}}>
+    <span class="pb-1 border-b-2 border-transparent group-hover:border-white">See all chapters</span>
+  </LinkTo>
+
+  {{#if @next}}
+    <LinkTo
+      @route='confession.chapter'
+      @model={{@next.chapter}}
+      class='p-6 text-right group'
+      {{on "click" this.trackNextChapter}}
+    >
+      <span class="pb-1 border-b-2 border-transparent group-hover:border-white whitespace-nowrap">Ch.{{@next.chapter}} ›</span>
+    </LinkTo>
+  {{else}}
+    <div class='p-6 text-right' aria-hidden="true">
+      <span class="invisible">Ch.11 ›</span>
+    </div>
+  {{/if}}
+</nav>

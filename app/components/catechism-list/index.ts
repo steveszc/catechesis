@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
-import { catechisms } from 'catechesis/data';
+import { catechisms, confessions } from 'catechesis/data';
 import { inject as service } from '@ember/service';
 
 import type TrackService from 'catechesis/services/track';
@@ -12,6 +12,7 @@ interface CatechismListSignature {
 
 export default class CatechismListComponent extends Component<CatechismListSignature> {
   catechisms = catechisms;
+  confessions = confessions;
 
   @service declare track: TrackService;
 

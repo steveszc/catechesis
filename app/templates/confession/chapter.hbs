@@ -1,0 +1,12 @@
+{{page-title this.model.confession.metadata.title}}
+
+<Layout @metadata={{@model.confession.metadata}}>
+  <div class="h-full flex flex-col">
+    <ChapterNav @previous={{@model.previous}} @next={{@model.next}} @confessionId={{@model.confession.id}} class="sticky md:static top-0" />
+    <Chapter
+      class="p-8 md:p-16 overflow-y-scroll"
+      @confessionId={{@model.confession.id}}
+      @data={{@model.current}}
+    />
+  </div>
+</Layout>

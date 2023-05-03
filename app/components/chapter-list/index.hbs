@@ -1,0 +1,15 @@
+<ol>
+  {{#each @data as |item|}}
+    <li class="border p-6 group">
+      <LinkTo
+        @route='confession.chapter'
+        @model={{item.chapter}}
+        class="pb-1 group-hover:border-b-2 border-cyan-600"
+        data-chapter-link
+        {{on 'click' (fn this.trackLink item)}}
+      >
+        {{item.chapter}}. {{item.title}}
+      </LinkTo>
+    </li>
+  {{/each}}
+</ol>

@@ -10,10 +10,10 @@
     </LinkTo>
   </h1>
 
-  {{#if @name}}
+  {{#if this.showIndexLink}}
     <h2>
       <LinkTo
-        @route="catechism.index"
+        @route={{if this.isViewingCatechism "catechism.index" "confession.index"}}
         class="hover:border-b-2 border-cyan-800"
         {{on "click" this.trackCatechism}}
       >

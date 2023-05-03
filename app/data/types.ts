@@ -1,22 +1,32 @@
 import type { catechisms } from './catechisms';
+import type { confessions } from './confessions';
 
 export type CatechismId = keyof typeof catechisms;
+export type ConfessionId = keyof typeof confessions;
+
+interface Metadata {
+  title: string;
+  alternativeTitles?: string[];
+  year?: string;
+  authors: string[];
+  location?: string;
+  originalLanguage?: string;
+  originStory?: string;
+  sourceUrl?: string;
+  sourceAttribution?: string;
+  creedFormat: string;
+}
 
 export interface CatechismData {
   id: CatechismId;
-  metadata: {
-    title: string;
-    alternativeTitles?: string[];
-    year?: string;
-    authors: string[];
-    location?: string;
-    originalLanguage?: string;
-    originStory?: string;
-    sourceUrl?: string;
-    sourceAttribution?: string;
-    creedFormat: string;
-  };
+  metadata: Metadata;
   data: CatechismItem[];
+}
+
+export interface ConfessionData {
+  id: ConfessionId;
+  metadata: Metadata;
+  data: ConfessionChapter[];
 }
 
 export interface CatechismItem {
@@ -60,3 +70,14 @@ export interface Audio {
 }
 
 type AudioPlatform = 'spotify';
+
+export interface ConfessionChapter {
+  chapter: string;
+  title: string;
+  sections: {
+    section: string;
+    content: string;
+    contentWithProofs?: string;
+    proofs?: { id: string | number; references: string[] }[];
+  }[];
+}

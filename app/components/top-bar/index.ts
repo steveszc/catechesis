@@ -7,10 +7,23 @@ interface TopBarSignature {
   Element: HTMLElement;
   Args: {
     name?: string;
+    type?: string;
   };
 }
 export default class TopBarComponent extends Component<TopBarSignature> {
   @service declare track: TrackService;
+
+  get isViewingCatechism() {
+    return this.args.type === 'Catechism';
+  }
+
+  get isViewingConfession() {
+    return this.args.type === 'Confession';
+  }
+
+  get showIndexLink() {
+    return this.args.name && this.args.type;
+  }
 
   @action
   trackHome() {

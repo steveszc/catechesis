@@ -1,5 +1,5 @@
 <div class='h-full max-h-screen flex flex-col'>
-  <TopBar @name={{@metadata.title}} class="sticky md:static" />
+  <TopBar @name={{@metadata.title}} @type={{@metadata.creedFormat}} class="sticky md:static" />
 
   <main class='grow md:overflow-y-scroll'>
     {{#if (has-block "half1")}}

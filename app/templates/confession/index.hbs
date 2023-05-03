@@ -1,0 +1,12 @@
+<Layout>
+  <:third1>
+    <div class="h-full flex flex-col justify-center">
+      <CatechismInfo @metadata={{@model.metadata}} />
+    </div>
+  </:third1>
+  <:third23>
+    <div class="h-full overflow-y-scroll">
+      <ChapterList @data={{@model.data}} @confessionId={{@model.id}} />
+    </div>
+  </:third23>
+</Layout>

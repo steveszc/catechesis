@@ -3,7 +3,7 @@ import Service from '@ember/service';
 import stored from 'catechesis/decorators/stored';
 import { action } from '@ember/object';
 import { inject as service } from '@ember/service';
-import type { CatechismId } from 'catechesis/data/types';
+import type { CatechismId, ConfessionId } from 'catechesis/data/types';
 import type RouterService from '@ember/routing/router-service';
 import type Transition from '@ember/routing/-private/transition';
 
@@ -14,6 +14,7 @@ export default class SettingsService extends Service {
   @stored alwaysShowAnswers = false;
   @stored pickUpWhereYouLeftOff = true;
   @stored lastQuestion?: { catechism: CatechismId; question: string };
+  @stored lastChapter?: { confession: ConfessionId; chapter: string };
 
   @action doPickupWhereYouLeftOff(transition: Transition) {
     if (Ember.testing || this.fastboot.isFastBoot) return;
