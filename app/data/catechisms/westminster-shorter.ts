@@ -442,6 +442,13 @@ const WestminsterShorter: CatechismData = {
         { id: 2, references: 'Luke 1:31, 35, 41, 42; Galatians 4:4' },
         { id: 3, references: 'Hebrews 4:15; Hebrews 7:26' },
       ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '5CrFnnX4fmYzwHCOwhZkhf' }],
+        },
+      ],
     },
     {
       number: 23,
@@ -454,6 +461,13 @@ const WestminsterShorter: CatechismData = {
         { id: 1, references: 'Acts 3:22; Luke 4:18, 21' },
         { id: 2, references: 'Hebrews 5:5-6; Hebrews 4:14-15' },
         { id: 3, references: 'Revelation 19:16; Isaiah 9:6-7.; Psalm 2:6' },
+      ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '0Toa9q74yVzCub86JVpzI9' }],
+        },
       ],
     },
     {
@@ -470,6 +484,13 @@ const WestminsterShorter: CatechismData = {
           references: 'John 15:15; John 20:31; 2 Peter 1:21; John 14:26',
         },
       ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '1wgVUgF65V2dixgj42jF8w' }],
+        },
+      ],
     },
     {
       number: 25,
@@ -483,6 +504,13 @@ const WestminsterShorter: CatechismData = {
         { id: 2, references: 'Hebrews 2:17' },
         { id: 3, references: 'Hebrews 7:25' },
       ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '3VhtF57R2GAqw2wtf34R32' }],
+        },
+      ],
     },
     {
       number: 26,
@@ -495,6 +523,13 @@ const WestminsterShorter: CatechismData = {
         { id: 1, references: 'Psalm 110:3' },
         { id: 2, references: 'Isaiah 33:22' },
         { id: 3, references: '1 Corinthians 15:25; Acts 12:17; Acts 18:9-10' },
+      ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '7HgYjOiubbfJCR8BMbxLsU' }],
+        },
       ],
     },
     {
@@ -512,6 +547,13 @@ const WestminsterShorter: CatechismData = {
         { id: 5, references: 'Galatians 3:13; Philippians 2:8' },
         { id: 6, references: '1 Corinthians 15:3-4' },
       ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '5UTbf8HbHXLHr9xcrhMMpQ' }],
+        },
+      ],
     },
     {
       number: 28,
@@ -525,6 +567,13 @@ const WestminsterShorter: CatechismData = {
         { id: 2, references: 'Acts 1:9; Ephesians 1:19-20' },
         { id: 3, references: 'Acts 1:11; Acts 17:31' },
       ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '5XwGPTH42MoXhBd3TfTeNY' }],
+        },
+      ],
     },
     {
       number: 29,
@@ -535,6 +584,13 @@ const WestminsterShorter: CatechismData = {
       answerWithProofs:
         'We are made partakers of the redemption purchased by Christ, by the effectual application of it to us by his Holy Spirit.[1] ',
       proofs: [{ id: 1, references: 'John 1:12-13; John 3:5-6; Titus 3:5-6' }],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '1R9fCnfa5dJo2KRJI9fvp0' }],
+        },
+      ],
     },
     {
       number: 30,
@@ -550,6 +606,13 @@ const WestminsterShorter: CatechismData = {
           id: 2,
           references:
             'John 15:5; 1 Corinthians 6:17; 1 Corinthians 1:9; 1 Peter 5:10',
+        },
+      ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '7CxcwVC5D54h1nQGy1fFgW' }],
         },
       ],
     },
@@ -571,6 +634,13 @@ const WestminsterShorter: CatechismData = {
             'John 6:44-45; Philippians 2:13; Deuteronomy 30:6; Ephesians 2:5',
         },
       ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '7Jc3vXlU3cp8BnoIzAJMS3' }],
+        },
+      ],
     },
     {
       number: 32,
@@ -584,6 +654,13 @@ const WestminsterShorter: CatechismData = {
         { id: 1, references: 'Romans 8:30' },
         { id: 2, references: 'Ephesians 1:5' },
         { id: 3, references: '1 Corinthians 1:30' },
+      ],
+      audio: [
+        {
+          artist: 'Westmister Shorter Catechism Songs with Brian Sauve',
+          album: 'Questions 22-32',
+          links: [{ platform: 'spotify', id: '6mp5qEZB8ZJAoOJtgeP05W' }],
+        },
       ],
     },
     {
